@@ -1,0 +1,100 @@
+﻿.booking-wrapper {
+
+    h3, p {
+        color: @gray;
+    }
+
+    hr {
+        margin:40px 0px;
+        background-color: @gray-light;
+        height:1px;
+    }
+
+    .booking-aside {
+        p {
+            text-align: left;
+        }
+
+            p:nth-child(odd) {
+                font-weight: bold;
+                color: @gray;
+            }
+
+            p:nth-child(even) {
+                color: @gray;
+            }
+    }
+
+    .booking-aside-well-info {
+        margin: 0;
+        border-radius: 0px;
+    }
+
+    .booking-aside-well-price {
+        margin: 0;
+        border-radius: 0px;
+        text-align: left;
+        color: #fff;
+        padding: 1px 19px;
+
+        .price-note {
+            color: #fff;
+            opacity: 0.5;
+        }
+    }
+
+    .booking-aside-icons {
+        margin-top: 20px;
+        padding: 2px;
+
+        .booking-aside-icons-row {
+            margin-bottom: 20px;
+
+            &:first-child {
+
+                p, i {
+                    color: @red;
+                }
+            }
+
+            div {
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+        i {
+            padding-right: 8px;
+            font-size: 40px;
+            color: @gray-light;
+        }
+
+        p {
+            text-align: left;
+            color: @gray-light;
+            margin: 0;
+            padding: 0;
+        }
+
+        .booking-aside-icon-header {
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .booking-aside-icon-text {
+            font-size: 10px;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    .step-1 {
+        text-align: left;
+    }
+
+    .form-group {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,16 @@
+
+*.csproj
+
+*.dll
+
+*.pdb
+
+obj/*
+svg/*
+
+*.sln
+*.sou
+
+*.suo
+
+*.suo
