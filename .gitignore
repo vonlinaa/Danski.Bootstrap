@@ -6,6 +6,7 @@
 *.pdb
 
 obj/*
+svg/*
 
 *.sln
 *.sou
