@@ -57,19 +57,28 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\custom-styles.css" />
-    <Content Include="css\custom-styles.min.css" />
-    <Content Include="css\styles.css" />
     <Content Include="html\5.0-ophold.html" />
     <Content Include="html\0-empty.html" />
     <Content Include="html\2.0-liste-grid.html" />
     <Content Include="html\2.0.0 - søgeresultat.html" />
+    <Content Include="images\infobox-tilbud.jpg" />
+    <Content Include="images\infobox-tilbud_01.jpg" />
+    <Content Include="images\infobox-tilbud_03.jpg" />
+    <Content Include="images\infobox-tilbud_06.jpg" />
+    <Content Include="images\infobox-tilbud_07.jpg" />
     <Content Include="images\infobox_06.jpg" />
     <Content Include="images\infobox_08.jpg" />
     <Content Include="images\infobox_10.jpg" />
     <Content Include="images\infobox_14.jpg" />
     <Content Include="images\infobox_15.jpg" />
     <Content Include="images\infobox_16.jpg" />
+    <Content Include="images\slide-destination.jpg" />
+    <Content Include="images\slide-destination00.jpg" />
+    <Content Include="images\slide-familiehotel.jpg" />
+    <Content Include="images\slide-ophold.jpg" />
+    <Content Include="images\slide-ophold02.jpg" />
+    <Content Include="images\slide-white.jpg" />
+    <Content Include="images\Untitled-1.jpg" />
     <Content Include="less\custom\custom-styles.less" />
     <Content Include="less\custom\custom-boxes.less" />
     <Content Include="less\custom\custom-pagination.less" />
@@ -82,6 +91,8 @@
     <Content Include="less\custom\icomoon.less" />
     <Content Include="less\custom\forms.less" />
     <Content Include="less\custom\custom-dropdowns.less" />
+    <Content Include="less\custom\Stars.less" />
+    <Content Include="less\custom\Summary-boxes.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -91,14 +102,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\bootstrap.css" />
-    <Content Include="css\bootstrap.min.css" />
-    <Content Include="css\carousel.css" />
-    <Content Include="css\carousel.min.css" />
     <Content Include="css\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="css\images\slide1.jpg" />
     <Content Include="css\images\slide2.jpg" />
-    <Content Include="css\variables.css" />
-    <Content Include="css\variables.min.css" />
     <Content Include="html\1.0-frontpage.html" />
     <Content Include="packages.config" />
     <Content Include="css\fonts\glyphicons-halflings-regular.woff" />
