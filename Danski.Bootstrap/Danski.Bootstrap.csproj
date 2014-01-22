@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CA953593-72FF-49DC-AD15-DF040B067B0C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Danski.Bootstrap</RootNamespace>
+    <AssemblyName>Danski.Bootstrap</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\custom-styles.css" />
+    <Content Include="css\custom-styles.min.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="html\5.0-ophold.html" />
+    <Content Include="html\0-empty.html" />
+    <Content Include="html\2.0-liste-grid.html" />
+    <Content Include="html\2.0.0 - søgeresultat.html" />
+    <Content Include="images\infobox_06.jpg" />
+    <Content Include="images\infobox_08.jpg" />
+    <Content Include="images\infobox_10.jpg" />
+    <Content Include="images\infobox_14.jpg" />
+    <Content Include="images\infobox_15.jpg" />
+    <Content Include="images\infobox_16.jpg" />
+    <Content Include="less\custom\custom-styles.less" />
+    <Content Include="less\custom\custom-boxes.less" />
+    <Content Include="less\custom\custom-pagination.less" />
+    <Content Include="less\custom\custom-fonts.less" />
+    <Content Include="less\custom\custom-type.less" />
+    <Content Include="less\custom\Custom-buttons.less" />
+    <Content Include="less\custom\custom-carousel.less" />
+    <Content Include="less\custom\custom-navbar.less" />
+    <Content Include="less\custom\yamm.less" />
+    <Content Include="less\custom\icomoon.less" />
+    <Content Include="less\custom\forms.less" />
+    <Content Include="less\custom\custom-dropdowns.less" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\carousel.css" />
+    <Content Include="css\carousel.min.css" />
+    <Content Include="css\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="css\images\slide1.jpg" />
+    <Content Include="css\images\slide2.jpg" />
+    <Content Include="css\variables.css" />
+    <Content Include="css\variables.min.css" />
+    <Content Include="html\1.0-frontpage.html" />
+    <Content Include="packages.config" />
+    <Content Include="css\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="css\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="css\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="less\bootstrap\wells.less" />
+    <Content Include="less\bootstrap\variables.less" />
+    <Content Include="less\bootstrap\utilities.less" />
+    <Content Include="less\bootstrap\type.less" />
+    <Content Include="less\bootstrap\tooltip.less" />
+    <Content Include="less\bootstrap\thumbnails.less" />
+    <Content Include="less\bootstrap\theme.less" />
+    <Content Include="less\bootstrap\tables.less" />
+    <Content Include="less\bootstrap\scaffolding.less" />
+    <Content Include="less\bootstrap\responsive-utilities.less" />
+    <Content Include="less\bootstrap\progress-bars.less" />
+    <Content Include="less\bootstrap\print.less" />
+    <Content Include="less\bootstrap\popovers.less" />
+    <Content Include="less\bootstrap\panels.less" />
+    <Content Include="less\bootstrap\pagination.less" />
+    <Content Include="less\bootstrap\pager.less" />
+    <Content Include="less\bootstrap\normalize.less" />
+    <Content Include="less\bootstrap\navs.less" />
+    <Content Include="less\bootstrap\navbar.less" />
+    <Content Include="less\bootstrap\modals.less" />
+    <Content Include="less\bootstrap\mixins.less" />
+    <Content Include="less\bootstrap\media.less" />
+    <Content Include="less\bootstrap\list-group.less" />
+    <Content Include="less\bootstrap\labels.less" />
+    <Content Include="less\bootstrap\jumbotron.less" />
+    <Content Include="less\bootstrap\input-groups.less" />
+    <Content Include="less\bootstrap\grid.less" />
+    <Content Include="less\bootstrap\glyphicons.less" />
+    <Content Include="less\bootstrap\forms.less" />
+    <Content Include="less\bootstrap\dropdowns.less" />
+    <Content Include="less\bootstrap\component-animations.less" />
+    <Content Include="less\bootstrap\code.less" />
+    <Content Include="less\bootstrap\close.less" />
+    <Content Include="less\bootstrap\carousel.less" />
+    <Content Include="less\bootstrap\buttons.less" />
+    <Content Include="less\bootstrap\button-groups.less" />
+    <Content Include="less\bootstrap\breadcrumbs.less" />
+    <Content Include="less\bootstrap\bootstrap.less" />
+    <Content Include="less\bootstrap\badges.less" />
+    <Content Include="less\bootstrap\alerts.less" />
+    <Content Include="less\custom\bootstrap.less" />
+    <Content Include="less\custom\variables.less" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Custom-ck.js" />
+    <Content Include="Scripts\Custom.js" />
+    <Content Include="Scripts\infobox.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jshintrc.js" />
+    <Content Include="Scripts\less-1.4.2.js" />
+    <Content Include="Scripts\less-1.4.2.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1084</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1474/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
