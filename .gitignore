@@ -1,0 +1,11 @@
+
+*.csproj
+
+*.dll
+
+*.pdb
+
+obj/*
+
+*.sln
+*.sou
