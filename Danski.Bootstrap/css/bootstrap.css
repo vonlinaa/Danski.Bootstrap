@@ -2887,7 +2887,7 @@ fieldset[disabled] .btn-success.active {
 /* line 120, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Custom-buttons.less */
 .btn-info {
   color: #ffffff;
-  background-color: #5bc0de;
+  background-color: #30a7e5;
   border-color: transparent;
 }
 /* line 468, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/bootstrap/mixins.less */
@@ -2897,7 +2897,7 @@ fieldset[disabled] .btn-success.active {
 .btn-info.active,
 .open .dropdown-toggle.btn-info {
   color: #ffffff;
-  background-color: #39b3d7;
+  background-color: #1a93d2;
   border-color: rgba(0, 0, 0, 0);
 }
 /* line 477, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/bootstrap/mixins.less */
@@ -2922,7 +2922,7 @@ fieldset[disabled] .btn-info:active,
 .btn-info.disabled.active,
 .btn-info[disabled].active,
 fieldset[disabled] .btn-info.active {
-  background-color: #5bc0de;
+  background-color: #30a7e5;
   border-color: transparent;
 }
 /* line 131, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Custom-buttons.less */
@@ -6240,30 +6240,30 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin-left: 0;
   }
 }
-/* line 858, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 818, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .navbar-form .form-group {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-/* line 863, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 823, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .navbar-form .form-group.wide {
   width: 220px;
 }
-/* line 867, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 827, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .navbar-form .form-group.wider {
   width: 270px;
 }
-/* line 871, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 831, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .navbar-form .form-group.wider.half .form-control {
   float: right;
   width: 48%;
 }
-/* line 875, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 835, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .navbar-form .form-group.wider.half .form-control:first-of-type {
   float: left;
 }
-/* line 882, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 842, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .navbar-form .form-group.newline {
   display: block;
 }
@@ -7011,12 +7011,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 /* line 48, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/bootstrap/labels.less */
 .label-info {
-  background-color: #5bc0de;
+  background-color: #30a7e5;
 }
 /* line 534, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/bootstrap/mixins.less */
 .label-info[href]:hover,
 .label-info[href]:focus {
-  background-color: #31b0d5;
+  background-color: #198dc9;
 }
 /* line 52, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/bootstrap/labels.less */
 .label-warning {
@@ -7333,7 +7333,7 @@ a.thumbnail.active {
 }
 /* line 82, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/bootstrap/progress-bars.less */
 .progress-bar-info {
-  background-color: #5bc0de;
+  background-color: #30a7e5;
 }
 /* line 554, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/bootstrap/mixins.less */
 .progress-striped .progress-bar-info {
@@ -9111,6 +9111,190 @@ td.visible-print {
   font-weight: normal;
   font-style: normal;
 }
+/* line 2, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/stars.less */
+.stars {
+  line-height: 0;
+  font-size: 16px;
+  color: #494949;
+  color: rgba(255, 255, 255, 0.2);
+}
+/* line 8, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/stars.less */
+.stars i {
+  padding: 4px 0;
+}
+/* line 12, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/stars.less */
+.stars .filled {
+  color: #fff;
+}
+/* line 16, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/stars.less */
+.stars.gray {
+  color: #cecece;
+  color: rgba(73, 73, 73, 0.2);
+}
+/* line 26, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/stars.less */
+.green .stars {
+  color: #d4e9d7;
+}
+/* line 29, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/stars.less */
+.green .stars .filled {
+  color: #4eba5d;
+}
+/* line 35, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/stars.less */
+.green .highlight .stars {
+  color: rgba(255, 255, 255, 0.2);
+}
+/* line 37, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/stars.less */
+.green .highlight .stars .filled {
+  color: #fff;
+}
+/* summary grids */
+/* line 2, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary {
+  zoom: 1;
+  overflow: hidden;
+  margin-bottom: 30px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  display: table;
+  width: 100%;
+}
+/* line 20, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/bootstrap/mixins.less */
+.summary:before,
+.summary:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 25, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/bootstrap/mixins.less */
+.summary:after {
+  clear: both;
+}
+/* line 20, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/bootstrap/mixins.less */
+.summary:before,
+.summary:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 25, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/bootstrap/mixins.less */
+.summary:after {
+  clear: both;
+}
+/* line 12, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary .item {
+  display: table-cell;
+  text-align: center;
+  padding: 15px;
+}
+/* line 17, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary .item span {
+  display: block;
+}
+/* line 21, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary .item:not(:last-of-type) {
+  border-right: 1px solid #d6d6d6;
+}
+/* line 25, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary .item.highlight {
+  color: #fff;
+}
+/* line 27, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary .item.highlight .h4 {
+  color: #fff;
+}
+/* line 30, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary .item.highlight i {
+  color: rgba(255, 255, 255, 0.5);
+}
+/* line 33, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary .item.highlight i.filled {
+  color: #fff;
+}
+/* line 39, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary .item .h3 {
+  font-size: 30px;
+  margin: 15px 0 0 0;
+}
+/* line 44, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary .item .h4 {
+  font-size: 17px;
+  color: #4a4a4a;
+  margin: 17px 0 7px 0;
+}
+/* line 50, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary .item .stars {
+  margin: 4px 0;
+}
+/* line 56, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary.sub-cols-6 .item {
+  width: 16.666666666666664%;
+}
+/* line 61, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary.secondary {
+  color: #4eba5d;
+}
+/* line 67, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary.secondary .item:not(.highlight) i {
+  color: rgba(78, 186, 93, 0.5);
+}
+/* line 69, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary.secondary .item:not(.highlight) i.filled {
+  color: #4eba5d;
+}
+/* line 74, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary.secondary .item.highlight {
+  background: #4eba5d;
+}
+/* line 81, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary.info {
+  color: #30a7e5;
+}
+/* line 86, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary.info .item:not(.highlight) i {
+  color: rgba(48, 167, 229, 0.5);
+}
+/* line 88, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary.info .item:not(.highlight) i.filled {
+  color: #30a7e5;
+}
+/* line 93, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary.info .item.highlight {
+  background: #30a7e5;
+}
+/* line 99, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary.dark {
+  color: #4a4a4a;
+}
+/* line 103, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary.dark .item:not(.highlight) i {
+  color: rgba(74, 74, 74, 0.5);
+}
+/* line 105, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary.dark .item:not(.highlight) i.filled {
+  color: #4a4a4a;
+}
+/* line 110, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary.dark .item.highlight {
+  background: #4a4a4a;
+}
+/* line 116, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary.brand {
+  color: #f04233;
+}
+/* line 121, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary.brand .item:not(.highlight) i {
+  color: rgba(240, 66, 51, 0.5);
+}
+/* line 123, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary.brand .item:not(.highlight) i.filled {
+  color: #f04233;
+}
+/* line 128, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/summary-boxes.less */
+.summary.brand .item.highlight {
+  background: #f04233;
+}
 /* line 1, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox {
   width: 100%;
@@ -9171,23 +9355,8 @@ td.visible-print {
     max-width: 460px;
   }
 }
-/*stars */
-/* line 22, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
-.stars {
-  font-size: 16px;
-  color: #cecece;
-  color: rgba(73, 73, 73, 0.2);
-}
-/* line 23, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
-.stars i {
-  padding: 4px 0;
-}
-/* line 24, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
-.stars .filled {
-  color: #494949;
-}
 /* pricebox */
-/* line 27, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 24, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .price-box {
   position: absolute;
   top: 10px;
@@ -9196,7 +9365,7 @@ td.visible-print {
   width: 100px;
   height: 100px;
 }
-/* line 35, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 32, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .price-box [class^="icon-"],
 .price-box [class*=" icon-"] {
   position: absolute;
@@ -9205,7 +9374,7 @@ td.visible-print {
   color: #fff;
   font-size: 20px;
 }
-/* line 42, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 39, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .price-box .icon-airplane {
   transform: rotate(-30deg);
   -ms-transform: rotate(-30deg);
@@ -9213,7 +9382,7 @@ td.visible-print {
   -webkit-transform: rotate(-30deg);
   /* Safari and Chrome */
 }
-/* line 48, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 45, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .price-box h4 {
   position: absolute;
   top: 12px;
@@ -9222,56 +9391,56 @@ td.visible-print {
   color: #fff;
   font-size: 14px;
 }
-/* line 56, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 53, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .price-box h4 span {
   display: block;
 }
-/* line 57, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 54, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .price-box h4.price {
   top: auto;
   bottom: 5px;
 }
-/* line 60, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 57, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .price-box h4 .price {
   font-size: 20px;
 }
-/* line 61, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 58, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .price-box h4 .price-discount {
   font-size: 14px;
   color: #0d5d27;
   text-decoration: line-through;
 }
 /*info boxes */
-/* line 66, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 63, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox {
   position: relative;
   /*tilbud */
   /* typer */
 }
-/* line 69, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 66, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox.wpad {
   padding-bottom: 20px;
 }
-/* line 72, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 69, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox.tilbud .caption {
   position: absolute;
   bottom: 15px;
   left: 27px;
   color: #fff;
 }
-/* line 78, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 75, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox.tilbud .caption h5 {
   margin: 0;
 }
-/* line 79, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 76, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox.tilbud .caption h6 {
   margin: 0;
 }
-/* line 84, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 81, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox.types img {
   display: none;
 }
-/* line 87, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 84, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox.types .overlay-container {
   position: relative;
   background: #f04233;
@@ -9279,7 +9448,7 @@ td.visible-print {
   height: 140px;
   overflow: hidden;
 }
-/* line 94, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 91, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox.types .overlay-container .overlay {
   display: block;
   position: absolute;
@@ -9292,51 +9461,51 @@ td.visible-print {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-/* line 106, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 103, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox.types .overlay-container .overlay i {
   position: absolute;
   top: 10px;
   right: 15px;
   font-size: 26px;
 }
-/* line 113, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 110, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox.types .overlay-container .overlay h5 {
   position: absolute;
   bottom: 2px;
   font-size: 30px;
   line-height: 1;
 }
-/* line 119, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 116, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox.types .overlay-container .overlay h5 span {
   display: block;
   font-size: 16px;
 }
-/* line 125, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 122, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox.types .overlay-container .overlay.overlay-default {
   top: 0;
 }
-/* line 129, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 126, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox.types .overlay-container .overlay.overlay-active {
   top: 100%;
 }
-/* line 135, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 132, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox.types:hover {
   cursor: pointer;
 }
-/* line 139, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 136, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox.types:hover .overlay-container .overlay.overlay-default {
   top: -100%;
 }
-/* line 143, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 140, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox.types:hover .overlay-container .overlay.overlay-active {
   top: 0;
 }
 @media (min-width: 992px) {
-  /* line 157, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 154, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox {
     /*tilbud */
   }
-  /* line 161, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 158, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud .price-box {
     position: absolute;
     top: 10px;
@@ -9345,7 +9514,7 @@ td.visible-print {
     width: 100px;
     height: 100px;
   }
-  /* line 169, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 166, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud .price-box [class^="icon-"],
   .infobox.tilbud .price-box [class*=" icon-"] {
     position: absolute;
@@ -9354,7 +9523,7 @@ td.visible-print {
     color: #fff;
     font-size: 20px;
   }
-  /* line 177, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 174, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud .price-box .icon-airplane {
     transform: rotate(-30deg);
     -ms-transform: rotate(-30deg);
@@ -9362,7 +9531,7 @@ td.visible-print {
     -webkit-transform: rotate(-30deg);
     /* Safari and Chrome */
   }
-  /* line 183, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 180, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud .price-box h4 {
     position: absolute;
     top: 12px;
@@ -9371,47 +9540,47 @@ td.visible-print {
     color: #fff;
     font-size: 14px;
   }
-  /* line 191, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 188, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud .price-box h4 span {
     display: block;
   }
-  /* line 195, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 192, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud .price-box h4.price {
     top: auto;
     bottom: 5px;
   }
-  /* line 203, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 200, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud .price-box h4 .price {
     font-size: 20px;
   }
-  /* line 207, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 204, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud .price-box h4 .price-discount {
     font-size: 14px;
     color: #0d5d27;
     text-decoration: line-through;
   }
-  /* line 216, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 213, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud.md-lg .price-box {
     top: 10px;
     right: 20px;
     width: 115px;
     height: 115px;
   }
-  /* line 222, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 219, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud.md-lg .price-box [class^="icon-"],
   .infobox.tilbud.md-lg .price-box [class*=" icon-"] {
     top: 11px;
     right: 13px;
   }
-  /* line 227, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 224, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud.md-lg .price-box h4.price {
     bottom: 8px;
   }
-  /* line 230, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 227, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud.md-lg .price-box h4 .price {
     font-size: 25px;
   }
-  /* line 236, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 233, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud.md-lg .caption {
     background: #f04233;
     width: 230px;
@@ -9420,35 +9589,35 @@ td.visible-print {
     bottom: 10px;
     left: 20px;
   }
-  /* line 244, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 241, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud.md-lg .caption h5 {
     line-height: 30px;
   }
-  /* line 247, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 244, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud.md-lg .caption h5 .hotel {
     display: block;
     font-size: 30px;
   }
-  /* line 252, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 249, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud.md-lg .caption h5 .place {
     display: block;
     font-size: 16px;
   }
-  /* line 258, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 255, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud.md-lg .caption .stars {
     font-size: 16px;
     color: #f3685c;
     color: rgba(255, 255, 255, 0.2);
   }
-  /* line 263, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 260, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud.md-lg .caption .stars i {
     padding: 4px 0;
   }
-  /* line 267, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 264, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud.md-lg .caption .stars .filled {
     color: #fff;
   }
-  /* line 272, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 269, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud.md-lg .caption .tag {
     position: absolute;
     bottom: 0;
@@ -9460,17 +9629,17 @@ td.visible-print {
     font-size: 11px;
     text-transform: uppercase;
   }
-  /* line 283, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 280, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.tilbud.md-lg .caption .tag [class^="icon-"],
   .infobox.tilbud.md-lg .caption .tag [class*=" icon-"] {
     margin-right: 8px;
     font-size: 13px;
   }
-  /* line 295, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 292, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.types img {
     display: block;
   }
-  /* line 298, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 295, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.types .overlay-container {
     position: absolute;
     bottom: 30px;
@@ -9479,139 +9648,139 @@ td.visible-print {
     height: 140px;
     overflow: hidden;
   }
-  /* line 306, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 303, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.types:hover {
     cursor: pointer;
   }
-  /* line 310, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 307, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.types:hover .overlay-container .overlay.overlay-default {
     top: -100%;
   }
-  /* line 314, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 311, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .infobox.types:hover .overlay-container .overlay.overlay-active {
     top: 0;
   }
 }
-/* line 325, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 322, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox.types:hover .overlay-inner {
   bottom: 0;
   top: auto;
   cursor: pointer;
   height: 200%;
 }
-/* line 327, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 324, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .infobox.types:hover .overlay .overlay-active {
   height: 50%;
 }
 /* hotel list */
-/* line 331, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 328, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 334, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 331, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel .price-box {
   top: 10px;
   right: 20px;
   width: 115px;
   height: 115px;
 }
-/* line 341, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 338, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel.last-minute.list .inner .price-tab-content {
   background: #bab94e;
 }
-/* line 348, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 345, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel.last-minute.list .inner .price-tab-content .tab-content .tab-pane h4 .price-discount {
   font-size: 18px;
   color: #0d5d27;
   text-decoration: line-through;
 }
-/* line 357, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 354, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel.last-minute.list .inner .price-tab-content .price-tab {
   background: #a1a03b;
 }
-/* line 361, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 358, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel.last-minute.list .inner .price-tab-content .price-tab li a {
   color: #4da86a;
   color: rgba(255, 255, 255, 0.2);
 }
-/* line 369, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 366, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel.last-minute .price-box {
   background: #bab94e;
 }
-/* line 374, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 371, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel {
   float: left;
   width: 100%;
   display: block;
 }
-/* line 380, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 377, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .price-box.grid {
   display: none;
 }
-/* line 384, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 381, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner {
   position: relative;
   background: #f5f5f5;
   float: left;
   width: 100%;
 }
-/* line 390, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 387, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .image {
   float: left;
 }
-/* line 394, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 391, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .image,
 .hotel-view.list .hotel .inner .price-tab-content {
   width: 22%;
   max-width: 260px;
 }
-/* line 399, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 396, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .price-tab-content {
   position: absolute;
   right: 0;
   height: 100%;
   background: #4eba5d;
 }
-/* line 405, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 402, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .price-tab-content .tab-content {
   position: relative;
   padding-bottom: 50px;
   height: 100%;
 }
-/* line 410, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 407, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .price-tab-content .tab-content .tab-pane {
   width: 100%;
   height: 100%;
   padding: 20px;
 }
-/* line 415, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 412, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .price-tab-content .tab-content .tab-pane h4 {
   margin: 0;
   padding: 0px;
   color: #fff;
   font-size: 18px;
 }
-/* line 421, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 418, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .price-tab-content .tab-content .tab-pane h4 span {
   display: block;
 }
-/* line 425, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 422, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .price-tab-content .tab-content .tab-pane h4.price {
   top: auto;
   bottom: 5px;
 }
-/* line 433, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 430, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .price-tab-content .tab-content .tab-pane h4 .price {
   font-size: 33px;
 }
-/* line 437, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 434, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .price-tab-content .tab-content .tab-pane h4 .price-discount {
   font-size: 18px;
   color: #0d5d27;
   text-decoration: line-through;
 }
-/* line 444, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 441, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .price-tab-content .tab-content .tab-pane p {
   color: #fff;
   color: rgba(255, 255, 255, 0.7);
@@ -9620,7 +9789,7 @@ td.visible-print {
   position: absolute;
   bottom: 55px;
 }
-/* line 455, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 452, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .price-tab-content .price-tab {
   position: absolute;
   bottom: 0;
@@ -9629,25 +9798,25 @@ td.visible-print {
   background: #219245;
   padding: 0 10px;
 }
-/* line 464, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 461, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .price-tab-content .price-tab li a {
   padding: 15px 10px 7px 10px;
   font-size: 20px;
   color: #4da86a;
   color: rgba(255, 255, 255, 0.2);
 }
-/* line 470, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 467, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .price-tab-content .price-tab li a:hover,
 .hotel-view.list .hotel .inner .price-tab-content .price-tab li a:focus {
   background: none;
   color: #fff;
 }
-/* line 477, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 474, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .price-tab-content .price-tab li.active a {
   background: none;
   color: #fff;
 }
-/* line 486, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 483, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .content {
   position: absolute;
   padding: 2%;
@@ -9656,26 +9825,26 @@ td.visible-print {
   max-height: 100%;
   overflow: hidden;
 }
-/* line 495, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 492, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .infobox {
   position: absolute;
   top: 0;
   width: 100%;
   padding: 0;
 }
-/* line 502, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 499, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .caption {
   position: relative;
   width: 100%;
   height: 100%;
   padding: 0;
 }
-/* line 508, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 505, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .caption h5,
 .hotel-view.list .hotel .inner .caption h6 {
   margin: 0 0 8px 0;
 }
-/* line 512, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 509, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .caption .tag {
   margin: 0;
   color: #fff;
@@ -9689,48 +9858,48 @@ td.visible-print {
   font-size: 11px;
   text-transform: uppercase;
 }
-/* line 525, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 522, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.list .hotel .inner .caption .tag [class^="icon-"],
 .hotel-view.list .hotel .inner .caption .tag [class*=" icon-"] {
   margin-right: 8px;
   font-size: 13px;
 }
-/* line 537, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 534, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.grid .hotel .price-box.grid {
   display: block;
 }
-/* line 541, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 538, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.grid .hotel .inner {
   position: relative;
   padding-bottom: 162%;
   background: #f5f5f5;
 }
-/* line 546, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 543, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.grid .hotel .inner .description,
 .hotel-view.grid .hotel .inner .facttable,
 .hotel-view.grid .hotel .inner .price-tab-content {
   display: none;
 }
-/* line 550, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 547, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.grid .hotel .inner .image {
   position: absolute;
   top: 0;
 }
-/* line 555, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 552, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.grid .hotel .inner .content {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 40%;
 }
-/* line 562, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 559, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.grid .hotel .inner .infobox {
   position: absolute;
   top: 0;
   width: 100%;
   padding: 0;
 }
-/* line 569, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 566, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.grid .hotel .inner .caption {
   position: absolute;
   top: 0;
@@ -9738,12 +9907,12 @@ td.visible-print {
   height: 100%;
   padding: 16px 2% 0 6%;
 }
-/* line 576, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 573, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.grid .hotel .inner .caption h5,
 .hotel-view.grid .hotel .inner .caption h6 {
   margin: 0 0 8px 0;
 }
-/* line 580, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 577, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.grid .hotel .inner .caption .tag {
   margin: 0;
   color: #fff;
@@ -9757,19 +9926,19 @@ td.visible-print {
   font-size: 11px;
   text-transform: uppercase;
 }
-/* line 593, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 590, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .hotel-view.grid .hotel .inner .caption .tag [class^="icon-"],
 .hotel-view.grid .hotel .inner .caption .tag [class*=" icon-"] {
   margin-right: 8px;
   font-size: 13px;
 }
 /* fact table */
-/* line 603, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+/* line 600, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
 .facttable {
   display: none;
 }
 @media (min-width: 1280px) {
-  /* line 607, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 604, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .facttable {
     display: block;
     border-top: 2px solid #e4e4e4;
@@ -9799,22 +9968,22 @@ td.visible-print {
   .facttable:after {
     clear: both;
   }
-  /* line 613, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 610, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .facttable .col {
     float: left;
     min-height: 1px;
     width: 33.33333333333333%;
     padding: 0 10px;
   }
-  /* line 619, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 616, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .facttable .col:first-of-type {
     padding-left: 0;
   }
-  /* line 623, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 620, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .facttable .col:last-of-type {
     padding-right: 0;
   }
-  /* line 628, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 625, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .facttable .col .col-row h6 {
     line-height: 20px;
     margin: 0;
@@ -9822,7 +9991,7 @@ td.visible-print {
     float: left;
     font-size: 14px;
   }
-  /* line 636, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
+  /* line 633, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-boxes.less */
   .facttable .col .col-row span {
     line-height: 20px;
     font-size: 14px;
@@ -10222,70 +10391,8 @@ footer .footer-logos li a.visa {
   height: auto;
   margin-top: -17px;
 }
-/* summary grids */
-/* line 318, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
-.summary {
-  zoom: 1;
-  overflow: hidden;
-  margin-bottom: 30px;
-  background: #f5f5f5;
-  border-radius: 10px;
-  display: table;
-  width: 100%;
-}
-/* line 20, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/bootstrap/mixins.less */
-.summary:before,
-.summary:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-/* line 25, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/bootstrap/mixins.less */
-.summary:after {
-  clear: both;
-}
-/* line 20, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/bootstrap/mixins.less */
-.summary:before,
-.summary:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-/* line 25, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/bootstrap/mixins.less */
-.summary:after {
-  clear: both;
-}
-/* line 328, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
-.summary .item {
-  display: table-cell;
-  text-align: center;
-  padding: 15px;
-}
-/* line 334, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
-.summary .item span {
-  display: block;
-}
-/* line 338, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
-.summary .item:not(:last-of-type) {
-  border-right: 1px solid #d6d6d6;
-}
-/* line 344, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
-.summary.sub-cols-6 .item {
-  width: 16.666666666666664%;
-}
-/* line 349, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
-.summary.green {
-  color: #4eba5d;
-}
-/* line 352, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
-.summary.green .sum {
-  background: #4eba5d;
-  color: #fff;
-}
 /* review */
-/* line 360, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 320, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .review {
   zoom: 1;
   margin-bottom: 30px;
@@ -10314,14 +10421,14 @@ footer .footer-logos li a.visa {
 .review:after {
   clear: both;
 }
-/* line 365, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 325, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .review .user {
   width: 100px;
   text-align: right;
   margin-right: 30px;
   position: relative;
 }
-/* line 371, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 331, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .review .user:after {
   position: absolute;
   content: " ";
@@ -10333,11 +10440,11 @@ footer .footer-logos li a.visa {
   border-width: 11px 11px 11px 0;
   border-color: transparent #f5f5f5 transparent transparent;
 }
-/* line 383, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 343, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .review .user .image {
   display: block;
 }
-/* line 386, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 346, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .review .user .image span {
   margin: 4px 0;
   display: inline-block;
@@ -10351,7 +10458,7 @@ footer .footer-logos li a.visa {
   overflow: hidden;
   zoom: 1;
 }
-/* line 401, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 361, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .review .user > span {
   display: block;
   color: #4a4a4a;
@@ -10361,16 +10468,16 @@ footer .footer-logos li a.visa {
   position: relative;
   right: 100px;
 }
-/* line 410, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 370, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .review .user > span.name {
   font-size: 17px;
 }
-/* line 414, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 374, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .review .user > span.date {
   font-size: 15px;
   color: #adadad;
 }
-/* line 421, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 381, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .review .review-body {
   overflow: hidden;
   zoom: 1;
@@ -10379,15 +10486,15 @@ footer .footer-logos li a.visa {
   min-height: 91px;
   position: relative;
 }
-/* line 429, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 389, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .review .review-body .inner {
   padding: 20px 180px 10px 25px;
 }
-/* line 432, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 392, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .review .review-body .inner p {
   font-size: 17px;
 }
-/* line 437, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 397, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .review .review-body .rating {
   position: absolute;
   right: 0;
@@ -10396,72 +10503,72 @@ footer .footer-logos li a.visa {
   height: 100%;
   background: #4eba5d;
 }
-/* line 445, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 405, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .review .review-body .rating .inner {
   padding: 19px;
   text-align: center;
 }
-/* line 449, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 409, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .review .review-body .rating .inner .h3 {
   color: #fff;
   font-size: 30px;
   display: block;
   margin-bottom: 2px;
 }
-/* line 460, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 420, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .review .review-body .rating .inner .stars i.filled {
   color: #fff;
 }
 /* price modal */
-/* line 471, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 431, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .modal-price {
   width: 940px;
 }
-/* line 474, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 434, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .modal-price .image {
   float: left;
   width: 160px;
   margin-right: 24px;
 }
-/* line 480, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 440, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .modal-price .content {
   float: left;
   width: 690px;
 }
-/* line 484, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 444, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .modal-price .content .col-group {
   border-top: 1px solid #cecece;
   float: left;
   width: 100%;
 }
-/* line 489, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 449, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .modal-price .content .col-group.price {
   border: none;
   margin-top: 50px;
 }
-/* line 493, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 453, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .modal-price .content .col-group.price .col-row {
   border-bottom: none;
   border-top: 1px solid #cecece;
 }
-/* line 497, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 457, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .modal-price .content .col-group.price .col-row :first-child {
   float: left;
   text-align: left;
 }
-/* line 502, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 462, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .modal-price .content .col-group.price .col-row :nth-child(2) {
   float: right;
   text-align: right;
 }
-/* line 510, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 470, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .modal-price .content .col-row {
   border-bottom: 1px solid #cecece;
   float: left;
   width: 100%;
   padding: 6px 0;
 }
-/* line 518, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 478, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .modal-price .content .col-row h6 {
   line-height: 20px;
   margin: 0;
@@ -10469,7 +10576,7 @@ footer .footer-logos li a.visa {
   float: left;
   font-size: 14px;
 }
-/* line 526, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 486, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .modal-price .content .col-row span {
   line-height: 20px;
   font-size: 14px;
@@ -10479,178 +10586,178 @@ footer .footer-logos li a.visa {
   font-style: normal;
 }
 /* 20% cols */
-/* line 543, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 503, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .p20 {
   width: 20%;
 }
-/* line 544, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 504, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .col-md-2.p20 {
   width: 20%;
 }
-/* line 547, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 507, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .row.relative {
   position: relative;
 }
-/* line 551, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 511, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .row .borders {
   position: absolute;
   height: 100%;
   width: 100%;
 }
-/* line 556, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 516, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .row .borders .col-sm-2 {
   border-right: 1px solid #c8c8c8;
   height: 100%;
 }
-/* line 564, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 524, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .row.mt10 {
   margin-top: 10px;
 }
-/* line 565, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 525, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .row.mt12 {
   margin-top: 12px;
 }
-/* line 566, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 526, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .row.mt20 {
   margin-top: 20px;
 }
-/* line 567, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 527, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .row.mt25 {
   margin-top: 25px;
 }
-/* line 568, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 528, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .row.mt30 {
   margin-top: 30px;
 }
-/* line 569, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 529, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .row.mt40 {
   margin-top: 40px;
 }
-/* line 570, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 530, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .row.mt50 {
   margin-top: 50px;
 }
-/* line 571, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 531, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .row.mt80 {
   margin-top: 80px;
 }
-/* line 572, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 532, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .row.mt90 {
   margin-top: 90px;
 }
-/* line 573, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 533, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .row.mt100 {
   margin-top: 100px;
 }
 /* pricing table */
-/* line 578, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 538, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table {
   *border-collapse: collapse;
   /* IE7 and lower */
   border-spacing: 0;
   margin: 30px 0 43px 0;
 }
-/* line 586, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 546, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table.price-available.price-cheapest tr td:nth-child(2) {
   color: #fff;
   background: #4eba5d;
 }
-/* line 595, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 555, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table.price-available.price-selected tr td:nth-child(4) {
   color: #fff;
   background: #4eba5d;
 }
-/* line 606, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 566, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table.price-unavailable.price-cheapest tr td:nth-child(2) {
   color: #fff;
   background: #c7bf3f;
 }
-/* line 615, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 575, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table.price-unavailable.price-selected tr td:nth-child(4) {
   color: #fff;
   background: #c7bf3f;
 }
-/* line 623, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 583, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table .price-panel {
   position: relative;
 }
-/* line 626, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 586, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table .price-panel .panel-heading {
   padding: 0;
   border: none;
 }
-/* line 630, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 590, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table .price-panel .panel-heading .panel-title {
   font-size: 18px;
 }
-/* line 633, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 593, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table .price-panel .panel-heading .panel-title a {
   display: block;
 }
-/* line 636, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 596, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table .price-panel .panel-heading .panel-title a i {
   position: absolute;
   right: 9px;
   top: 0px;
   text-align: center;
 }
-/* line 642, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 602, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table .price-panel .panel-heading .panel-title a i span {
   color: #4a4a4a;
   font-size: 26px;
 }
-/* line 646, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 606, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table .price-panel .panel-heading .panel-title a i span.icon-arrow-up5 {
   display: block;
   margin: 0;
 }
-/* line 651, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 611, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table .price-panel .panel-heading .panel-title a i span.icon-arrow-down6 {
   display: none;
 }
-/* line 657, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 617, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table .price-panel .panel-heading .panel-title a.collapsed i span.icon-arrow-up5 {
   display: none;
 }
-/* line 661, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 621, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table .price-panel .panel-heading .panel-title a.collapsed i span.icon-arrow-down6 {
   display: block;
 }
-/* line 668, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 628, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table .price-panel .panel-body {
   padding: 10px 0;
   font-family: "Proxima Nova Regular", sans-serif;
   font-size: 16px;
 }
-/* line 677, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 637, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table tr td:nth-of-type(1) {
   width: 63.49206349206349%;
   padding: 16px 25px;
 }
-/* line 682, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 642, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table tr td:nth-of-type(2),
 table.price-info-table tr td:nth-of-type(4) {
   width: 16.666666666666664%;
   padding: 16px 25px;
 }
-/* line 688, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 648, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table tr td:nth-of-type(3),
 table.price-info-table tr td:nth-of-type(5) {
   width: 1.5873015873015872%;
   padding: 0;
 }
-/* line 700, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 660, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table thead tr td {
   color: #fff;
   font-family: "Proxima Nova SemiBold", sans-serif;
   font-size: 25px;
   padding: 6px 25px;
 }
-/* line 706, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 666, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table thead tr td:nth-of-type(1) {
   padding: 6px 15px;
 }
-/* line 710, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 670, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table thead tr td:nth-of-type(2),
 table.price-info-table thead tr td:nth-of-type(4) {
   font-size: 18px;
@@ -10658,11 +10765,11 @@ table.price-info-table thead tr td:nth-of-type(4) {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-/* line 718, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 678, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table thead tr td:not(:first-of-type) {
   text-align: center;
 }
-/* line 729, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 689, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table tbody tr td {
   background: #fff;
   color: #4a4a4a;
@@ -10670,148 +10777,148 @@ table.price-info-table tbody tr td {
   font-size: 18px;
   padding: 20px;
 }
-/* line 736, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 696, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table tbody tr td:not(:first-of-type) {
   text-align: center;
 }
-/* line 743, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 703, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table tbody tr:first-of-type td {
   border: none;
 }
-/* line 746, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 706, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table tbody tr:first-of-type td:first-of-type {
   border-top-left-radius: 10px;
 }
-/* line 750, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 710, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table tbody tr:first-of-type td:last-of-type {
   border-top-right-radius: 10px;
 }
-/* line 760, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 720, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table tfoot tr td {
   color: #fff;
   font-family: "Proxima Nova SemiBold", sans-serif;
   font-size: 16px;
   padding: 25px;
 }
-/* line 766, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 726, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table tfoot tr td:not(:first-of-type) {
   text-align: center;
 }
-/* line 772, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 732, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table tfoot tr:not(:first-of-type) td {
   border: none;
 }
-/* line 775, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 735, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table tfoot tr:not(:first-of-type) td:first-of-type {
   font-family: "Proxima Nova Regular", sans-serif;
 }
-/* line 782, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 742, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table tfoot tr:first-of-type td {
   color: #4a4a4a;
   background: #fff;
   font-size: 25px;
 }
-/* line 787, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 747, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table tfoot tr:first-of-type td:first-of-type {
   border-bottom-left-radius: 10px;
 }
-/* line 791, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 751, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table tfoot tr:first-of-type td:last-of-type {
   border-bottom-right-radius: 10px;
 }
-/* line 799, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 759, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table tfoot tr:last-of-type td:nth-of-type(2),
 table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-/* line 804, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 764, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 table.price-info-table tfoot tr:last-of-type td:nth-of-type(2) .btn,
 table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   margin-bottom: 18px;
 }
 /* forms override */
-/* line 815, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 775, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .form-search .form-group {
   margin-bottom: 20px;
   display: inline-block;
 }
-/* line 822, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 782, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .form-search .form-group .indkvartering {
   text-align: right;
 }
-/* line 825, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 785, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .form-search .form-group .indkvartering input[type="checkbox"] {
   float: none;
 }
-/* line 831, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 791, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .form-search .form-group label {
   font-size: 14px;
 }
-/* line 836, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 796, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .form-search .form-group.half .form-control {
   float: right;
   width: 48%;
 }
-/* line 840, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 800, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .form-search .form-group.half .form-control:first-of-type {
   float: left;
 }
 @media (min-width: 992px) {
-  /* line 850, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+  /* line 810, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
   .form-search .form-group {
     display: block;
   }
 }
-/* line 858, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 818, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .form-inline .form-group {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
 }
-/* line 863, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 823, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .form-inline .form-group.wide {
   width: 220px;
 }
-/* line 867, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 827, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .form-inline .form-group.wider {
   width: 270px;
 }
-/* line 871, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 831, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .form-inline .form-group.wider.half .form-control {
   float: right;
   width: 48%;
 }
-/* line 875, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 835, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .form-inline .form-group.wider.half .form-control:first-of-type {
   float: left;
 }
-/* line 882, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 842, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .form-inline .form-group.newline {
   display: block;
 }
-/* line 888, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 848, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .input-icon-addon {
   position: relative;
 }
-/* line 892, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 852, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .input-icon-addon input {
   padding-right: 30px;
 }
-/* line 896, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 856, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .input-icon-addon span {
   position: absolute;
   right: 0px;
   padding: 7px 18px;
 }
-/* line 907, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 867, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .social {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
   padding-top: 10px;
 }
-/* line 914, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 874, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .social li {
   display: inline-block;
   margin: 0 2px;
@@ -10819,7 +10926,7 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   height: 44px;
   overflow: hidden;
 }
-/* line 922, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 882, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .social li a {
   display: block;
   width: 100%;
@@ -10835,7 +10942,7 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   -o-transition: all 600ms ease;
   transition: all 600ms ease;
 }
-/* line 938, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 898, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .social li a:hover,
 .social li a:focus {
   color: #fff;
@@ -10843,17 +10950,17 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   text-decoration: none;
 }
 /*Map */
-/* line 944, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 904, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .map {
   height: 465px;
   background: #cae0aa;
 }
-/* line 948, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 908, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .map #google-map {
   width: 100%;
   height: 100%;
 }
-/* line 953, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 913, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .map .info-windows {
   width: 180px;
   height: 160px;
@@ -10861,7 +10968,7 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   padding: 0px;
   margin: 0px;
 }
-/* line 960, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 920, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .map .info-windows .inner {
   position: relative;
   width: 100%;
@@ -10869,12 +10976,12 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   display: block;
   padding: 15px 5px 15px 15px;
 }
-/* line 967, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 927, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .map .info-windows .inner .caption {
   position: absolute;
   bottom: 15px;
 }
-/* line 972, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 932, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .map .info-windows .inner i {
   background: #fff;
   width: 38px;
@@ -10888,18 +10995,18 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   text-align: center;
   border-radius: 50%;
 }
-/* line 986, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 946, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .map .info-windows .inner h5,
 .map .info-windows .inner h6 {
   color: #fff;
   margin: 0;
 }
-/* line 991, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 951, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .map .info-windows .inner h5 {
   font-size: 30px;
   line-height: 28px;
 }
-/* line 996, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
+/* line 956, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-styles.less */
 .map .info-windows .inner h6 {
   margin-top: 4px;
   font-size: 16px;
