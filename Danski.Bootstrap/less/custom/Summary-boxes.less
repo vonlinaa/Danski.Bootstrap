@@ -1,0 +1,133 @@
+﻿/* summary grids */
+.summary {
+    zoom: 1;
+    overflow: hidden;
+    margin-bottom: 30px;
+    .clearfix();
+    background: @gray-lighter;
+    border-radius: 10px;
+    display: table;
+    width: 100%;
+
+    .item {
+        display: table-cell;
+        text-align: center;
+        padding: 15px;
+
+        span {
+            display: block;
+        }
+
+        &:not(:last-of-type) {
+            border-right: 1px solid #d6d6d6;
+        }
+
+        &.highlight {
+             color: #fff;               
+                .h4 {
+                    color: #fff;
+                }
+            i {
+                color: fade(#fff,50%);
+
+                &.filled {
+                    color: #fff;
+                }
+            }
+        }
+
+        .h3 {
+            font-size: 30px;
+            margin: 15px 0 0 0;
+        }
+
+        .h4 {
+            font-size: 17px;
+            color: @gray;
+            margin: 17px 0 7px 0;
+        }
+
+        .stars {
+            margin: 4px 0;
+        }
+    }
+
+    &.sub-cols-6 {
+        .item {
+            width: 100%*(1/6);
+        }
+    }
+
+    &.secondary {
+        color: @brand-secondary;
+
+     
+         .item {
+            &:not(.highlight)  {
+                i {
+                    color: fade(@brand-secondary, 50%);
+                    &.filled {
+                        color: @brand-secondary;
+                    }
+                }
+           }         
+            &.highlight {
+                background:@brand-secondary;
+            }
+        }
+
+    }
+
+    &.info {
+        color: @brand-info;
+
+        .item {
+            &:not(.highlight)  {
+                i {
+                    color: fade(@brand-info, 50%);
+                    &.filled {
+                        color: @brand-info;
+                    }
+                }
+           }         
+            &.highlight {
+                background: @brand-info;
+            }
+        }
+    }
+
+    &.dark {
+        color: @gray;
+        .item {
+            &:not(.highlight)  {
+                i {
+                    color: fade(@gray, 50%);
+                    &.filled {
+                        color: @gray;
+                    }
+                }
+           }         
+            &.highlight {
+                background: @gray;
+            }
+        }
+    }
+
+    &.brand {
+        color: @brand-primary;
+                
+        .item {
+            &:not(.highlight)  {
+                i {
+                    color: fade(@brand-primary, 50%);
+                    &.filled {
+                        color: @brand-primary;
+                    }
+                }
+           }         
+            &.highlight {
+                background: @brand-primary;
+            }
+        }
+    }
+}
