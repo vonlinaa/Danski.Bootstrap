@@ -1,0 +1,43 @@
+﻿// Stars
+.stars {
+    line-height: 0;
+    font-size: 16px;
+    color: #494949;
+    color: rgba(255,255,255,0.2);
+
+    i {
+        padding: 4px 0;
+    }
+
+    .filled {
+        color: #fff;
+    }
+
+    &.gray {
+        color: #cecece;
+        color: rgba(73,73,73,0.2);
+
+        .filled {
+        }
+    }
+}
+// green container around stars
+.green {
+    .stars {
+        color: #d4e9d7;
+
+        .filled {
+            color: @green;
+        }
+    }
+
+    .highlight {
+         .stars {
+                color:rgba(255,255,255,0.2);
+                .filled {color: #fff;}
+
+             }
+    }
+
+   
+}
