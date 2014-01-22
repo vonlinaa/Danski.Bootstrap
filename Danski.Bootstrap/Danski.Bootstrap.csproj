@@ -93,6 +93,8 @@
     <Content Include="less\custom\custom-dropdowns.less" />
     <Content Include="less\custom\Stars.less" />
     <Content Include="less\custom\Summary-boxes.less" />
+    <Content Include="Scripts\custom.min.js" />
+    <Content Include="Scripts\libs\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -152,19 +154,16 @@
     <Content Include="less\bootstrap\alerts.less" />
     <Content Include="less\custom\bootstrap.less" />
     <Content Include="less\custom\variables.less" />
-    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\Custom-ck.js" />
     <Content Include="Scripts\Custom.js" />
-    <Content Include="Scripts\infobox.js" />
-    <Content Include="Scripts\jquery-1.9.1.js" />
-    <Content Include="Scripts\jquery-1.9.1.min.js" />
-    <Content Include="Scripts\jshintrc.js" />
-    <Content Include="Scripts\less-1.4.2.js" />
-    <Content Include="Scripts\less-1.4.2.min.js" />
+    <Content Include="Scripts\libs\bootstrap.js" />
+    <Content Include="Scripts\libs\bootstrap.min.js" />
+    <Content Include="Scripts\libs\infobox.js" />
+    <None Include="Scripts\libs\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\libs\jquery-1.9.1.js" />
+    <Content Include="Scripts\libs\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\libs\less-1.4.2.js" />
+    <Content Include="Scripts\libs\less-1.4.2.min.js" />
     <Content Include="Web.config" />
-    <Content Include="Scripts\jquery-1.9.1.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
