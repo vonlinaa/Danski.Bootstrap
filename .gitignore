@@ -178,7 +178,7 @@ ehthumbs.db
 Desktop.ini
 
 # CSS
-Danski.Bootstrap/css/*
+Danski.Bootstrap/css/bootstrap.css
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
