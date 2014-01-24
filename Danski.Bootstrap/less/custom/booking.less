@@ -34,7 +34,7 @@
         margin-left: 0;
         margin-right: 0;
     }
-    
+
     .well {
         &:nth-of-type(1) {
             border-bottom-left-radius: 0;
@@ -48,9 +48,37 @@
             border-top-right-radius: 0;
         }
         // paymentcard
-        &:last-child {
+        &:last-of-type {
             padding: 30px 60px;
             text-align: center;
+            font-size: @font-size-large;
+            font-family: @font-family-ProximaNovaSemiBold;
+
+            img {
+                width: 60px;
+                margin: 0 auto;
+                position: relative;
+                border-radius: 10px;
+                border: 1px solid #fff;
+                margin-bottom: 8px;
+            }
+
+            input[type="checkbox"] {
+                left: 50%;
+                position: relative;
+            }
+
+            .checkbox-last {
+                left: 14%;
+
+                input[type="checkbox"] {
+                    left: 4%;
+                }
+            }
+
+            button[type="submit"] {
+                font-size:@font-size-h4;
+            }
         }
     }
     /***  BOOKING ASIDE STYLE  ***/
