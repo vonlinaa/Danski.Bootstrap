@@ -18,14 +18,22 @@
     .step-3-header {
         background-color: @gray-lighter;
         padding: 10px;
-        border-top-left-radius: @border-radius-base;
-        border-top-right-radius: @border-radius-base;
+        border-top-left-radius: @border-radius-booking-base;
+        border-top-right-radius: @border-radius-booking-base;
 
         .checkbox {
             margin-left: 12px;
         }
     }
 
+    .text-left {
+        text-align: left;
+    }
+
+    .form-group {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
     .well {
         &:nth-of-type(1) {
@@ -41,9 +49,7 @@
         }
     }
 
-
-
-
+    /***  BOOKING ASIDE STYLE  ***/
     .booking-aside {
         p {
             text-align: left;
@@ -121,14 +127,5 @@
             margin: 0;
             padding: 0;
         }
-    }
-
-    .text-left {
-        text-align: left;
-    }
-
-    .form-group {
-        margin-left: 0;
-        margin-right: 0;
     }
 }

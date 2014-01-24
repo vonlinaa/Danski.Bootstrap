@@ -1,3 +1,5 @@
+@border-radius-booking-base: 10px;
+
 .booking-wrapper {
 
     .panel {
@@ -26,20 +28,18 @@
         background-color: @gray-lighter;
     }
 
-
-
     .panel, .panel-default, .panel-heading {
         border-radius: 0px;
     }
 
         .panel:first-child {
-            border-top-left-radius: 4px;
-            border-top-right-radius: 4px;
+            border-top-left-radius: @border-radius-booking-base;
+            border-top-right-radius: @border-radius-booking-base;
         }
 
         .panel:last-child {
-            border-bottom-left-radius: 4px;
-            border-bottom-right-radius: 4px;
+            border-bottom-left-radius: @border-radius-booking-base;
+            border-bottom-right-radius: @border-radius-booking-base;
         }
 
     .panel-group, .panel-group .panel + .panel {
