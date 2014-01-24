@@ -96,11 +96,15 @@
     <Content Include="less\custom\custom-dropdowns.less" />
     <Content Include="less\custom\Stars.less" />
     <Content Include="less\custom\Summary-boxes.less" />
+    <Content Include="Scripts\booking.js" />
     <Content Include="Scripts\custom.min.js" />
     <Content Include="Scripts\libs\jquery-1.9.1.min.map" />
     <Content Include="html\12.0-Tekstside.html" />
     <Content Include="less\custom\submenu.less" />
     <Content Include="less\custom\Panels.less" />
+    <Content Include="less\custom\booking.less" />
+    <Content Include="less\custom\custom-wells.less" />
+    <Content Include="less\custom\booking-accordion.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
