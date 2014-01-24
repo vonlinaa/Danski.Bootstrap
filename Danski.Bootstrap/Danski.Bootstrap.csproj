@@ -57,10 +57,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="html\10.0-booking.html" />
+    <Content Include="html\4.0-Søgeresultat_ingen rejser.html" />
     <Content Include="html\5.0-ophold.html" />
     <Content Include="html\0-empty.html" />
     <Content Include="html\2.0-liste-grid.html" />
-    <Content Include="html\2.0.0 - søgeresultat.html" />
+    <Content Include="html\styles.html" />
+    <Content Include="html\index.html" />
     <Content Include="images\infobox-tilbud.jpg" />
     <Content Include="images\infobox-tilbud_01.jpg" />
     <Content Include="images\infobox-tilbud_03.jpg" />
@@ -95,6 +98,9 @@
     <Content Include="less\custom\Summary-boxes.less" />
     <Content Include="Scripts\custom.min.js" />
     <Content Include="Scripts\libs\jquery-1.9.1.min.map" />
+    <Content Include="html\12.0-Tekstside.html" />
+    <Content Include="less\custom\submenu.less" />
+    <Content Include="less\custom\Panels.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

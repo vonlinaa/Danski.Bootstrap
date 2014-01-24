@@ -174,7 +174,37 @@ footer {
     }
 }
 
-.container.narrow {max-width:1000px;}
+.container {
+    &.gray-lighter {
+        background: @gray-lighter;
+    }
+
+    &.narrow {
+        max-width: 1000px;
+    }
+
+    &.narrow2 {
+        max-width: 800px;
+    }
+
+    &.bodytext {
+        p {
+            font-size: 18px;
+            line-height: 26px;
+            color: @gray;
+        }
+
+        h3 {
+                  padding: 0 0 20px 0;
+           
+        }
+
+        h4 {
+            padding-top: 10px;
+        }
+    }
+}
+
 
 .modal-open.navigation {
     #top-navigation {

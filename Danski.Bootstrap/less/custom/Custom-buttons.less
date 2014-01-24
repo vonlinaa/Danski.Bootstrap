@@ -86,17 +86,23 @@
 
 // Alternate buttons
 // --------------------------------------------------
-    .btn.current {
+.btn.current {
        .btn-primary();
-    }
+}
 .btn-default-transparent {
     .button-variant(#fff; transparent; #fff;);
 }
 .btn-default-white {
     .button-variant(@gray; #fff; #fff;);
 }
-.btn-default-gray {
-  .button-variant(@gray; #efefef; @btn-default-border);
+.btn-gray {
+  .button-variant(@btn-gray-color; @btn-gray-bg; @btn-default-border);
+}
+.btn-gray-dark {
+  .button-variant(@btn-gray-dark-color; @btn-gray-dark-bg; @btn-gray-dark-border);
+}
+.btn-gray-light {
+  .button-variant(@btn-gray-light-color; @btn-gray-light-bg; @btn-gray-light-border);
 }
 .btn-default {
   .button-variant(@btn-default-color; @btn-default-bg; @btn-default-border);
@@ -124,7 +130,10 @@
 .btn-brand {
   .button-variant(@btn-brand-color; @btn-brand-bg; @btn-brand-border);
 }
-
+// Brand appears as red brand
+.btn-secondary{
+  .button-variant(@btn-secondary-color; @btn-secondary-bg; @btn-secondary-border);
+}
 
 
 // Link buttons

@@ -1,0 +1,64 @@
+.panel-info {
+  border-color: #bce8f1;
+}
+.panel-info span {
+  font-size: 24px;
+}
+.panel-info .panel-group .panel-heading + .panel-collapse .panel-body {
+  border-top: none;
+}
+.panel-info .panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.panel-info .panel {
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.panel-info .panel-heading {
+  padding: 18px 28px;
+  border-bottom: none;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  color: #3a87ad;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.panel-info .panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+.panel-info .panel-heading .panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.panel-info .panel-heading .panel-title a i span.icon-arrow-down6 {
+  display: none;
+}
+.panel-info .panel-heading .panel-title a.collapsed i span.icon-arrow-down6 {
+  display: block;
+}
+.panel-info .panel-heading .panel-title a i span.icon-arrow-up5 {
+  display: block;
+  margin: 0;
+}
+.panel-info .panel-heading .panel-title a.collapsed i span.icon-arrow-up5 {
+  display: none;
+}
+.panel-info .panel-heading .panel-title > a {
+  color: #494949;
+}
+.panel-info .panel-body {
+  padding: 28px;
+  margin-top: -30px;
+  font-size: 17px;
+  line-height: 1.3;
+}
+.panel-info .panel-body p {
+  margin-bottom: 10px;
+}
