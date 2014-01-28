@@ -11,6 +11,10 @@
         height: 1px;
     }
 
+    .well-seperator {
+        margin: 8px 0px;
+    }
+
     .btn-get-info {
         margin-right: 30px;
     }
@@ -33,6 +37,54 @@
     .form-group {
         margin-left: 0;
         margin-right: 0;
+    }
+
+    table {
+        border-collapse: separate;
+        border-spacing: 0 20px;
+        text-align: left;
+
+        tr {
+
+            td {
+                padding: 10px;
+                background-color: darken(@gray-lighter,5.8%);
+              
+                h3, h4, p {
+                    vertical-align: top;
+                }
+
+                input[type="checkbox"] {
+                    line-height: normal;
+                    margin: 0;
+                }
+
+                img {
+                    margin: -10px;
+                    height: 180px;
+                    border-top-left-radius: @border-radius-well-base;
+                    border-bottom-left-radius: @border-radius-well-base;
+                }
+
+                &:nth-of-type(1) {
+                    background-color: transparent;
+                    width: 10%;
+                }
+
+                &:nth-of-type(2) {
+                    border-top-left-radius: @border-radius-well-base;
+                    border-bottom-left-radius: @border-radius-well-base;
+                }
+
+                &:nth-of-type(4) {
+                    color: #fff;
+                    background-color: @green;
+                    border-top-right-radius: @border-radius-well-base;
+                    border-bottom-right-radius: @border-radius-well-base;
+                    vertical-align: top;
+                }
+            }
+        }
     }
 
     .well {
@@ -77,7 +129,7 @@
             }
 
             button[type="submit"] {
-                font-size:@font-size-h4;
+                font-size: @font-size-h4;
             }
         }
     }
