@@ -11315,7 +11315,7 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
 .booking-wrapper table tr td img {
   margin: -10px;
   min-height: 80px;
-  height: 60%;
+  height: 160px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }

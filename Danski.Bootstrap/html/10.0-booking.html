@@ -191,13 +191,11 @@
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <span class="panel-title">
-
                                                 <a class="" data-toggle="collapse" data-target="#traveller1">
                                                     1. Voksen
                                                     <i><span class="icon-arrow-up5 pull-left"></span> </i>
                                                     <i><span class="icon-arrow-up5 pull-right"></span> </i>
                                                 </a>
-
                                             </span>
                                         </div>
                                         <div id="traveller1" class="panel-collapse collapse in">
@@ -276,14 +274,14 @@
                                                                 <div class="form-group">
                                                                     <div class="checkbox">
                                                                         <label>
-                                                                            <input checked="" type="checkbox"> Bestil nu
+                                                                            <input id="checkboxChoicesNow" type="checkbox" checked> Bestil nu
                                                                         </label>
                                                                     </div>
                                                                 </div>
                                                                 <div class="form-group">
                                                                     <div class="checkbox">
                                                                         <label>
-                                                                            <input checked="" type="checkbox"> Vent til senere
+                                                                            <input id="checkboxChoicesLater" type="checkbox" unchecked> Vent til senere
                                                                         </label>
                                                                     </div>
                                                                 </div>
@@ -291,104 +289,106 @@
                                                         </div>
                                                     </form>
                                                     <hr class="well-seperator" />
-                                                    <div class="row">
-                                                        <div class="col-sm-12 col-md-12 form-group">
-                                                            <div class="row">
-                                                                <div class="col-md-3">
-                                                                    <label class="text-center" for="travellerLiftcard1">Liftkort</label>
+                                                    <div class="traveller-choices-wrapper">
+                                                        <div class="row">
+                                                            <div class="col-sm-12 col-md-12 form-group">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <label class="text-center" for="travellerLiftcard1">Liftkort</label>
+                                                                    </div>
+                                                                    <div class="col-md-8">
+                                                                        <select class="form-control" id="travellerLiftcard1">
+                                                                            <option>7 dage, voksen, Ski Amdé (søndag): 200.-</option>
+                                                                        </select>
+                                                                    </div>
                                                                 </div>
-                                                                <div class="col-md-8">
-                                                                    <select class="form-control" id="travellerLiftcard1">
-                                                                        <option>7 dage, voksen, Ski Amdé (søndag): 200.-</option>
-                                                                    </select>
+                                                                <br />
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <label class="text-center" for="travellerSkiRent1">Skileje</label>
+                                                                    </div>
+                                                                    <div class="col-md-8">
+                                                                        <select class="form-control" id="travellerSkiRent1">
+                                                                            <option>7 dage, voksen, VIP Pakke (søndag): 395.-</option>
+                                                                        </select>
+                                                                    </div>
                                                                 </div>
+                                                                <br />
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <label class="text-center" for="travellerSkiSchool1">Skiskole</label>
+                                                                    </div>
+                                                                    <div class="col-md-8">
+                                                                        <select class="form-control" id="travellerSkiSchool1">
+                                                                            <option>Voksen skiskole, 5 dage á 2,5 time, begynder: 1440.-</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <br />
                                                             </div>
-                                                            <br />
-                                                            <div class="row">
-                                                                <div class="col-md-3">
-                                                                    <label class="text-center" for="travellerSkiRent1">Skileje</label>
-                                                                </div>
-                                                                <div class="col-md-8">
-                                                                    <select class="form-control" id="travellerSkiRent1">
-                                                                        <option>7 dage, voksen, VIP Pakke (søndag): 395.-</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                            <br />
-                                                            <div class="row">
-                                                                <div class="col-md-3">
-                                                                    <label class="text-center" for="travellerSkiSchool1">Skiskole</label>
-                                                                </div>
-                                                                <div class="col-md-8">
-                                                                    <select class="form-control" id="travellerSkiSchool1">
-                                                                        <option>Voksen skiskole, 5 dage á 2,5 time, begynder: 1440.-</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                            <br />                                                            
                                                         </div>
-                                                    </div>
-                                                    <hr class="well-seperator" />
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <h3 class="pull-left">Arrangementer</h3>
-                                                        </div>                                                                                                               
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <div class="row">                                                               
-                                                                <div class="col-xs-11 col-sm-11 col-md-11">
-                                                                    <table>
-                                                                        <tr>
-                                                                            <td class="col-xs-12 col-sm-12 col-md-1">
-                                                                                <div class="form-group">
-                                                                                    <div class="checkbox">
-                                                                                        <label>
-                                                                                            <input checked="" type="checkbox">
-                                                                                        </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="col-xs-3 col-sm-3 col-md-3">
-                                                                                <img class="" src="../images/infobox_08.jpg" alt="" />
-                                                                            </td>
-                                                                            <td class="col-xs-5 col-sm-5 col-md-5">
-                                                                                <h4>Picninc</h4>
-                                                                                <h4>Picninc i terrænet dette er et heldagsarrangement</h4>
-                                                                                <a href=""> <h4> <span class="primary-text">Læs mere</span> </h4> </a>
-                                                                            </td>
-                                                                            <td class="col-xs-2 col-sm-2 col-md-2">
-                                                                                <h3>200.-</h3>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td class="col-sm-2 col-md-2">
-                                                                                <div class="form-group">
-                                                                                    <div class="checkbox">
-                                                                                        <label>
-                                                                                            <input checked="" type="checkbox">
-                                                                                        </label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td class="col-sm-3 col-md-3">
-                                                                                <img class="" src="../images/infobox_08.jpg" alt="" />
-                                                                            </td>
-                                                                            <td class="col-sm-5 col-md-5">
-                                                                                <h4>Picninc</h4>
-                                                                                <h4>Picninc i terrænet dette er et heldagsarrangement</h4>
-                                                                                <a href=""> <h4> <span class="primary-text">Læs mere</span> </h4> </a>
-                                                                            </td>
-                                                                            <td class="col-sm-2 col-md-2">
-                                                                                <h3>200.-</h3>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                </div>
-                                                            </div>                                                           
+                                                        <hr class="well-seperator" />
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <h3 class="pull-left">Arrangementer</h3>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <hr class="well-seperator" />
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="row">
+                                                                    <div class="col-xs-11 col-sm-11 col-md-11">
+                                                                        <table>
+                                                                            <tr>
+                                                                                <td class="col-xs-12 col-sm-12 col-md-1">
+                                                                                    <div class="form-group">
+                                                                                        <div class="checkbox">
+                                                                                            <label>
+                                                                                                <input type="checkbox" unchecked>
+                                                                                            </label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td class="col-xs-3 col-sm-3 col-md-3">
+                                                                                    <img class="" src="../images/infobox_08.jpg" alt="" />
+                                                                                </td>
+                                                                                <td class="col-xs-5 col-sm-5 col-md-5">
+                                                                                    <h4>Picninc</h4>
+                                                                                    <h4>Picninc i terrænet dette er et heldagsarrangement</h4>
+                                                                                    <a href=""> <h4> <span class="primary-text">Læs mere</span> </h4> </a>
+                                                                                </td>
+                                                                                <td class="col-xs-2 col-sm-2 col-md-2">
+                                                                                    <h3>200.-</h3>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="col-sm-2 col-md-2">
+                                                                                    <div class="form-group">
+                                                                                        <div class="checkbox">
+                                                                                            <label>
+                                                                                                <input type="checkbox" unchecked>
+                                                                                            </label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                                <td class="col-sm-3 col-md-3">
+                                                                                    <img class="" src="../images/infobox_08.jpg" alt="" />
+                                                                                </td>
+                                                                                <td class="col-sm-5 col-md-5">
+                                                                                    <h4>Picninc</h4>
+                                                                                    <h4>Picninc i terrænet dette er et heldagsarrangement</h4>
+                                                                                    <a href=""> <h4> <span class="primary-text">Læs mere</span> </h4> </a>
+                                                                                </td>
+                                                                                <td class="col-sm-2 col-md-2">
+                                                                                    <h3>200.-</h3>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <hr class="well-seperator" />
+                                                    </div>                                                                                                        
                                                 </form>
                                             </div>
                                         </div>
@@ -450,7 +450,7 @@
                                                             <div class="form-group">
                                                                 <div class="checkbox">
                                                                     <label>
-                                                                        <input checked="checked" type="checkbox"> Afbestillingsforsikring <i><span class="icon-info2"></span></i>
+                                                                        <input type="checkbox" checked> Afbestillingsforsikring <i><span class="icon-info2"></span></i>
                                                                     </label>
                                                                 </div>
                                                             </div>
@@ -584,7 +584,7 @@
                                                             <div class="form-group">
                                                                 <div class="checkbox">
                                                                     <label>
-                                                                        <input checked="checked" type="checkbox"> Afbestillingsforsikring <i><span class="icon-info2"></span></i>
+                                                                        <input type="checkbox" checked> Afbestillingsforsikring <i><span class="icon-info2"></span></i>
                                                                     </label>
                                                                 </div>
                                                             </div>
@@ -623,7 +623,7 @@
                                                         <div class="form-group">
                                                             <div class="checkbox">
                                                                 <label>
-                                                                    <input checked="" type="checkbox">
+                                                                    <input type="checkbox" unchecked>
                                                                 </label>
                                                             </div>
                                                         </div>
@@ -636,7 +636,7 @@
                                                         <div class="form-group">
                                                             <div class="checkbox">
                                                                 <label>
-                                                                    <input checked="" type="checkbox">
+                                                                    <input type="checkbox" unchecked>
                                                                 </label>
                                                             </div>
                                                         </div>
@@ -649,7 +649,7 @@
                                                         <div class="form-group">
                                                             <div class="checkbox">
                                                                 <label>
-                                                                    <input checked="checked" type="checkbox">
+                                                                    <input type="checkbox" unchecked>
                                                                 </label>
                                                             </div>
                                                         </div>
@@ -664,7 +664,7 @@
                                                         <div class="form-group">
                                                             <div class="checkbox">
                                                                 <label>
-                                                                    <input checked="" type="checkbox">
+                                                                    <input type="checkbox" unchecked>
                                                                 </label>
                                                             </div>
                                                         </div>
@@ -677,7 +677,7 @@
                                                         <div class="form-group">
                                                             <div class="checkbox">
                                                                 <label>
-                                                                    <input checked="" type="checkbox">
+                                                                    <input type="checkbox" unchecked>
                                                                 </label>
                                                             </div>
                                                         </div>
@@ -689,7 +689,7 @@
                                                     <div class="form-group">
                                                         <div class="checkbox checkbox-last">
                                                             <label>
-                                                                <input checked="" type="checkbox"> Jeg er indforstået med de <span class="text-primary"> gældende rejsebetingelser</span>
+                                                                <input type="checkbox" unchecked> Jeg er indforstået med de <span class="text-primary"> gældende rejsebetingelser</span>
                                                             </label>
                                                         </div>
                                                     </div>
