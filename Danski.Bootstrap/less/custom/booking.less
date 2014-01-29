@@ -17,6 +17,7 @@
 
     .btn-get-info {
         margin-right: 30px;
+        margin-bottom: 8px;
     }
 
     .step-3-header {
@@ -39,6 +40,13 @@
         margin-right: 0;
     }
 
+    .traveller-choices {
+        input[type="checkbox"] {
+            margin-top: 24px;
+
+        }
+    }
+
     table {
         border-collapse: separate;
         border-spacing: 0 20px;
@@ -49,9 +57,13 @@
             td {
                 padding: 10px;
                 background-color: darken(@gray-lighter,5.8%);
-              
+
                 h3, h4, p {
                     vertical-align: top;
+
+                    .event-text {
+                        font-family: @font-family-ProximaNovaRegular;
+                    }
                 }
 
                 input[type="checkbox"] {
@@ -61,14 +73,14 @@
 
                 img {
                     margin: -10px;
-                    height: 180px;
+                    min-height: 80px;
+                    height: 60%;
                     border-top-left-radius: @border-radius-well-base;
                     border-bottom-left-radius: @border-radius-well-base;
                 }
 
                 &:nth-of-type(1) {
                     background-color: transparent;
-                    width: 10%;
                 }
 
                 &:nth-of-type(2) {
@@ -99,7 +111,7 @@
             border-top-left-radius: 0;
             border-top-right-radius: 0;
         }
-        // paymentcard
+        // paymentcards
         &:last-of-type {
             padding: 30px 60px;
             text-align: center;
@@ -121,10 +133,10 @@
             }
 
             .checkbox-last {
-                left: 14%;
+                left: 16%;
 
                 input[type="checkbox"] {
-                    left: 4%;
+                    left: 2%;
                 }
             }
 
