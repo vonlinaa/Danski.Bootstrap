@@ -104,15 +104,18 @@ h1, h2, h3, h4, h5, h6,
 h1,
 h2,
 h3 {
-  padding-top: @line-height-computed;
-  padding-bottom: (@line-height-computed / 2);
-  
-  margin:0;
+    padding-top: @line-height-computed;
+    padding-bottom: (@line-height-computed / 2);
+    margin: 0;
 
-  small,
-  .small {
-    font-size: 65%;
-  }
+    small,
+    .small {
+        font-size: 65%;
+    }
+
+    &.pb18 {
+        padding-bottom:18px;
+    }
 }
 h2 { 
      margin-bottom:20px;
