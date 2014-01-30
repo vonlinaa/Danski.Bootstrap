@@ -86,9 +86,10 @@
                                         </div>
                                         <div class="well well-secondary booking-aside-well-price">
                                             <h4>Samlet pris</h4>
-                                            <h2>4.950</h2>
-                                            <p> <span class="price-note">Despositum heraf</span> </p>
-                                            <p> <span class="price-note">Prisen er excl. kortgebyr</span> </p>
+                                            <h2 class="top-header">4.950.-</h2>
+                                            <p> <span class="price-note">*Heraf depositum betales d.29-03-14: <b>1500,-</b> </span> </p>
+                                            <p> <span class="price-note">*Heraf restbeløb betales d.30-04-14: <b>3095,-</b></span> </p>
+                                            <p> <span class="price-note">*Prisen er excl. kortgebyr</span> </p>
                                         </div>
                                         <div class="booking-aside-icons hidden-xs">
                                             <div class="booking-aside-icons-row">
@@ -128,50 +129,460 @@
                             <!-- BOOKING -->
                             <div class="col-sm-9 col-md-9">
                                 <!-- 4. -->
-                                <h2 class="top-header">Betaling</h2>
-                                <p>Indtast kortoplysninger</p>
-                                <div class="well payment-page-wrapper">
+                                <h2 class="top-header">Godkend bestilling</h2> 
+                                <p>Her kan du se dine bestillinger</p>
+                                <div class="well booking-resume-wrapper">
                                     <div class="row">
-                                        <div class="col-sm-12 col-md-12" >
-                                            <form class="form-inline text-left" role="form">
-                                                <div class="row">
-                                                    <div class="col-sm-4 col-md-4 form-group">
-                                                        <label class="" for="creditCardNumber">Kortnummer</label>
-                                                        <input type="text" class="form-control" id="creditCardNumber">
-                                                    </div>
-                                                    <div class="col-sm-3 col-md-2 form-group">
-                                                        <label class="" for="expirationMonth">Udløbsdato</label>
-                                                        <select class="form-control" id="expirationMonth">
-                                                            <option>1</option>
-                                                            <option>2</option>
-                                                            <option>3</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="col-sm-3 col-md-2 form-group">
-                                                        <label class="" for="expirationYear">&nbsp;</label>
-                                                        <select class="form-control" id="expirationYear">
-                                                            <option>2014</option>
-                                                            <option>2015</option>
-                                                            <option>2016</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="col-sm-2 col-md-2 form-group">
-                                                        <label class="" for="creditCardControlNumbers">Kontrolcifre</label>
-                                                        <input type="text" class="form-control" id="creditCardControlNumbers">
-                                                    </div>
-                                                   
-                                                </div>
-                                                <br />
-                                            </form>
+                                        <div class="col-sm-12 col-md-12 text-left" >
+                                            <h3>Rejseinformationer</h3>
+                                            <p>Læs bestillingsoplysningerne og rejsebetingelserne. Klik herefter på "Bekræft og gennemfør bestilling".</p> 
+                                            <p>Ved online bestilling betales depositum med det samme. </p>
+                                            <p>Ved afbudsrejser og særlige tilbudsrejser skal det fulde beløb betales med det samme. </p>
+                                            <p>Ved bestilling på nettet sendes alt informationen og billet kun via e-mail.</p>
+                                            <a href=""> <p> <span class="primary-text">Læs Danski's rejsebetingelser her</span> </p> </a>
+                                            <br />
+                                            <button class="btn btn-gray-light" type="submit"> Ret bestillingsinformationer</button>                                            
                                         </div>
-                                        <br />
-                                        <button class="btn btn-secondary" type="submit"> Godkend betaling</button>
-                                        <h4>Kortype: Dankort/Visa Dankort (skift korttype)</h4>
+                                    </div>
+                                    <br />
+                                    <div class="row resume-text">
+                                        <div class="col-sm-12 col-md-12">
+                                            <h3>Generel information om din bestilling</h3>
+                                            <table class="table table-resume-text">
+                                                <tr>
+                                                    <td>
+                                                        <p>Rejselængde</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>7 dage (Uge 52 fra d. 21-12-13 til d. 28-12-2013)</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Rejsemål</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Alpe d'huez, Frankrig</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Indkvartering</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Chalethotel Belle Etoille</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Beskrivelse af indkvartering</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>1 x (Dobbeltværelse med bad/toilet/balkon)</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Antal rejsende</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>4 voksne, 1 barn(0-17)</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Transport</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>2x Fly, 2x Bus</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Opsamlingssted Fly</p>
+                                                    </td>
+                                                    <td>
+                                                        <p><b>Billund Lufthavn:</b></p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p></p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Afrejse d. 29-02-14 kl 18:10</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p></p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Hjemkomst d. 08-03-14 ca. kl. 23:20</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p></p>
+                                                    </td>
+                                                    <td>
+                                                        <p> <b>Kastrup Lufthavn:</b>  </p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p></p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Afrejse d. 29-02-14 kl. 18:10</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p></p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Hjemkomst d. 08-03-14 ca. kl. 23:20</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Opsamlingssted Bus:  </p>
+                                                    </td>
+                                                    <td>
+                                                        <p> <b>Kolding Banegård v/turistbusser</b> </p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p></p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Afrejse d. . 28-02-14. 15:00</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p></p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Hjemkomst d. 09-03-14 ca. kl. 12:15</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p></p>
+                                                    </td>
+                                                    <td>
+                                                        <p><b>Randers Elro hallen</b></p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p></p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Afrejse d. . 28-02-14. 13:00</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p></p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Hjemkomst d. 09-03-14 ca. kl. 15:15</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Antal rejsende</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>4 voksne, 1 barn(0-17)</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h4>Samlet pris</h4>
+                                                    </td>
+                                                    <td>
+                                                        <h4>19.568.-</h4>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input id="travelPolicy" type="checkbox" unchecked> Jeg er indforstået med de <span class="text-primary">gældende rejsebetingelser</span>
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input id="newsletter" type="checkbox" unchecked> Tilmeld Danski's <span class="text-primary">nyhedsbrev</span>
+                                            </label>
+                                        </div>
+                                        <button class="btn btn-secondary" type="submit"> Godkend og gå til betaling</button>
                                     </div>
                                 </div>
-                            </div>
-                            
+                                <div class="well booking-resume-wrapper">                                    
+                                    <div class="row resume-text">
+                                        <div class="col-sm-12 col-md-12">
+                                            <h3>Faktureringsadresse</h3>
+                                            <table class="table table-resume-text">
+                                                <tr>
+                                                    <td>
+                                                        <p>Navn</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Rite Lønne</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Adresse</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Gade 4, 8000 aarhus C</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Land</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Danmark</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Telefon/Mobil nr.</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>12 30 20 60</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>E-mail</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>ritalonne@mail.dk</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="row resume-text">
+                                        <div class="col-sm-12 col-md-12">
+                                            <h3>Bestillingsinfo</h3>
+                                            <h4> <span class="text-greyed">Værelse (dobbeltværelse m. bad/toilet)</span> </h4>
+                                            <table class="table table-resume-text">
+                                                <tr>
+                                                    <td>
+                                                        <h4>Rita Lønne (kvinde)</h4>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Fødselsdato</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>07-06-1965</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Tlf/Mobil nr.</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>12 30 20 60</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>E-mail</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>ritalonne@mail.dk</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Grundpris (Fly)</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>8.149.-</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Grundpris (Fly)</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>8.149.-</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Egen skitransport</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>0.-</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Liftkort 7 dg voksen Aple d'Huez</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>250.-</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Ingen afrejseforsikring</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>0.-</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Skileje</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>1.385.-</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Skiskole</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>0.-</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h4>Samlet pris</h4>
+                                                    </td>
+                                                    <td>
+                                                        <h4>9.784.-</h4>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="table table-resume-text">
+                                                <tr>
+                                                    <td>
+                                                        <h4>Rita Lønne (kvinde)</h4>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Fødselsdato</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>07-06-1965</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Tlf/Mobil nr.</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>12 30 20 60</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>E-mail</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>ritalonne@mail.dk</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Grundpris (Fly)</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>8.149.-</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Grundpris (Fly)</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>8.149.-</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Egen skitransport</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>0.-</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Liftkort 7 dg voksen Aple d'Huez</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>250.-</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Ingen afrejseforsikring</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>0.-</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Skileje</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>1.385.-</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Skiskole</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>0.-</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h4>Samlet pris</h4>
+                                                    </td>
+                                                    <td>
+                                                        <h4>9.784.-</h4>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <button class="btn btn-gray-light pull-left" type="submit"> Tilbage</button>
+                                            <button class="btn btn-secondary pull-right" type="submit"> Godkend og gå til betaling</button>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>                            
                         </div>
+                        <!-- FOOTER -->
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="booking-aside-icons visible-xs">

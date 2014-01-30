@@ -2,7 +2,6 @@
 
     label {
         font-family: @font-family-ProximaNovaBold;
-        font-weight: bold;
     }
 
     hr {
@@ -29,7 +28,7 @@
     }
 
     .top-header {
-        margin-bottom:0px;
+        margin-bottom: 0px;
     }
 
     .form-group {
@@ -63,11 +62,6 @@
                     }
                 }
 
-                input[type="checkbox"] {
-                    line-height: normal;
-                    margin: 0;
-                }
-
                 img {
                     margin: -10px;
                     min-height: 80px;
@@ -78,6 +72,11 @@
 
                 &:nth-of-type(1) {
                     background-color: transparent;
+
+                    input[type="checkbox"] {
+                        position:relative;
+                        left:50%;
+                    }
                 }
 
                 &:nth-of-type(2) {
@@ -124,16 +123,7 @@
         }
 
         input[type="checkbox"] {
-            left: 50%;
-            position: relative;
-        }
-
-        .checkbox-last {
-            left: 16%;
-
-            input[type="checkbox"] {
-                left: 2%;
-            }
+            float: none;
         }
 
         button[type="submit"] {
@@ -229,7 +219,7 @@
 
         .price-note {
             color: #fff;
-            opacity: 0.5;
+            opacity: 0.6;
         }
     }
 

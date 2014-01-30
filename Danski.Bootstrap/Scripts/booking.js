@@ -19,14 +19,5 @@
     })
 
     // show/hide traveller-choices content
-    var checked = $('#checkboxChoicesNow').is(':checked')  // Boolean true
-    
-    $('#checkboxChoicesNow').click(function () {
-        if (checked) {
-            $('.traveller-choices-wrapper').slideUp();
-            alert(checked);
-        }
-    })
-
 
 });
