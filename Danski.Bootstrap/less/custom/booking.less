@@ -24,6 +24,14 @@
         text-align: left;
     }
 
+    .text-greyed {
+        color: @gray-light;
+    }
+
+    .top-header {
+        margin-bottom:0px;
+    }
+
     .form-group {
         margin-left: 0;
         margin-right: 0;
@@ -36,7 +44,7 @@
         }
     }
 
-    table {
+    .table-traveller-choices {
         border-collapse: separate;
         border-spacing: 0 20px;
         text-align: left;
@@ -132,6 +140,50 @@
             font-size: @font-size-h4;
         }
     }
+    /*** BOOKING RESUME PAGE ***/
+    .booking-resume-wrapper {
+        h3, h4 {
+            text-align: left;
+        }
+
+        p {
+            padding: 0;
+        }
+
+        button[type="submit"] {
+            //font-size: @font-size-h4;
+        }
+
+        input[type="checkbox"] {
+            float: none;
+        }
+
+        .table-resume-text {
+
+            tr {
+
+                &:first-child td {
+                    border-top: 0;
+                }
+
+                td {
+
+                    &:nth-of-type(1) {
+                        font-family: @font-family-ProximaNovaBold;
+                        text-align: left;
+                    }
+
+                    &:nth-of-type(2) {
+                        text-align: right;
+
+                        h4 {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
     /*** BOOKING PAYMENT PAGE & CONFIRMATION */
     .payment-page-wrapper {
 
@@ -140,7 +192,7 @@
         }
 
         p {
-            font-size:@font-size-large;
+            font-size: @font-size-large;
         }
 
         .text-bold {
