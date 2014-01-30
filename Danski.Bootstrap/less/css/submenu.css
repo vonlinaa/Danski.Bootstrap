@@ -1,0 +1,43 @@
+.submenu {
+  background: #efefef;
+  height: 129px;
+}
+.submenu .menu-items > li {
+  display: inline-block;
+  list-style: none;
+  font-size: 16px;
+  margin: 0 70px 0 0;
+  line-height: 35px;
+  height: 85px;
+  font-family: "Proxima Nova Bold", sans-serif;
+  position: relative;
+}
+.submenu .menu-items > li > a {
+  color: #494949;
+}
+.submenu .menu-items > li > a span {
+  display: block;
+  font-size: 35px;
+}
+.submenu .menu-items > li:hover {
+  color: #f04233;
+  text-decoration: none;
+}
+.submenu .menu-items > li.active > a {
+  color: #f04233;
+}
+.submenu .menu-items > li.active > a:before {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  content: '';
+  background: #FFF;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid black;
+  border-color: #360 #efefef transparent #efefef;
+}

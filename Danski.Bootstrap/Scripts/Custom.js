@@ -8,7 +8,7 @@
         $('html, body').animate({ scrollTop: 0 }, 300);
         return false;
     });
-
+     
     //
     // section-expand
     //
@@ -123,7 +123,21 @@
         }
     });
     
-});
+ });
+////////////////////
+// Responsive menu
+///////////////////
+
+ (function ($) {
+     $(document).ready(function () {
+         $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function (event) {
+             event.preventDefault();
+             event.stopPropagation();
+             $(this).parent().siblings().removeClass('open');
+             $(this).parent().toggleClass('open');
+         });
+     });
+ })(jQuery);
 
 /* --------------------------------------------------------------------------- */
 /*  Google Maps

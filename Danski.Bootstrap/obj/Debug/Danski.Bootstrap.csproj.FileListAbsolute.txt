@@ -4,3 +4,15 @@ Z:\Dropbox\beOn\Visual studio projekter\Danski.Bootstrap\Danski.Bootstrap\bin\Da
 Z:\Dropbox\beOn\Visual studio projekter\Danski.Bootstrap\Danski.Bootstrap\obj\Debug\Danski.Bootstrap.csprojResolveAssemblyReference.cache
 Z:\Dropbox\beOn\Visual studio projekter\Danski.Bootstrap\Danski.Bootstrap\obj\Debug\Danski.Bootstrap.dll
 Z:\Dropbox\beOn\Visual studio projekter\Danski.Bootstrap\Danski.Bootstrap\obj\Debug\Danski.Bootstrap.pdb
+C:\Users\Doc\Documents\GitHub\Danski.Bootstrap\Danski.Bootstrap\bin\Danski.Bootstrap.dll.config
+C:\Users\Doc\Documents\GitHub\Danski.Bootstrap\Danski.Bootstrap\bin\Danski.Bootstrap.dll
+C:\Users\Doc\Documents\GitHub\Danski.Bootstrap\Danski.Bootstrap\bin\Danski.Bootstrap.pdb
+C:\Users\Doc\Documents\GitHub\Danski.Bootstrap\Danski.Bootstrap\obj\Debug\Danski.Bootstrap.csprojResolveAssemblyReference.cache
+C:\Users\Doc\Documents\GitHub\Danski.Bootstrap\Danski.Bootstrap\obj\Debug\Danski.Bootstrap.dll
+C:\Users\Doc\Documents\GitHub\Danski.Bootstrap\Danski.Bootstrap\obj\Debug\Danski.Bootstrap.pdb
+\\psf\windows\GitHub\Danski.Bootstrap\Danski.Bootstrap\bin\Danski.Bootstrap.dll.config
+\\psf\windows\GitHub\Danski.Bootstrap\Danski.Bootstrap\bin\Danski.Bootstrap.dll
+\\psf\windows\GitHub\Danski.Bootstrap\Danski.Bootstrap\bin\Danski.Bootstrap.pdb
+\\psf\windows\GitHub\Danski.Bootstrap\Danski.Bootstrap\obj\Debug\Danski.Bootstrap.csprojResolveAssemblyReference.cache
+\\psf\windows\GitHub\Danski.Bootstrap\Danski.Bootstrap\obj\Debug\Danski.Bootstrap.dll
+\\psf\windows\GitHub\Danski.Bootstrap\Danski.Bootstrap\obj\Debug\Danski.Bootstrap.pdb

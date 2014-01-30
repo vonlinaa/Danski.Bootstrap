@@ -1,90 +1,188 @@
-﻿.infobox{width: 100%;margin-bottom:20px;margin-left:auto; margin-right:auto;}
-.infobox img { width: 100%; height:auto;}
+﻿.infobox {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-.infobox.medium {max-width:320px;}
-.infobox.medium img {max-width:300px;}
+    .infobox img {
+        width: 100%;
+        height: auto;
+    }
 
-.infobox.small {max-width:240px;}
-.infobox.small img {max-width:220px;}
+    .infobox.medium {
+        max-width: 320px;
+    }
+
+        .infobox.medium img {
+            max-width: 300px;
+        }
+
+    .infobox.small {
+        max-width: 240px;
+    }
+
+        .infobox.small img {
+            max-width: 220px;
+        }
 
 @media (min-width: @screen-xs-min) {
-    .infobox {float:left;min-height: 1px;padding-left: 10px;padding-right: 10px;    }
-    .infobox.large {width: 100%*(1/4);}
-    .infobox.medium {width: 100%*(1/3);}
-    .infobox.small {width: 100%*(1/4);}
+    .infobox {
+        float: left;
+        min-height: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+        .infobox.large {
+            width: 100%*(1/4);
+        }
+
+        .infobox.medium {
+            width: 100%*(1/3);
+        }
+
+        .infobox.small {
+            width: 100%*(1/4);
+        }
 }
+
 @media (min-width: @screen-md-min) {
-    .infobox.md-lg {width: 100%*(1/2);max-width:680px;}
-    .infobox.small.md-lg img {max-width:460px;}
+    .infobox.md-lg {
+        width: 100%*(1/2);
+        max-width: 680px;
+    }
+
+    .infobox.small.md-lg img {
+        max-width: 460px;
+    }
+}
+
+.info-squarebox {
+    background: @gray-lighter;
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 25px 28px 40px 40px;
+
+    ul {
+        margin: 0px;
+        padding: 0px;
+
+        .icon-arrow-right5 {
+                margin-right: 6px;
+        }
+    }
+
+    li {
+        list-style-position: inside;
+    }
+
+    a {
+        color: #494949;
+        text-decoration: none;
+        font-family: "Proxima Nova Semibold", sans-serif;
+         
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
 }
 
 
 
- /* pricebox */
+
+
+/* pricebox */
 .price-box {
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            background: @green;
-            width: 100px;
-            height: 100px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: @green;
+    width: 100px;
+    height: 100px;
 
-            [class^="icon-"], [class*=" icon-"] {
-                position: absolute;
-                top: 7px;
-                right: 8px;
-                color: #fff;
-                font-size: 20px;
-            }
-            .icon-airplane {
-                transform: rotate(-30deg);
-                -ms-transform: rotate(-30deg); /* IE 9 */
-                -webkit-transform: rotate(-30deg); /* Safari and Chrome */
-            }
+    [class^="icon-"], [class*=" icon-"] {
+        position: absolute;
+        top: 7px;
+        right: 8px;
+        color: #fff;
+        font-size: 20px;
+    }
 
-            h4 {
-                position: absolute;
-                top: 12px;
-                margin: 0;
-                padding: 0px 12px;
-                color: #fff;
-                font-size: 14px;
+    .icon-airplane {
+        transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg); /* IE 9 */
+        -webkit-transform: rotate(-30deg); /* Safari and Chrome */
+    }
 
-                span {display: block;}
-                &.price {top: auto;bottom: 5px;}
+    h4 {
+        position: absolute;
+        top: 12px;
+        margin: 0;
+        padding: 0px 12px;
+        color: #fff;
+        font-size: 14px;
 
-                .price-title {}
-                .price {font-size: 20px;}
-                .price-discount {font-size: 14px;color: #0d5d27;text-decoration: line-through;}
-            }
-        }      
+        span {
+            display: block;
+        }
+
+        &.price {
+            top: auto;
+            bottom: 5px;
+        }
+
+        .price-title {
+        }
+
+        .price {
+            font-size: 20px;
+        }
+
+        .price-discount {
+            font-size: 14px;
+            color: #0d5d27;
+            text-decoration: line-through;
+        }
+    }
+}
 
 /*info boxes */
 .infobox {
-    position:relative;
+    position: relative;
 
-    &.wpad {padding-bottom:20px;}
+    &.wpad {
+        padding-bottom: 20px;
+    }
     /*tilbud */
-    &.tilbud {     
+    &.tilbud {
         .caption {
             position: absolute;
             bottom: 15px;
             left: 27px;
             color: #fff;
 
-            h5 {margin: 0;}
-            h6 {margin: 0;}
+            h5 {
+                margin: 0;
+            }
+
+            h6 {
+                margin: 0;
+            }
         }
     }
     /* typer */
     &.types {
-          img {
-            display:none;
+        img {
+            display: none;
         }
+
         .overlay-container {
-            position: relative;            
+            position: relative;
             background: @red;
-            color: #fff;            
+            color: #fff;
             height: 140px;
             overflow: hidden;
 
@@ -152,154 +250,156 @@
     }
 
     .infobox {
-
-    /*tilbud */
-    &.tilbud {
-        .price-box {
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            background: @green;
-            width: 100px;
-            height: 100px;
-
-            [class^="icon-"], [class*=" icon-"] {
+        /*tilbud */
+        &.tilbud {
+            .price-box {
                 position: absolute;
-                top: 7px;
-                right: 8px;
-                color: #fff;
-                font-size: 20px;
-            }
+                top: 10px;
+                right: 20px;
+                background: @green;
+                width: 100px;
+                height: 100px;
 
-            .icon-airplane {
-                transform: rotate(-30deg);
-                -ms-transform: rotate(-30deg); /* IE 9 */
-                -webkit-transform: rotate(-30deg); /* Safari and Chrome */
-            }
-
-            h4 {
-                position: absolute;
-                top: 12px;
-                margin: 0;
-                padding: 0px 12px;
-                color: #fff;
-                font-size: 14px;
-
-                span {
-                    display: block;
-                }
-
-                &.price {
-                    top: auto;
-                    bottom: 5px;
-                }
-
-                .price-title {
-                }
-
-                .price {
+                [class^="icon-"], [class*=" icon-"] {
+                    position: absolute;
+                    top: 7px;
+                    right: 8px;
+                    color: #fff;
                     font-size: 20px;
                 }
 
-                .price-discount {
-                    font-size: 14px;
-                    color: #0d5d27;
-                    text-decoration: line-through;
+                .icon-airplane {
+                    transform: rotate(-30deg);
+                    -ms-transform: rotate(-30deg); /* IE 9 */
+                    -webkit-transform: rotate(-30deg); /* Safari and Chrome */
                 }
-            }
-        }
 
-        &.md-lg {
-            .price-box {
-                top: 10px;
-                right: 20px;
-                width: 115px;
-                height: 115px;
-                
-                [class^="icon-"], [class*=" icon-"] {
-                    top: 11px;
-                    right: 13px;
-                }
                 h4 {
-                    &.price {
-                        bottom: 8px;
+                    position: absolute;
+                    top: 12px;
+                    margin: 0;
+                    padding: 0px 12px;
+                    color: #fff;
+                    font-size: 14px;
+
+                    span {
+                        display: block;
                     }
+
+                    &.price {
+                        top: auto;
+                        bottom: 5px;
+                    }
+
+                    .price-title {
+                    }
+
                     .price {
-                        font-size: 25px;
-                    }                  
+                        font-size: 20px;
+                    }
+
+                    .price-discount {
+                        font-size: 14px;
+                        color: #0d5d27;
+                        text-decoration: line-through;
+                    }
                 }
             }
 
-            .caption {
-                background: @red;
-                width: 230px;
-                height: 180px;
-                padding: 17px 18px;
-                bottom: 10px;
-                left: 20px;
-
-                h5 {
-                    line-height: 30px;
-
-                    .hotel {
-                        display: block;
-                        font-size: 30px;
-                    }
-
-                    .place {
-                        display: block;
-                        font-size: 16px;
-                    }
-                }
-
-                .stars {
-                    font-size: 16px;
-                    color: #f3685c;
-                    color: rgba(255,255,255,0.2);
-
-                    i {
-                        padding: 4px 0;
-                    }
-
-                    .filled {
-                        color: #fff;
-                    }
-                }
-
-                .tag {
-                    position: absolute;
-                    bottom: 0;
-                    right: 0;
-                    height: 31px;
-                    line-height: 31px;
-                    background: @red-darker;
-                    padding: 0 12px;
-                    font-size: 11px;
-                    text-transform: uppercase;
+            &.md-lg {
+                .price-box {
+                    top: 10px;
+                    right: 20px;
+                    width: 115px;
+                    height: 115px;
 
                     [class^="icon-"], [class*=" icon-"] {
-                        margin-right: 8px;
-                        font-size: 13px;
+                        top: 11px;
+                        right: 13px;
+                    }
+
+                    h4 {
+                        &.price {
+                            bottom: 8px;
+                        }
+
+                        .price {
+                            font-size: 25px;
+                        }
+                    }
+                }
+
+                .caption {
+                    background: @red;
+                    width: 230px;
+                    height: 180px;
+                    padding: 17px 18px;
+                    bottom: 10px;
+                    left: 20px;
+
+                    h5 {
+                        line-height: 30px;
+
+                        .hotel {
+                            display: block;
+                            font-size: 30px;
+                        }
+
+                        .place {
+                            display: block;
+                            font-size: 16px;
+                        }
+                    }
+
+                    .stars {
+                        font-size: 16px;
+                        color: #f3685c;
+                        color: rgba(255,255,255,0.2);
+
+                        i {
+                            padding: 4px 0;
+                        }
+
+                        .filled {
+                            color: #fff;
+                        }
+                    }
+
+                    .tag {
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        height: 31px;
+                        line-height: 31px;
+                        background: @red-darker;
+                        padding: 0 12px;
+                        font-size: 11px;
+                        text-transform: uppercase;
+
+                        [class^="icon-"], [class*=" icon-"] {
+                            margin-right: 8px;
+                            font-size: 13px;
+                        }
                     }
                 }
             }
         }
-               
-    }
-       
+
 
         &.types {
-             img {
-            display:block;
-        }
+            img {
+                display: block;
+            }
+
             .overlay-container {
                 position: absolute;
                 bottom: 30px;
-                left: 20px;                               
+                left: 20px;
                 width: 160px;
                 height: 140px;
                 overflow: hidden;
             }
+
             &:hover {
                 cursor: pointer;
 
@@ -319,19 +419,35 @@
 
 
 
-.infobox.types:hover .overlay-inner {bottom:0; top:auto;cursor:pointer; height:200%;}
-.infobox.types:hover .overlay .overlay-default {}
-.infobox.types:hover .overlay .overlay-active { height: 50%;}
+.infobox.types:hover .overlay-inner {
+    bottom: 0;
+    top: auto;
+    cursor: pointer;
+    height: 200%;
+}
+
+.infobox.types:hover .overlay .overlay-default {
+}
+
+.infobox.types:hover .overlay .overlay-active {
+    height: 50%;
+}
 
 
 /* hotel list */
 .hotel {
     position: relative;
     margin-bottom: 20px;
-    .price-box {top: 10px;right: 20px;width: 115px;height: 115px;}
+
+    .price-box {
+        top: 10px;
+        right: 20px;
+        width: 115px;
+        height: 115px;
+    }
 
 
-  
+
 
     &.last-minute {
 
@@ -368,277 +484,276 @@
         }
     }
 }
+
 .hotel-view.list .hotel {
-     
+    float: left;
+    width: 100%;
+    display: block;
+
+    .price-box.grid {
+        display: none;
+    }
+
+    .inner {
+        position: relative;
+        background: @gray-lighter;
         float: left;
         width: 100%;
-        display: block;
 
-        .price-box.grid {
-            display: none;
-        }
-
-        .inner {
-            position: relative;
-            background: @gray-lighter;
+        .image {
             float: left;
-            width: 100%;
+        }
 
-            .image {
-                float: left;
-            }
+        .image, .price-tab-content {
+            width: 22%;
+            max-width: 260px;
+        }
 
-            .image, .price-tab-content {
-                width: 22%;
-                max-width: 260px;
-            }
+        .price-tab-content {
+            position: absolute;
+            right: 0;
+            height: 100%;
+            background: @green;
 
-            .price-tab-content {
-                position: absolute;
-                right: 0;
-                height: 100%;
-                background: @green;
-
-                .tab-content {
-                    position: relative;
-                    padding-bottom: 50px;
-                    height: 100%;
-
-                    .tab-pane {
-                        width: 100%;
-                        height: 100%;
-                        padding: 20px;
-
-                        h4 {
-                            margin: 0;
-                            padding: 0px;
-                            color: #fff;
-                            font-size: 18px;
-
-                            span {
-                                display: block;
-                            }
-
-                            &.price {
-                                top: auto;
-                                bottom: 5px;
-                            }
-
-                            .price-title {
-                            }
-
-                            .price {
-                                font-size: 33px;
-                            }
-
-                            .price-discount {
-                                font-size: 18px;
-                                color: #0d5d27;
-                                text-decoration: line-through;
-                            }
-                        }
-
-                        p {
-                            color: #fff;
-                            color: rgba(255,255,255,0.7);
-                            font-size: 12px;
-                            line-height: 16px;
-                            position: absolute;
-                            bottom: 55px;
-                        }
-                    }
-                }
-
-                .price-tab {
-                    position: absolute;
-                    bottom: 0;
-                    height: 50px;
-                    width: 100%;
-                    background: #219245;
-                    padding: 0 10px;
-
-                    li {
-                        a {
-                            padding: 15px 10px 7px 10px;
-                            font-size: 20px;
-                            color: #4da86a;
-                            color: rgba(255,255,255,0.2);
-
-                            &:hover, &:focus {
-                                background: none;
-                                color: #fff;
-                            }
-                        }
-
-                        &.active {
-                            a {
-                                background: none;
-                                color: #fff;
-                            }
-                        }
-                    }
-                }
-            }
-
-            .content {
-                position: absolute;
-                padding: 2%;
-                width: 56%;
-                left: 22%;
-                max-height: 100%;
-                overflow: hidden;
-            }
-
-            .infobox {
-                position: absolute;
-                top: 0;
-                width: 100%;
-                padding: 0;
-            }
-
-            .caption {
+            .tab-content {
                 position: relative;
-                width: 100%;
+                padding-bottom: 50px;
                 height: 100%;
-                padding: 0;
 
-                h5, h6 {
-                    margin: 0 0 8px 0;
-                }
+                .tab-pane {
+                    width: 100%;
+                    height: 100%;
+                    padding: 20px;
 
-                .tag {
-                    margin: 0;
-                    color: #fff;
-                    position: absolute;
-                    top: 0;
-                    right: 0;
-                    height: 31px;
-                    line-height: 31px;
-                    background: @gray;
-                    padding: 0 12px;
-                    font-size: 11px;
-                    text-transform: uppercase;
+                    h4 {
+                        margin: 0;
+                        padding: 0px;
+                        color: #fff;
+                        font-size: 18px;
 
-                    [class^="icon-"], [class*=" icon-"] {
-                        margin-right: 8px;
-                        font-size: 13px;
+                        span {
+                            display: block;
+                        }
+
+                        &.price {
+                            top: auto;
+                            bottom: 5px;
+                        }
+
+                        .price-title {
+                        }
+
+                        .price {
+                            font-size: 33px;
+                        }
+
+                        .price-discount {
+                            font-size: 18px;
+                            color: #0d5d27;
+                            text-decoration: line-through;
+                        }
+                    }
+
+                    p {
+                        color: #fff;
+                        color: rgba(255,255,255,0.7);
+                        font-size: 12px;
+                        line-height: 16px;
+                        position: absolute;
+                        bottom: 55px;
                     }
                 }
             }
-        }
-    
 
-}
-.hotel-view.grid .hotel {
-      
-        .price-box.grid {
-            display: block;
-        }
-
-        .inner {
-            position: relative;
-            padding-bottom: 162%;
-            background: @gray-lighter;
-
-            .description, .facttable, .price-tab-content {
-                display: none;
-            }
-
-            .image {
-                position: absolute;
-                top: 0;
-            }
-
-            .content {
+            .price-tab {
                 position: absolute;
                 bottom: 0;
+                height: 50px;
                 width: 100%;
-                height: 40%;
-            }
+                background: #219245;
+                padding: 0 10px;
 
-            .infobox {
-                position: absolute;
-                top: 0;
-                width: 100%;
-                padding: 0;
-            }
+                li {
+                    a {
+                        padding: 15px 10px 7px 10px;
+                        font-size: 20px;
+                        color: #4da86a;
+                        color: rgba(255,255,255,0.2);
 
-            .caption {
-                position: absolute;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                padding: 16px 2% 0 6%;
+                        &:hover, &:focus {
+                            background: none;
+                            color: #fff;
+                        }
+                    }
 
-                h5, h6 {
-                    margin: 0 0 8px 0;
-                }
-
-                .tag {
-                    margin: 0;
-                    color: #fff;
-                    position: absolute;
-                    bottom: 0;
-                    right: 0;
-                    height: 31px;
-                    line-height: 31px;
-                    background: @gray;
-                    padding: 0 12px;
-                    font-size: 11px;
-                    text-transform: uppercase;
-
-                    [class^="icon-"], [class*=" icon-"] {
-                        margin-right: 8px;
-                        font-size: 13px;
+                    &.active {
+                        a {
+                            background: none;
+                            color: #fff;
+                        }
                     }
                 }
             }
         }
-    
-}
-/* fact table */
-.facttable {
-    display:none;
-}
-@media (min-width: @screen-lg-min) {
-    .facttable {
-        display:block;
-    .clearfix();
-    border-top: 2px solid #e4e4e4;
-    padding: 13px 0;
 
-    .col {
-        float: left;
-        min-height: 1px;
-        width: 100%*(1/3);
-        padding: 0 10px;
-
-        &:first-of-type {
-            padding-left: 0;
+        .content {
+            position: absolute;
+            padding: 2%;
+            width: 56%;
+            left: 22%;
+            max-height: 100%;
+            overflow: hidden;
         }
 
-        &:last-of-type {
-            padding-right: 0;
+        .infobox {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            padding: 0;
         }
 
-        .col-row {
-            h6 {
-                line-height:20px;
-                margin:0;
-                width: 60%;
-                float: left;
-                font-size:14px;
+        .caption {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+
+            h5, h6 {
+                margin: 0 0 8px 0;
             }
 
-            span {
-                line-height:20px;
-                font-size:14px;
-                width:40%;
-                float:right;
-                text-align:right;
-                font-style:normal;
+            .tag {
+                margin: 0;
+                color: #fff;
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 31px;
+                line-height: 31px;
+                background: @gray;
+                padding: 0 12px;
+                font-size: 11px;
+                text-transform: uppercase;
+
+                [class^="icon-"], [class*=" icon-"] {
+                    margin-right: 8px;
+                    font-size: 13px;
+                }
             }
         }
     }
 }
+
+.hotel-view.grid .hotel {
+
+    .price-box.grid {
+        display: block;
+    }
+
+    .inner {
+        position: relative;
+        padding-bottom: 162%;
+        background: @gray-lighter;
+
+        .description, .facttable, .price-tab-content {
+            display: none;
+        }
+
+        .image {
+            position: absolute;
+            top: 0;
+        }
+
+        .content {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 40%;
+        }
+
+        .infobox {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            padding: 0;
+        }
+
+        .caption {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            padding: 16px 2% 0 6%;
+
+            h5, h6 {
+                margin: 0 0 8px 0;
+            }
+
+            .tag {
+                margin: 0;
+                color: #fff;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                height: 31px;
+                line-height: 31px;
+                background: @gray;
+                padding: 0 12px;
+                font-size: 11px;
+                text-transform: uppercase;
+
+                [class^="icon-"], [class*=" icon-"] {
+                    margin-right: 8px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+/* fact table */
+.facttable {
+    display: none;
+}
+
+@media (min-width: @screen-lg-min) {
+    .facttable {
+        display: block;
+        .clearfix();
+        border-top: 2px solid #e4e4e4;
+        padding: 13px 0;
+
+        .col {
+            float: left;
+            min-height: 1px;
+            width: 100%*(1/3);
+            padding: 0 10px;
+
+            &:first-of-type {
+                padding-left: 0;
+            }
+
+            &:last-of-type {
+                padding-right: 0;
+            }
+
+            .col-row {
+                h6 {
+                    line-height: 20px;
+                    margin: 0;
+                    width: 60%;
+                    float: left;
+                    font-size: 14px;
+                }
+
+                span {
+                    line-height: 20px;
+                    font-size: 14px;
+                    width: 40%;
+                    float: right;
+                    text-align: right;
+                    font-style: normal;
+                }
+            }
+        }
+    }
 }

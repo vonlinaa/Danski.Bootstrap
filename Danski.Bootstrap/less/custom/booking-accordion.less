@@ -1,0 +1,53 @@
+.booking-wrapper {
+
+    .panel {
+        border: none;
+        border-bottom: 1px solid transparent;
+    }
+
+    .panel-heading {
+        background-color: @red-logo;
+        color: #fff;
+
+        a {
+            font-weight: bold;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        i {
+            font-size: 20px;
+        }
+    }
+
+    .panel-body {
+        background-color: @gray-lighter;
+    }
+
+    .panel, .panel-default, .panel-heading {
+        border-radius: 0px;
+    }
+
+        .panel:first-child {
+            border-top-left-radius: @border-radius-well-base;
+            border-top-right-radius: @border-radius-well-base;
+        }
+
+        .panel:last-child {
+            border-bottom-left-radius: @border-radius-well-base;
+            border-bottom-right-radius: @border-radius-well-base;
+        }
+
+    .panel-group, .panel-group .panel + .panel {
+        margin: 0px;
+    }
+
+    #travellerOptionsAccordion {
+        .panel:first-child {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+    }
+}
