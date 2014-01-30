@@ -723,7 +723,7 @@ dt {
 dd {
   margin-left: 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   /* line 254, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-type.less */
   .dl-horizontal dt {
     float: left;
@@ -5532,7 +5532,7 @@ input[type="button"].btn-block {
   bottom: 100%;
   margin-bottom: 1px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   /* line 190, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-dropdowns.less */
   .navbar-right .dropdown-menu {
     right: 0;
@@ -6303,7 +6303,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   /* line 19, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar {
     border-radius: 0;
@@ -6333,7 +6333,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-header:after {
   clear: both;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   /* line 33, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-header {
     float: left;
@@ -6377,7 +6377,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   /* line 63, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-collapse {
     width: auto;
@@ -6414,7 +6414,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-right: -10px;
   margin-left: -10px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   /* line 102, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .container > .navbar-header,
   .container > .navbar-collapse {
@@ -6427,7 +6427,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   z-index: 1000;
   border-width: 0 0 1px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   /* line 120, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-static-top {
     border-radius: 0;
@@ -6441,7 +6441,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   left: 0;
   z-index: 1030;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   /* line 134, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-fixed-top,
   .navbar-fixed-bottom {
@@ -6471,7 +6471,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-brand:focus {
   text-decoration: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   /* line 163, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar > .container .navbar-brand {
     margin-left: -10px;
@@ -6500,7 +6500,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   /* line 196, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-toggle {
     display: none;
@@ -6627,7 +6627,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     background-color: transparent;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   /* line 354, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-nav {
     float: left;
@@ -6643,7 +6643,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     padding-bottom: 25.5px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   /* line 374, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-left {
     float: left !important;
@@ -6724,7 +6724,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     margin-bottom: 5px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   /* line 406, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-form {
     width: auto;
@@ -6763,7 +6763,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-top: 25.5px;
   margin-bottom: 25.5px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   /* line 454, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-text {
     margin-left: 10px;
