@@ -9,76 +9,77 @@
 //  Yamm Styles
 //-----------------------------
 
-.yamm {
-    -webkit-box-shadow: 0 8px 20px 0 rgba(0,0,0,0,15);
-box-shadow: 0 8px 20px 0 rgba(0,0,0,0,15);
-
-    // reset positions
-    .nav, .collapse, .dropup, .dropdown {
-        position: static;
-    }
-
-    &.navbar {
-        position: relative;
-    }
-    // propagate menu position under container for fw navbars
-    .container {
-        position: relative;
-    }
-    // by default aligns menu to left
-    .dropdown-menu {
-        left: auto;
-        border: none;
-        border-radius: 0;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-
-        .nav.first {
-            li a {
-                padding: 5px 5px 5px 5px;
-            }
+@media (min-width: @screen-md-min) {
+    .yamm {
+        -webkit-box-shadow: 0 8px 20px 0 rgba(0,0,0,0,15);
+        box-shadow: 0 8px 20px 0 rgba(0,0,0,0,15);
+        // reset positions
+        .nav, .collapse, .dropup, .dropdown {
+            position: static;
         }
 
-        .nav > li {
-            > a {
-                > span {
-                    display: block;
+        &.navbar {
+            position: relative;
+        }
+        // propagate menu position under container for fw navbars
+        .container {
+            position: relative;
+        }
+        // by default aligns menu to left
+        .dropdown-menu {
+            left: auto;
+            border: none;
+            border-radius: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+
+            .nav.first {
+                li a {
+                    padding: 5px 5px 5px 5px;
+                }
+            }
+
+            .nav > li {
+                > a {
+                    > span {
+                        display: block;
+
+                        &.headline {
+                            font-size: 25px;
+
+                            [class^="icon-"], [class*=" icon-"] {
+                                margin-right: 10px;
+                            }
+                        }
+
+                        &.description {
+                            font-size: 16px;
+                            font-family: @font-family-ProximaNovaSemiBold;
+                            line-height: 26px;
+                        }
+                    }
+                }
+
+                > a, > span {
+                    padding: 5px 5px 5px 45px;
+                    font-size: 16px;
+                    color: @gray;
 
                     &.headline {
                         font-size: 25px;
-
-                        [class^="icon-"], [class*=" icon-"] {
-                            margin-right:10px;
-                        }                      
                     }
-                    &.description {
-                        font-size: 16px;
-                        font-family: @font-family-ProximaNovaSemiBold;
-                        line-height: 26px;
+
+                    &:hover, &:focus {
+                        background: none;
+                        color: @red;
                     }
                 }
-            }
 
-            > a, > span {
-                padding: 5px 5px 5px 45px;
-                font-size: 16px;
-                color: @gray;
-
-                &.headline {
-                    font-size: 25px;
-                }
-
-                &:hover, &:focus {
-                    background: none;
-                    color: @red;
+                form.form-horizontal {
+                    padding: 5px 5px 5px 45px;
                 }
             }
-
-            form.form-horizontal {
-                padding: 5px 5px 5px 45px;
-            }
-        }
-        /*
+            /*
         &:before {
             z-index:-1;
             position: fixed;
@@ -90,62 +91,122 @@ box-shadow: 0 8px 20px 0 rgba(0,0,0,0,15);
             left: 0;
         }
             */
-    }
-    // ensure a good position
-    .nav.navbar-right .dropdown-menu {
-        left: auto;
-        right: 0;
-    }
-    // Content with padding
-    .yamm-content {
-        padding: 20px 30px;
-    }
-
-    .grid-menu {
-        padding: 20px 35px;
-    }
-    // Fullwidth menu
-    .dropdown.yamm-fw {
-        .dropdown-menu {
-            left: 0;
+        }
+        // ensure a good position
+        .nav.navbar-right .dropdown-menu {
+            left: auto;
             right: 0;
         }
 
-        &.red {
+
+
+        .grid-menu {
+            padding: 20px 35px;
+        }
+        // Fullwidth menu
+        .dropdown.yamm-fw {
             .dropdown-menu {
-                background: @red;
+                left: 0;
+                right: 0;
+                padding: 0;
+                margin: 0;
+            }
+            // Content with padding
+            &.open {
+                .yamm-content {
+                    padding: 20px 10px;
 
-                .pagination {
-                    margin: 0 0 20px 0;
+                    &.yamm-grid {
+                        display: table;
+                        width: 100%;
 
-                    li {
-                        &.active {
-                            a {
-                                color: #fff;
+                         &.yamm-cols-4 {
+                           > li {
+                                width: 100%*(1/4);
                             }
-
-                                a:before {
-                                    position: absolute;
-                                    top: -25px;
-                                    left: 0;
-                                    right: 0;
-                                    margin: 0 auto;
-                                    content: '';
-                                    background: #fff;
-                                    width: 0px;
-                                    height: 0px;
-                                    border-style: solid;
-                                    border-width: 8px 8px 0 8px;
-                                    border-color: #ffffff @red transparent @red;
-                                }
+                        }
+                        &.yamm-cols-5 {
+                           > li {
+                                width: 100%*(1/5);
+                            }
+                        }
+                        &.yamm-cols-6 {
+                           > li {
+                                width: 100%*(1/6);
+                            }
                         }
 
-                        a {
-                            padding: 0 20px 10px 20px;
-                            color: #fff;
-                            color: rgba(255,255,255,0.3);
-                            background: none;
-                            border: none;
+                        > li {
+                            display: table-cell;
+
+
+                            &:not(:last-of-type) {
+                                border-right: 1px solid #c8c8c8;
+                            }
+
+
+
+                            > a {
+                                font-size: 25px;
+                                padding: 10px 25px;
+                            }
+
+                            > ul {
+                                display: block;
+                                position: relative;
+                                top: 0;
+
+                                li {
+                                    display: block;
+
+                                    > a, > span, > form {
+                                        padding: 5px 25px;
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+
+            &.red {
+                .dropdown-menu {
+                    background: @red;
+
+                    .pagination {
+                        margin: 0 0 20px 0;
+
+                        li {
+                            &.active {
+                                a {
+                                    color: #fff;
+                                }
+
+                                    a:before {
+                                        position: absolute;
+                                        top: -25px;
+                                        left: 0;
+                                        right: 0;
+                                        margin: 0 auto;
+                                        content: '';
+                                        background: #fff;
+                                        width: 0px;
+                                        height: 0px;
+                                        border-style: solid;
+                                        border-width: 8px 8px 0 8px;
+                                        border-color: #ffffff @red transparent @red;
+                                    }
+                            }
+
+                            a {
+                                padding: 0 20px 10px 20px;
+                                color: #fff;
+                                color: rgba(255,255,255,0.3);
+                                background: none;
+                                border: none;
+                            }
                         }
                     }
                 }
@@ -153,3 +214,4 @@ box-shadow: 0 8px 20px 0 rgba(0,0,0,0,15);
         }
     }
 }
+

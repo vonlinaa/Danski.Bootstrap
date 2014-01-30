@@ -1,13 +1,15 @@
 ﻿.submenu {
     background: #efefef;
-    height: 129px;
+   // height: 129px;
+    padding: 0;
 
     .menu-items {
+        margin:38px 0 0 0;
         > li {
             display: inline-block;
             list-style: none;
             font-size: 16px;
-            margin: 0 70px 0 0;
+            //padding: 0 30px;
             line-height: 35px;
             height: 85px;
             font-family: @font-family-ProximaNovaBold;
@@ -16,13 +18,18 @@
             > a {
                 color: @gray;
                 display:block;
+                height:100%;
+                
+                padding: 0 30px;
                 span {
                     display: block;
                     font-size: 35px;
                 }
-                  &:hover {
+                &:hover {
                 color: @brand-primary;
                 text-decoration: none;
+                background:none;
+
             }
             }
 
