@@ -18,6 +18,13 @@
         }
     })
 
+    // td checkbox label
+    $('.table-traveller-choices tr').click(function (event) {
+        if (event.target.type !== 'checkbox') {
+            $(':checkbox', this).trigger('click');
+        }
+    });
+
     // show/hide traveller-choices content
 
 });

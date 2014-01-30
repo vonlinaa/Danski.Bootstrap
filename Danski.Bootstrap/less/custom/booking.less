@@ -19,8 +19,7 @@
     }
 
     .btn-get-info {
-        margin-right: 30px;
-        margin-bottom: 8px;
+        margin: 10px;
     }
 
     .text-left {
@@ -41,9 +40,9 @@
     }
 
     .traveller-choices {
-
+        padding-top:20px;
         input[type="checkbox"] {
-            margin-top: 24px;
+            float:none;
         }
     }
 
@@ -64,15 +63,7 @@
                     .event-text {
                         font-family: @font-family-ProximaNovaRegular;
                     }
-                }
-
-                img {
-                    margin: -10px;
-                    min-height: 80px;
-                    height: 160px;
-                    border-top-left-radius: @border-radius-well-base;
-                    border-bottom-left-radius: @border-radius-well-base;
-                }
+                }               
 
                 &:nth-of-type(1) {
                     background-color: transparent;
@@ -86,6 +77,14 @@
                 &:nth-of-type(2) {
                     border-top-left-radius: @border-radius-well-base;
                     border-bottom-left-radius: @border-radius-well-base;
+
+                    img {
+                        padding:0px;
+                        margin:-10px;
+                        height:180px;
+                        border-top-left-radius: @border-radius-well-base;
+                        border-bottom-left-radius: @border-radius-well-base;
+                    }
                 }
 
                 &:nth-of-type(4) {
@@ -254,7 +253,7 @@
         }
 
         p {
-            text-align: left;
+            text-align:left;
             color: @gray-light;
             margin: 0;
             padding: 0;
