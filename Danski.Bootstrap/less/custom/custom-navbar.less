@@ -243,7 +243,7 @@
 
 
 
-    @media (max-width: @screen-xs-max) {
+    @media (max-width: @screen-sm-max) {
         // Dropdowns get custom display when collapsed
         .open .dropdown-menu {
             position: static;
@@ -511,9 +511,12 @@
                 }
             }
 
-            @media (min-width: @screen-xs-max) {
-                max-height: 71px; > li {
+            @media (min-width: @screen-sm-max) {
+                max-height: 71px; 
+                    
+                    > li {
                     border-left: 1px solid #c8c8c8;
+                    border-bottom: 1px solid #c8c8c8;
                     width: 125px;
                     height: 71px;
                     max-height: 71px;
@@ -532,7 +535,7 @@
                     text-align: center;
                     font-size: 14px;
                     padding: 18px 20px;
-                    max-height: 71px;
+                    max-height: 70px;
 
                     &:hover {
                         background: @red;

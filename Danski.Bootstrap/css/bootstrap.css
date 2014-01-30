@@ -6534,7 +6534,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   color: #ef4234;
   background-color: transparent;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   /* line 246, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-nav {
     margin: 0 -10px;
@@ -6812,102 +6812,103 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav.quicklinks > li > a span {
   padding-right: 5px;
 }
-@media (min-width: 767px) {
+@media (min-width: 991px) {
   /* line 514, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-default .navbar-nav.quicklinks {
     max-height: 71px;
   }
-  /* line 515, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+  /* line 517, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-default .navbar-nav.quicklinks > li {
     border-left: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
     width: 125px;
     height: 71px;
     max-height: 71px;
   }
-  /* line 522, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+  /* line 525, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-default .navbar-nav.quicklinks > li.open a {
     background: #f04233;
     color: #fff;
   }
-  /* line 531, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+  /* line 534, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-default .navbar-nav.quicklinks > li > a {
     text-align: center;
     font-size: 14px;
     padding: 18px 20px;
-    max-height: 71px;
+    max-height: 70px;
   }
-  /* line 537, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+  /* line 540, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-default .navbar-nav.quicklinks > li > a:hover {
     background: #f04233;
     color: #fff;
   }
-  /* line 543, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+  /* line 546, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-default .navbar-nav.quicklinks > li > a span {
     display: block;
     font-size: 26px;
   }
 }
-/* line 552, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+/* line 555, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
 .navbar-default .navbar-toggle {
   border-color: #ffffff;
 }
-/* line 555, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+/* line 558, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #4a4a4a;
 }
-/* line 560, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+/* line 563, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #f04233;
 }
-/* line 565, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+/* line 568, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #ffffff;
 }
-/* line 572, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+/* line 575, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
 .navbar-default .navbar-nav > .dropdown > a:focus .caret {
   border-top-color: #ef4234;
   border-bottom-color: #ef4234;
 }
-/* line 579, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+/* line 582, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   background-color: transparent;
 }
-/* line 584, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+/* line 587, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
 .navbar-default .navbar-nav > .open > a .caret,
 .navbar-default .navbar-nav > .open > a:hover .caret,
 .navbar-default .navbar-nav > .open > a:focus .caret {
   border-top-color: #ef4234;
   border-bottom-color: #ef4234;
 }
-/* line 591, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+/* line 594, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
 .navbar-default .navbar-nav > .dropdown > a .caret {
   border-top-color: #494949;
   border-bottom-color: #494949;
 }
 @media (max-width: 767px) {
-  /* line 608, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+  /* line 611, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #494949;
   }
-  /* line 611, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+  /* line 614, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #ef4234;
     background-color: transparent;
   }
-  /* line 619, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+  /* line 622, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ef4234;
     background-color: transparent;
   }
-  /* line 628, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+  /* line 631, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -6915,11 +6916,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
     background-color: transparent;
   }
 }
-/* line 641, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+/* line 644, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
 .navbar-default .navbar-link {
   color: #494949;
 }
-/* line 644, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
+/* line 647, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/custom-navbar.less */
 .navbar-default .navbar-link:hover {
   color: #ef4234;
 }
@@ -6929,83 +6930,75 @@ textarea.input-group-sm > .input-group-btn > .btn {
  * 
  * http://geedmo.github.com/yamm3
  */
+/* line 12, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+.yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid > li > a .description {
+  display: none;
+}
 @media (min-width: 992px) {
-  /* line 13, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 17, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm {
     -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0);
     box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0);
   }
-  /* line 17, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 21, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .nav,
   .yamm .collapse,
   .yamm .dropup,
   .yamm .dropdown {
     position: static;
   }
-  /* line 21, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 25, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm.navbar {
     position: relative;
   }
-  /* line 25, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 29, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .container {
     position: relative;
   }
-  /* line 29, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 33, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown-menu {
     left: auto;
     border: none;
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    /*
-        &:before {
-            z-index:-1;
-            position: fixed;
-            content: '';
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.6);
-            top: 0;
-            left: 0;
-        }
-            */
   }
-  /* line 37, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 41, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown-menu .nav.first li a {
     padding: 5px 5px 5px 5px;
   }
-  /* line 44, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 48, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown-menu .nav > li > a > span {
     display: block;
   }
-  /* line 47, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 51, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown-menu .nav > li > a > span.headline {
     font-size: 25px;
   }
-  /* line 50, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 54, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown-menu .nav > li > a > span.headline [class^="icon-"],
   .yamm .dropdown-menu .nav > li > a > span.headline [class*=" icon-"] {
     margin-right: 10px;
   }
-  /* line 55, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 59, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown-menu .nav > li > a > span.description {
     font-size: 16px;
     font-family: "Proxima Nova SemiBold", sans-serif;
     line-height: 26px;
   }
-  /* line 63, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 67, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown-menu .nav > li > a,
   .yamm .dropdown-menu .nav > li > span {
     padding: 5px 5px 5px 45px;
     font-size: 16px;
     color: #4a4a4a;
   }
-  /* line 68, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 72, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown-menu .nav > li > a.headline,
   .yamm .dropdown-menu .nav > li > span.headline {
     font-size: 25px;
   }
-  /* line 72, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 76, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown-menu .nav > li > a:hover,
   .yamm .dropdown-menu .nav > li > span:hover,
   .yamm .dropdown-menu .nav > li > a:focus,
@@ -7013,90 +7006,116 @@ textarea.input-group-sm > .input-group-btn > .btn {
     background: none;
     color: #f04233;
   }
-  /* line 78, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 82, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown-menu .nav > li form.form-horizontal {
     padding: 5px 5px 5px 45px;
   }
-  /* line 96, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 89, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .nav.navbar-right .dropdown-menu {
     left: auto;
     right: 0;
   }
-  /* line 103, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 96, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .grid-menu {
     padding: 20px 35px;
   }
-  /* line 108, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 101, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown.yamm-fw .dropdown-menu {
     left: 0;
     right: 0;
     padding: 0;
     margin: 0;
   }
-  /* line 116, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 109, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown.yamm-fw.open .yamm-content {
     padding: 20px 10px;
   }
-  /* line 119, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 112, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid {
     display: table;
     width: 100%;
+    table-layout: fixed;
+  }
+  /* line 117, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid.yamm-cols-3 {
+    padding-right: 40%;
+  }
+  /* line 120, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid.yamm-cols-3 > li {
+    width: 20%;
   }
   /* line 124, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
-  .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid.yamm-cols-4 > li {
-    width: 25%;
+  .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid.yamm-cols-4 {
+    padding-right: 20%;
   }
-  /* line 129, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 126, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid.yamm-cols-4 > li {
+    width: 20%;
+  }
+  /* line 132, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid.yamm-cols-5 > li {
     width: 20%;
   }
-  /* line 134, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 138, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid.yamm-cols-6 > li {
     width: 16.666666666666664%;
   }
-  /* line 139, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 143, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid > li {
     display: table-cell;
   }
-  /* line 143, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 147, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid > li:not(:last-of-type) {
     border-right: 1px solid #c8c8c8;
   }
-  /* line 149, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 151, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid > li.new-table-row {
+    display: table-row;
+  }
+  /* line 157, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid > li > a {
     font-size: 25px;
     padding: 10px 25px;
+    white-space: normal;
   }
-  /* line 154, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 162, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid > li > a .description {
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+  }
+  /* line 171, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid > li > ul {
     display: block;
     position: relative;
     top: 0;
   }
-  /* line 159, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 176, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid > li > ul li {
     display: block;
   }
-  /* line 162, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 179, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid > li > ul li > a,
   .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid > li > ul li > span,
   .yamm .dropdown.yamm-fw.open .yamm-content.yamm-grid > li > ul li > form {
     padding: 5px 25px;
     font-size: 16px;
   }
-  /* line 175, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 192, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown.yamm-fw.red .dropdown-menu {
     background: #f04233;
   }
-  /* line 178, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 195, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown.yamm-fw.red .dropdown-menu .pagination {
     margin: 0 0 20px 0;
   }
-  /* line 183, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 200, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown.yamm-fw.red .dropdown-menu .pagination li.active a {
     color: #fff;
   }
-  /* line 187, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 204, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown.yamm-fw.red .dropdown-menu .pagination li.active a:before {
     position: absolute;
     top: -25px;
@@ -7111,7 +7130,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     border-width: 8px 8px 0 8px;
     border-color: #ffffff #f04233 transparent #f04233;
   }
-  /* line 203, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
+  /* line 220, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/yamm.less */
   .yamm .dropdown.yamm-fw.red .dropdown-menu .pagination li a {
     padding: 0 20px 10px 20px;
     color: #fff;
