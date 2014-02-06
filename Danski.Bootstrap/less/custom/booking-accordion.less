@@ -1,53 +1,142 @@
-.booking-wrapper {
+.booking-page-wrapper {
 
-    .panel {
-        border: none;
-        border-bottom: 1px solid transparent;
-    }
+    .booking-content-wrapper {
 
-    .panel-heading {
-        background-color: @red-logo;
-        color: #fff;
+        .panel {
+            border: none;
+            border-bottom: 1px solid transparent;
 
-        a {
-            font-weight: bold;
-
-            &:hover {
+            .panel-heading {
+                background-color: @red-logo;
+                color: #fff;
                 cursor: pointer;
+
+                &.collapsed i span.icon-arrow-up5 {
+                    display: none;
+                }
+
+                &.collapsed i span.icon-arrow-down6 {
+                    display: block;
+                }
+
+                a {
+                    font-weight: bold;
+                    display: block;
+
+                    i {
+                        font-size: 20px;
+
+                        span {
+
+                            &.icon-arrow-up5 {
+                                display: block;
+                                margin: 0;
+                            }
+
+                            &.icon-arrow-down6 {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
             }
         }
 
-        i {
-            font-size: 20px;
-        }
-    }
-
-    .panel-body {
-        background-color: @gray-lighter;
-    }
-
-    .panel, .panel-default, .panel-heading {
-        border-radius: 0px;
-    }
-
-        .panel:first-child {
-            border-top-left-radius: @border-radius-well-base;
-            border-top-right-radius: @border-radius-well-base;
+        .panel-body {
+            background-color: @gray-lighter;
         }
 
-        .panel:last-child {
-            border-bottom-left-radius: @border-radius-well-base;
-            border-bottom-right-radius: @border-radius-well-base;
+        .panel, .panel-default, .panel-heading {
+            border-radius: 0px;
         }
 
-    .panel-group, .panel-group .panel + .panel {
-        margin: 0px;
-    }
+            .panel:first-child {
+                border-top-left-radius: @border-radius-well-base;
+                border-top-right-radius: @border-radius-well-base;
+            }
 
-    #travellerOptionsAccordion {
-        .panel:first-child {
-            border-top-left-radius: 0;
-            border-top-right-radius: 0;
+            .panel:last-child {
+                border-bottom-left-radius: @border-radius-well-base;
+                border-bottom-right-radius: @border-radius-well-base;
+            }
+
+        .panel-group, .panel-group .panel + .panel {
+            margin: 0px;
+        }
+
+        #travellerOptionsAccordion {
+            .panel:first-child {
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
+        }
+    }
+    /*** ASIDE MOBILE PANEL ***/
+    .aside-wrapper {
+
+        .panel, .panel-default, .panel-body, .panel-group, panel-collapse,
+        .panel-group .panel-heading + .panel-collapse .panel-body {
+            border: none;
+            border-top: none;
+            background-color: transparent;
+            border-radius: 0px;
+            box-shadow: none;
+        }
+
+        .panel-group {
+            margin: 0;
+            padding: 0;
+        }
+
+        .panel-heading {
+            position: relative;
+            cursor: pointer;
+
+            &.collapsed i span.icon-arrow-up5 {
+                display: none;
+            }
+
+            &.collapsed i span.icon-arrow-down6 {
+                display: block;
+            }
+
+            h3 {
+                text-align: left;
+                vertical-align:central;
+            }
+
+            a {
+                display:block;
+                margin-top:-30px;
+                i {
+                    font-size: 50px;                   
+                    
+                    span {
+
+                        &.icon-arrow-up5 {
+                            display: block;
+                            margin-top:10px;
+                        }
+
+                        &.icon-arrow-down6 {
+                            display: none;
+                            margin-top:10px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .panel-body {
+            padding: 0;
         }
     }
 }
