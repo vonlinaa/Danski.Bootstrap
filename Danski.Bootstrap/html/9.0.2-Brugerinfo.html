@@ -10,7 +10,7 @@
     <title>Danski - bootstrap</title>
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.css" rel="stylesheet" />
-    <link href="../css/style2.css" rel="stylesheet" />
+    
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -338,7 +338,7 @@
         </div><!--/.nav-collapse -->
     </div>
   
-    <section class="submenu" data-spy="affix" data-offset-top="71">
+    <section class="submenu sticky-red" data-spy="affix" data-offset-top="71">
         <div class="fullwidth no-pad">
             <div class="row">
                 <div id="scroll-submenu" class="col-md-12 text-center">
@@ -367,7 +367,7 @@
 
 
         <div class="container form-narrow bodytext">
-            <div class="row">
+            <div class="row mt20">
                 <form role="form">
                     <div class="col-sm-6">
                         <div class="form-group">
@@ -398,55 +398,47 @@
 
 
                     <div class="col-sm-6">
-
                         <div class="form-group">
                             <label for="E-mail">E-mail</label>
                             <input type="text" class="form-control" id="E-mail">
                         </div>
 
-
-
-                        <div class="form-group">
-
+                        <div class="form-group birthday">
                             <label for="Fødselsdag">Fødselsdag</label>
-
-                            <select class="form-control">
+                            <select class="form-control day">
+                                <option>1</option>
+                                <option>5</option>
                                 <option>15</option>
                             </select>
 
-
-                            <select class="form-control">
-                                <option>11</option>
+                            <select class="form-control month">
+                                <option>Januar</option>
+                                <option>Februar</option>
+                                <option>Marts</option>
+                                <option>April</option>
                             </select>
 
-
-                            <select class="form-control">
+                            <select class="form-control year">
                                 <option>1973</option>
-
+                                <option>1978</option>
+                                <option>1983</option>
                             </select>
-
-
                             <div class="clearfix"></div>
                         </div>
 
                         <div class="form-group">
                             <label for="Køn">Køn</label>
-                            <input type="text" class="form-control" id="Køn">
-                        </div>
+                            <select class="form-control">
+                                <option>Kvinde</option>
+                                <option>Mand</option>
 
+                            </select>
+                        </div>
 
                         <div class="form-group">
                             <label for="Telefon">Telefon nr.</label>
                             <input type="text" class="form-control" id="Telefon">
                         </div>
-
-                        <div class="form-group">
-                            <label for="Mobil">Mobil nr.</label>
-                            <input type="text" class="form-control" id="Mobil">
-                        </div>
-
-
-
                     </div>
 
                     <div class="clearfix"></div>

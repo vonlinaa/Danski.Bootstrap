@@ -1,4 +1,9 @@
-﻿
+﻿@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
 section, footer, .fullwidth {
     padding: 45px 0;
 
@@ -17,7 +22,8 @@ section, footer, .fullwidth {
             color: #fff;
 
             a {
-                color: #f19e96;
+                color: #fff;
+
             }
         }
     }
@@ -186,6 +192,14 @@ footer {
     &.gray-lighter {
         background: @gray-lighter;
     }
+     &.bg.red-dark {
+        background: @red-dark;
+        color: #fff;
+
+        .btn-match-bg:not(.current) {
+            color: @red-dark;
+        }
+    }
 
     &.narrow {
         max-width: 1000px;
@@ -280,6 +294,16 @@ footer {
         line-height: 40px;
     }
 }
+
+#helpbar {
+    display: inline-block;
+
+    .nav {
+       > li {
+             display: inline-block;
+        }
+    }
+} 
 
 /* flex video */
 .flex-video {
@@ -502,7 +526,7 @@ height: 100%;
 
 /* price modal */
 .modal-price {
-    width: 940px;
+    
 
     .image {
         float: left;
@@ -605,6 +629,18 @@ height: 100%;
     &.mt80 {margin-top:80px;  }
     &.mt90 {margin-top:90px;  }
     &.mt100 {margin-top:100px;  }
+
+    &.mb10 {margin-bottom:10px;  }
+    &.mb12 {margin-bottom:12px;  }
+    &.mb20 {margin-bottom:20px;  }
+    &.mb25 {margin-bottom:25px;  }
+    &.mb30 {margin-bottom:30px;  }
+    &.mb40 {margin-bottom:40px;  }
+    &.mb45 {margin-bottom:45px;  }
+    &.mb50 {margin-bottom:50px;  }
+    &.mb80 {margin-bottom:80px;  }
+    &.mb90 {margin-bottom:90px;  }
+    &.mb100 {margin-bottom:100px;  }
 }
 
 
@@ -844,27 +880,25 @@ table.price-info-table {
         }
     }
 }
-    /* forms override */
-    .form-search {
-        .form-group {
-            margin-bottom: 20px;
-            display: inline-block;
+   
+
+
+/* forms override */
 
 
 
+.form-inline {
+    .form-group {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
 
-            .indkvartering {
-                text-align: right;
+        &.wide {
+            width: 220px;
+        }
 
-                input[type="checkbox"] {
-                    float: none;
-                }
-            }
-
-
-            label {
-                font-size: 14px;
-            }
+        &.wider {
+            width: 270px;
 
             &.half {
                 .form-control {
@@ -877,47 +911,58 @@ table.price-info-table {
                 }
             }
         }
-    }
 
-    @media (min-width: @screen-md-min) {
-        .form-search {
-            .form-group {
-                display: block;
-            }
+        &.newline {
+            display: block;
         }
     }
 
+    &.login {
 
-    .form-inline {
         .form-group {
-            margin-left: 10px;
-            margin-right: 10px;
-            margin-bottom: 20px;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 10px;
 
-            &.wide {
-                width: 220px;
-            }
-
-            &.wider {
-                width: 270px;
-
-                &.half {
-                    .form-control {
-                        float: right;
-                        width: 48%;
-
-                        &:first-of-type {
-                            float: left;
-                        }
-                    }
-                }
-            }
-
-            &.newline {
-                display: block;
+            input {
+                width: 200px;
             }
         }
     }
+}
+
+.form-group.birthday {
+    position: relative;
+    
+    label {
+        display: block;
+        text-align: left;       
+        /*
+        margin-top: 15px;
+        margin-bottom: 12px;
+            */
+    }
+
+    .day {
+        display: inline-block;
+        width: 90px;
+    }
+
+    .month {
+        position: absolute;
+        bottom: 0;
+        left: 100px;
+        width: 125px;
+    }
+
+    .year {
+        bottom: 0;
+        left: 235px;
+        position: absolute;
+        width: 95px;
+    }
+}
+
 
     .input-icon-addon {
         position: relative;

@@ -70,7 +70,7 @@
         padding: 0px;
 
         .icon-arrow-right5 {
-                margin-right: 6px;
+            margin-right: 6px;
         }
     }
 
@@ -82,12 +82,11 @@
         color: #494949;
         text-decoration: none;
         font-family: "Proxima Nova Semibold", sans-serif;
-         
+
         &:hover {
             text-decoration: underline;
         }
     }
-
 }
 
 
@@ -500,6 +499,25 @@
         float: left;
         width: 100%;
 
+          .dl-horizontal {
+                font-size: 13px;
+                width: 100%;
+                margin-bottom: 0px;
+                margin-top: 8px;
+
+                dt {
+                    text-align: left;
+                    width: auto;
+                }
+
+                dd {
+                    width: auto;
+                    text-align: right;
+                    margin: 0px;
+                }
+            }
+           .stars {	line-height: 0;	margin-bottom:10px;	font-size: 16px; color: #cecece;}
+           .stars .filled {	color: @gray;}
         .image {
             float: left;
         }
@@ -584,12 +602,58 @@
                             background: none;
                             color: #fff;
                         }
+
+                        i.icon-airplane {
+                            display: block;
+                            transform: rotate(-30deg);
+                            -ms-transform: rotate(-30deg); /* IE 9 */
+                            -webkit-transform: rotate(-30deg); /* Safari and Chrome */
+                        }
+
+                        &.car {
+                            padding: 12px 10px 0 3px;
+
+                            i.icon-car {
+                                font-size: 15px;
+                            }
+                        }
+
+                        &.bus {
+                            padding: 12px 10px 0 3px;
+
+                            i.icon-bus {
+                                font-size: 13px;
+                            }
+                        }
+
+                        &.train {
+                            padding: 12px 10px 0 3px;
+
+                            i.icon-train {
+                                font-size: 14px;
+                            }
+                        }
                     }
 
                     &.active {
                         a {
                             background: none;
                             color: #fff;
+                        }
+
+                        &:before {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            margin: 0 auto;
+                            content: '';
+                            background: transparent;
+                            width: 0;
+                            height: 0;
+                            border-left: 10px solid transparent;
+                            border-right: 10px solid transparent;
+                            border-top: 10px solid #4eba5d;
                         }
                     }
                 }
@@ -620,6 +684,7 @@
 
             h5, h6 {
                 margin: 0 0 8px 0;
+                padding: 0;
             }
 
             .tag {
@@ -640,6 +705,8 @@
                     font-size: 13px;
                 }
             }
+
+          
         }
     }
 }

@@ -108,6 +108,9 @@
     <Content Include="less\custom\custom-wells.less" />
     <Content Include="less\custom\booking-accordion.less" />
     <Content Include="less\custom\media-queries.less" />
+    <Content Include="Scripts\Custom.min.js.map">
+      <DependentUpon>Custom.js</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
