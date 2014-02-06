@@ -10866,12 +10866,29 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   margin-top: 4px;
   font-size: 16px;
 }
+<<<<<<< HEAD
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper {
+=======
 /* line 1, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper {
+>>>>>>> Ophold-v2
   /*** BOOKING RESUME PAGE ***/
   /*** BOOKING PAYMENT PAGE & CONFIRMATION */
   /***  BOOKING ASIDE STYLE  ***/
 }
+<<<<<<< HEAD
+/* line 3, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .form-control {
+  background-color: #fff;
+}
+/* line 7, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper label {
+  font-family: "Proxima Nova Bold", sans-serif;
+}
+/* line 11, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper hr {
+=======
 /* line 3, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper .form-control {
   background-color: #fff;
@@ -10882,10 +10899,48 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
 }
 /* line 11, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper hr {
+>>>>>>> Ophold-v2
   margin: 40px 0px;
   background-color: #d7d7d7;
   height: 1px;
 }
+<<<<<<< HEAD
+/* line 17, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .well-seperator {
+  margin: 8px 0px;
+}
+/* line 21, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .btn-get-info {
+  margin: 10px;
+}
+/* line 25, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .text-left {
+  text-align: left;
+}
+/* line 29, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .text-greyed {
+  color: #adadad;
+}
+/* line 33, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .top-header {
+  margin-bottom: 0px;
+}
+/* line 37, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .form-group {
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 42, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .traveller-choices {
+  padding-top: 20px;
+}
+/* line 45, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .traveller-choices input[type="checkbox"] {
+  float: none;
+}
+/* line 50, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .table-traveller-choices {
+=======
 /* line 17, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper .well-seperator {
   margin: 8px 0px;
@@ -10921,10 +10976,46 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
 }
 /* line 49, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper .table-traveller-choices {
+>>>>>>> Ophold-v2
   border-collapse: separate;
   border-spacing: 0 20px;
   text-align: left;
 }
+<<<<<<< HEAD
+/* line 57, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .table-traveller-choices tr td {
+  padding: 10px;
+  background-color: #e6e6e6;
+}
+/* line 61, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .table-traveller-choices tr td h3,
+.booking-page-wrapper .table-traveller-choices tr td h4,
+.booking-page-wrapper .table-traveller-choices tr td p {
+  vertical-align: top;
+}
+/* line 64, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .table-traveller-choices tr td h3 .event-text,
+.booking-page-wrapper .table-traveller-choices tr td h4 .event-text,
+.booking-page-wrapper .table-traveller-choices tr td p .event-text {
+  font-family: "Proxima Nova Regular", sans-serif;
+}
+/* line 69, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .table-traveller-choices tr td:nth-of-type(1) {
+  background-color: transparent;
+}
+/* line 72, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .table-traveller-choices tr td:nth-of-type(1) input[type="checkbox"] {
+  position: relative;
+  left: 50%;
+}
+/* line 78, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .table-traveller-choices tr td:nth-of-type(2) {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+/* line 82, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .table-traveller-choices tr td:nth-of-type(2) img {
+=======
 /* line 56, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper .table-traveller-choices tr td {
   padding: 10px;
@@ -10958,27 +11049,47 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
 }
 /* line 81, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper .table-traveller-choices tr td:nth-of-type(2) img {
+>>>>>>> Ophold-v2
   padding: 0px;
   margin: -10px;
   height: 180px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+<<<<<<< HEAD
+/* line 91, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .table-traveller-choices tr td:nth-of-type(4) {
+=======
 /* line 90, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper .table-traveller-choices tr td:nth-of-type(4) {
+>>>>>>> Ophold-v2
   color: #fff;
   background-color: #4eba5d;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   vertical-align: top;
 }
+<<<<<<< HEAD
+/* line 102, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .well-top {
+=======
 /* line 101, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper .well-top {
+>>>>>>> Ophold-v2
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom: 1px solid #c2c2c2;
   margin-bottom: 0px;
 }
+<<<<<<< HEAD
+/* line 109, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .well-top2 {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/* line 114, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .paymentcards {
+=======
 /* line 108, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper .well-top2 {
   border-top-left-radius: 0;
@@ -10986,20 +11097,97 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
 }
 /* line 113, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper .paymentcards {
+>>>>>>> Ophold-v2
   padding: 30px 60px;
   text-align: center;
   font-size: 16px;
   font-family: "Proxima Nova SemiBold", sans-serif;
 }
+<<<<<<< HEAD
+/* line 120, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .paymentcards img {
+=======
 /* line 119, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper .paymentcards img {
+>>>>>>> Ophold-v2
   width: 60px;
   margin: 0 auto;
   position: relative;
   border-radius: 10px;
-  border: 1px solid #fff;
   margin-bottom: 8px;
 }
+<<<<<<< HEAD
+/* line 129, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .paymentcards input[type="checkbox"] {
+  float: none;
+}
+/* line 133, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .paymentcards button[type="submit"] {
+  font-size: 18px;
+}
+/* line 139, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-resume-wrapper h3,
+.booking-page-wrapper .booking-resume-wrapper h4 {
+  text-align: left;
+}
+/* line 143, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-resume-wrapper p {
+  padding: 0;
+}
+/* line 151, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-resume-wrapper input[type="checkbox"] {
+  float: none;
+}
+/* line 159, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-resume-wrapper .table-resume-text tr:first-child td {
+  border-top: 0;
+}
+/* line 165, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-resume-wrapper .table-resume-text tr td:nth-of-type(1) {
+  font-family: "Proxima Nova Bold", sans-serif;
+  text-align: left;
+}
+/* line 170, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-resume-wrapper .table-resume-text tr td:nth-of-type(2) {
+  text-align: right;
+}
+/* line 173, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-resume-wrapper .table-resume-text tr td:nth-of-type(2) h4 {
+  text-align: right;
+}
+/* line 184, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .payment-page-wrapper button[type="submit"] {
+  font-size: 18px;
+}
+/* line 188, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .payment-page-wrapper p {
+  font-size: 16px;
+}
+/* line 192, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .payment-page-wrapper .text-bold {
+  font-family: "Proxima Nova Bold", sans-serif;
+}
+/* line 198, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-aside p {
+  text-align: left;
+}
+/* line 202, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-aside p:nth-child(odd) {
+  font-weight: bold;
+  color: #4a4a4a;
+}
+/* line 207, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-aside p:nth-child(even) {
+  color: #4a4a4a;
+}
+/* line 212, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-aside-well-info {
+  margin: 0;
+  border-radius: 0px;
+}
+/* line 217, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-aside-well-price {
+=======
 /* line 128, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper .paymentcards input[type="checkbox"] {
   float: none;
@@ -11070,12 +11258,41 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
 }
 /* line 216, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper .booking-aside-well-price {
+>>>>>>> Ophold-v2
   margin: 0;
   border-radius: 0px;
   text-align: left;
   color: #fff;
   padding: 1px 19px;
 }
+<<<<<<< HEAD
+/* line 224, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-aside-well-price .price-note {
+  color: #fff;
+  opacity: 0.6;
+}
+/* line 230, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-aside-icons {
+  margin-top: 20px;
+  padding: 2px;
+}
+/* line 234, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-aside-icons .booking-aside-icons-row {
+  margin-bottom: 20px;
+}
+/* line 239, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-aside-icons .booking-aside-icons-row:first-child p,
+.booking-page-wrapper .booking-aside-icons .booking-aside-icons-row:first-child i {
+  color: #f04233;
+}
+/* line 244, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-aside-icons .booking-aside-icons-row div {
+  margin: 0;
+  padding: 0;
+}
+/* line 250, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-aside-icons i {
+=======
 /* line 223, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper .booking-aside-well-price .price-note {
   color: #fff;
@@ -11102,29 +11319,58 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
 }
 /* line 249, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper .booking-aside-icons i {
+>>>>>>> Ophold-v2
   padding-right: 8px;
   font-size: 40px;
   color: #adadad;
 }
+<<<<<<< HEAD
+/* line 256, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-aside-icons p {
+=======
 /* line 255, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper .booking-aside-icons p {
+>>>>>>> Ophold-v2
   text-align: left;
   color: #adadad;
   margin: 0;
   padding: 0;
 }
+<<<<<<< HEAD
+/* line 263, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-aside-icons .booking-aside-icon-header {
+=======
 /* line 262, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper .booking-aside-icons .booking-aside-icon-header {
+>>>>>>> Ophold-v2
   font-size: 16px;
   margin: 0;
   padding: 0;
 }
+<<<<<<< HEAD
+/* line 269, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
+.booking-page-wrapper .booking-aside-icons .booking-aside-icon-text {
+=======
 /* line 268, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking.less */
 .booking-wrapper .booking-aside-icons .booking-aside-icon-text {
+>>>>>>> Ophold-v2
   font-size: 10px;
   margin: 0;
   padding: 0;
 }
+<<<<<<< HEAD
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper {
+  /*** ASIDE MOBILE PANEL ***/
+}
+/* line 5, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .booking-content-wrapper .panel {
+  border: none;
+  border-bottom: 1px solid transparent;
+}
+/* line 9, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .booking-content-wrapper .panel .panel-heading {
+=======
 /* line 3, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
 .booking-wrapper .panel {
   border: none;
@@ -11132,9 +11378,137 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
 }
 /* line 8, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
 .booking-wrapper .panel-heading {
+>>>>>>> Ophold-v2
   background-color: #ef4234;
   color: #fff;
+  cursor: pointer;
 }
+<<<<<<< HEAD
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .booking-content-wrapper .panel .panel-heading.collapsed i span.icon-arrow-up5 {
+  display: none;
+}
+/* line 18, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .booking-content-wrapper .panel .panel-heading.collapsed i span.icon-arrow-down6 {
+  display: block;
+}
+/* line 22, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .booking-content-wrapper .panel .panel-heading a {
+  font-weight: bold;
+  display: block;
+}
+/* line 26, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .booking-content-wrapper .panel .panel-heading a i {
+  font-size: 20px;
+}
+/* line 31, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .booking-content-wrapper .panel .panel-heading a i span.icon-arrow-up5 {
+  display: block;
+  margin: 0;
+}
+/* line 36, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .booking-content-wrapper .panel .panel-heading a i span.icon-arrow-down6 {
+  display: none;
+}
+/* line 42, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .booking-content-wrapper .panel .panel-heading a:hover {
+  cursor: pointer;
+}
+/* line 49, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .booking-content-wrapper .panel-body {
+  background-color: #f5f5f5;
+}
+/* line 53, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .booking-content-wrapper .panel,
+.booking-page-wrapper .booking-content-wrapper .panel-default,
+.booking-page-wrapper .booking-content-wrapper .panel-heading {
+  border-radius: 0px;
+}
+/* line 57, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .booking-content-wrapper .panel:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* line 62, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .booking-content-wrapper .panel:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+/* line 67, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .booking-content-wrapper .panel-group,
+.booking-page-wrapper .booking-content-wrapper .panel-group .panel + .panel {
+  margin: 0px;
+}
+/* line 72, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .booking-content-wrapper #travellerOptionsAccordion .panel:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/* line 81, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .aside-wrapper .panel,
+.booking-page-wrapper .aside-wrapper .panel-default,
+.booking-page-wrapper .aside-wrapper .panel-body,
+.booking-page-wrapper .aside-wrapper .panel-group,
+.booking-page-wrapper .aside-wrapper panel-collapse,
+.booking-page-wrapper .aside-wrapper .panel-group .panel-heading + .panel-collapse .panel-body {
+  border: none;
+  border-top: none;
+  background-color: transparent;
+  border-radius: 0px;
+  box-shadow: none;
+}
+/* line 90, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .aside-wrapper .panel-group {
+  margin: 0;
+  padding: 0;
+}
+/* line 95, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .aside-wrapper .panel-heading {
+  position: relative;
+  cursor: pointer;
+}
+/* line 99, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .aside-wrapper .panel-heading.collapsed i span.icon-arrow-up5 {
+  display: none;
+}
+/* line 103, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .aside-wrapper .panel-heading.collapsed i span.icon-arrow-down6 {
+  display: block;
+}
+/* line 107, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .aside-wrapper .panel-heading h3 {
+  text-align: left;
+  vertical-align: central;
+}
+/* line 112, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .aside-wrapper .panel-heading a {
+  display: block;
+  margin-top: -30px;
+}
+/* line 115, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .aside-wrapper .panel-heading a i {
+  font-size: 50px;
+}
+/* line 120, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .aside-wrapper .panel-heading a i span.icon-arrow-up5 {
+  display: block;
+  margin-top: 10px;
+}
+/* line 125, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .aside-wrapper .panel-heading a i span.icon-arrow-down6 {
+  display: none;
+  margin-top: 10px;
+}
+/* line 132, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .aside-wrapper .panel-heading a:hover {
+  cursor: pointer;
+}
+/* line 138, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
+.booking-page-wrapper .aside-wrapper .panel-body {
+  padding: 0;
+}
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/submenu.less */
+=======
 /* line 12, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/booking-accordion.less */
 .booking-wrapper .panel-heading a {
   font-weight: bold;
@@ -11178,6 +11552,7 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   border-top-right-radius: 0;
 }
 /* line 1, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/submenu.less */
+>>>>>>> Ophold-v2
 .submenu {
   background: #efefef;
   padding: 0;
@@ -11637,6 +12012,10 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   /* line 23, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/media-queries.less */
   .booking-aside-icons .booking-aside-icons-row p {
     text-align: center;
+  }
+  /* line 29, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/media-queries.less */
+  .paymentcards .well-sm {
+    max-width: 240px;
   }
   /*** BOOKING PAGE ENDs **/
 }
