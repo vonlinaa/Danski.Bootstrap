@@ -4,6 +4,7 @@
     /*----------------------------------------------------*/
 
     // change arrow up and down
+    /*
     $('.panel-title').click(function () {
         var state = $(this).find('a').attr('class');
         var arrow = $(this).find('span');
@@ -17,7 +18,25 @@
             arrow.removeClass('icon-arrow-down6');
         }
     })
+    */
 
-    // show/hide traveller-choices content
+    // td checkbox label touch
+    $('.table-traveller-choices tr').click(function (event) {
+        if (event.target.type !== 'checkbox') {
+            $(':checkbox', this).trigger('click');
+        }
+    });
 
+    // fix aside panel mobile <=> bigger screen size change with closed collapse
+    $(function () {
+
+        $(window).bind("resize", function () {
+            console.log($(this).width())
+            if ($(this).width() > 767) {
+                $('#asideBookingPanel').addClass('in');
+                $('#asideBookingPanel').css('height', "auto");
+            }
+            
+        })
+    })
 });
