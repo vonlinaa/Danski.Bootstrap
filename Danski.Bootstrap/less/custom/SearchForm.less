@@ -1,1 +1,126 @@
-﻿
+﻿.form-search {
+    .form-group {
+        margin-bottom: 15px;
+
+        &.dropdownlist {
+            > div {
+                margin-bottom: 10px;
+            }
+        }
+
+
+
+        label {
+            font-size: 14px;
+            display: block;
+        }
+
+        &.half {
+            .clearfix();
+
+            .form-control {
+                float: right;
+                width: 48%;
+
+                &:first-of-type {
+                    float: left;
+                }
+            }
+        }
+    }
+
+    .row {
+        padding: 16px 0;
+
+        .step1, .step2, .step3, .step4 {
+            width: 100%;
+        }
+
+
+        @media (min-width: @screen-desktop) {
+
+            .form-group {
+                margin-bottom: 0px;
+
+                &.dropdownlist {
+                    > div {
+                        margin-bottom: 0px;
+                    }
+
+                    &.childage {
+
+                        > div.col-md-3 {
+                            &:nth-of-type(3n+1):not(:nth-of-type(1)) {
+                                margin-left: 25%;
+                            }
+
+                            &:nth-of-type(n+4) {
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+            .step1 {
+                width: 30%;
+                padding-left: 0;
+            }
+
+            .step2 {
+                width: 20%;
+            }
+
+            .step3 {
+                width: 20%;
+            }
+
+            .step4 {
+                width: 30%;
+                padding-right: 0;
+            }
+        }
+
+        @media (max-width: @screen-desktop) {
+            &.form-horizontal .control-label {
+                text-align: left;
+                padding-top: 0;
+                margin-bottom: 5px;
+            }
+        }
+
+        &.form-person-selection {
+            border-bottom: 1px solid #f06559;
+
+            &.first {
+                border-top: 1px solid #f06559;
+            }
+
+
+            @media (min-width: @screen-desktop) {
+                >[class^='col-md'], >[class*='col-md'] {
+                    &:first-of-type {
+                        padding-left: 0;
+                        width: 420px;
+                    }
+
+                    &:last-of-type {
+                        padding-right: 0;
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+    @media (min-width: @screen-md-min) {
+        .form-search {
+            .form-group {
+                display: block;
+            }
+        }
+    }

@@ -376,9 +376,16 @@
 
 // Pager
 // -------------------------
-
+@pager-bg:                             @pagination-bg;
+@pager-border:                         @pagination-border;
 @pager-border-radius:                  15px;
-@pager-disabled-color:                 @gray-light;
+
+@pager-hover-bg:                       @pagination-hover-bg;
+
+@pager-active-bg:                      @pagination-active-bg;
+@pager-active-color:                   @pagination-active-color;
+
+@pager-disabled-color:                 @pagination-disabled-color;
 
 
 // Jumbotron
@@ -416,6 +423,7 @@
 @tooltip-max-width:           200px;
 @tooltip-color:               #fff;
 @tooltip-bg:                  #000;
+@tooltip-opacity:             .9;
 
 @tooltip-arrow-width:         5px;
 @tooltip-arrow-color:         @tooltip-bg;
@@ -463,9 +471,15 @@
 @modal-content-border-color:                   rgba(0,0,0,.2);
 @modal-content-fallback-border-color:          #999;
 
+
 @modal-backdrop-bg:           #000;
+@modal-backdrop-opacity:      .5;
 @modal-header-border-color:   transparent;
 @modal-footer-border-color:   @modal-header-border-color;
+
+@modal-lg:                    900px;
+@modal-md:                    600px;
+@modal-sm:                    300px;
 
 
 // Alerts
@@ -513,14 +527,20 @@
 @list-group-active-color:     @component-active-color;
 @list-group-active-bg:        @component-active-bg;
 @list-group-active-border:    @list-group-active-bg;
+@list-group-active-text-color:  lighten(@list-group-active-bg, 40%);
 
 @list-group-link-color:          #555;
 @list-group-link-heading-color:  #333;
 
 
+
+
+
+
 // Panels
 // -------------------------
 @panel-bg:                    #fff;
+@panel-body-padding:          15px;
 @panel-inner-border:          #ddd;
 @panel-border-radius:         @border-radius-base;
 @panel-footer-bg:             #f5f5f5;
@@ -537,6 +557,10 @@
 @panel-success-border:        @state-success-border;
 @panel-success-heading-bg:    @state-success-bg;
 
+@panel-info-text:             @state-info-text;
+@panel-info-border:           @state-info-border;
+@panel-info-heading-bg:       @state-info-bg;
+
 @panel-warning-text:          @state-warning-text;
 @panel-warning-border:        @state-warning-border;
 @panel-warning-heading-bg:    @state-warning-bg;
@@ -545,9 +569,8 @@
 @panel-danger-border:         @state-danger-border;
 @panel-danger-heading-bg:     @state-danger-bg;
 
-@panel-info-text:             @state-info-text;
-@panel-info-border:           @state-info-border;
-@panel-info-heading-bg:       @state-info-bg;
+
+
 
 
 // Thumbnails
@@ -582,10 +605,13 @@
 
 // Breadcrumbs
 // -------------------------
+@breadcrumb-padding-vertical:   8px;
+@breadcrumb-padding-horizontal: 15px;
 @breadcrumb-bg:               #f5f5f5;
 @breadcrumb-color:            #ccc;
 @breadcrumb-active-color:     @gray-light;
 @breadcrumb-separator:        "/";
+
 
 
 // Carousel
@@ -615,6 +641,9 @@
 // ------------------------
 @code-color:                  #c7254e;
 @code-bg:                     #f9f2f4;
+
+@kbd-color:                   #fff;
+@kbd-bg:                      #333;
 
 @pre-bg:                      #f5f5f5;
 @pre-color:                   @gray-dark;
