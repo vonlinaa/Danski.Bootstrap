@@ -63,6 +63,17 @@
                 }
             }
         }
+         &.dark {
+            color: @gray;
+
+            i {
+                color: fade(@gray,50%);
+
+                &.filled {
+                    color: @gray !important;
+                }
+            }
+        }
 
 
 
@@ -99,6 +110,34 @@
     }
 
 
+    &.small {
+        margin:0;
+        display:block;
+        background:none;
+        position:absolute;
+        bottom: 14px;
+          .item {        
+              padding: 0px;
+              margin-right:10px;
+              border:none;
+              display:inline-block;
+              width: auto;
+
+        
+
+        .h3 {
+            font-size: 16px;
+            margin: 5px 0 0 0;
+        }
+
+      
+
+        .stars {
+            font-size:15px;
+            margin: 4px 0;
+        }
+    }
+    }
 
     &.secondary {
         color: @brand-secondary;
@@ -200,23 +239,35 @@
         }
     }
 
+    &.pister {
+        .h3 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        .h4 {
+            margin: 15px 0 7px 0;
+        }
+
+        i {
+            font-size: 25px;
+        }
+    }
+
     &.choosebox {
         .h3 {
             font-size: 25px;
         }
 
         .choose {
-           .h3 {
-                 color: fade(@gray, 50%);
-           }          
-           i {
+            .h3 {
                 color: fade(@gray, 50%);
-           }
+            }
+
+            i {
+                color: fade(@gray, 50%);
+            }
         }
-
- 
-
- 
     }
 
     @media (min-width: @screen-md-min) {

@@ -111,6 +111,8 @@
     <Content Include="Scripts\Custom.min.js.map">
       <DependentUpon>Custom.js</DependentUpon>
     </Content>
+    <Content Include="less\custom\Ophold-boxes.less" />
+    <Content Include="less\custom\custom-labels.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

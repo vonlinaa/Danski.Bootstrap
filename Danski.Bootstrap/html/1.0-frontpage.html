@@ -1114,32 +1114,49 @@
     </section>
 
 
+    <div id="help-collapse">
+        <section class="bg primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h5>Har du brug for hjælp</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center inline-buttons">
 
-    <section class="bg primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h5>Har du brug for hjælp</h5>
+                        <div class="btn-group">
+                            <a data-toggle="collapse" data-parent="#help-collapse" href="#section-call-us"
+                               class="btn btn-default-white btn-match-bg collapsed btn-toggle">
+                                <span class="closed">Ring til os <i class="icon-arrow-down6 right"></i></span>
+                                <span class="open">Ring til os <i class="icon-arrow-up5 right"></i></span>
+                            </a>
+                        </div>
+                        <div class="btn-group">
+                            <a data-toggle="collapse" data-parent="#help-collapse" href="#section-call-me"
+                               class="btn btn-default-white btn-match-bg collapsed btn-toggle">
+                                <span class="closed">Bliv ringet op <i class="icon-arrow-down6 right"></i></span>
+                                <span class="open">Bliv ringet op <i class="icon-arrow-up5 right"></i></span>
+                            </a>
+
+                        </div>
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-default-white btn-match-bg" data-toggle="tab">Live chat <i class="icon-arrow-down6 right"></i></a>
+                        </div>
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-default-white btn-match-bg" data-toggle="tab">Søg <i class="icon-arrow-down6 right"></i></a>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <ul id="helpbar" class="nav">
-                        <li><a href="#section-call-us" class="btn btn-default-white btn-match-bg" data-toggle="tab">Ring til os <i class="icon-arrow-down6 right"></i></a></li>
-                        <li><a href="#section-call-me" class="btn btn-default-white btn-match-bg" data-toggle="tab">Bliv ringet op <i class="icon-arrow-down6 right"></i></a></li>
-                        <li><a href="#" class="btn btn-default-white btn-match-bg" data-toggle="tab">Live chat <i class="icon-arrow-down6 right"></i></a></li>
-                        <li><a href="#" class="btn btn-default-white btn-match-bg" data-toggle="tab">Søg <i class="icon-arrow-down6 right"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
 
-       
-</section>
-    <section class="bg red-dark no-pad">
-        <div class="container tab-content bg red-dark">
-            <div class="row  mt40 mb40  tab-pane fade in" id="section-call-us">
-                <div class="col-md-12 text-center">
+
+        </section>
+        <section class="bg red-dark no-pad">
+
+            <div class="row panel-collapse collapse" id="section-call-us">
+                <div class="col-md-12 text-center panel-body">
                     <h5 class="small">Ring til os på tlf. 86 800 600</h5>
                     <p>Hvis du har spørgsmål kan du ringe til os eller se om du kan finde svar i vores FAQ</p>
                     <p><a class="btn btn-default-white btn-lg btn-match-bg" href="#">Gå til FAQ område<i class="icon-arrow-right6 right"></i></a></p>
@@ -1147,8 +1164,8 @@
             </div>
 
 
-            <div class="row  mt40 mb40  tab-pane fade in" id="section-call-me">
-                <div class="col-md-12 text-center">
+            <div class="row panel-collapse collapse" id="section-call-me">
+                <div class="col-md-12 text-center panel-body">
                     <h5 class="small">Bliv ringet op</h5>
                     <p>Udfyld felterne herunder og vi vil ringe dig op hurtigst muligt</p>
 
@@ -1162,18 +1179,18 @@
                             <input type="email" class="form-control" id="newsletterEmail" placeholder="Indtast telefon">
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-primary">Send</button>
+                            <button type="submit" class="btn btn-secondary">Send</button>
                         </div>
                     </form>
                 </div>
             </div>
 
 
-        </div>
+
         </section>
-        
-        
-            
+
+    </div>
+
 
         <footer class="bg gray">
             <div class="container">

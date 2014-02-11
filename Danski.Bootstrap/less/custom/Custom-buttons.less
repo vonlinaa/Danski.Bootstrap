@@ -31,8 +31,13 @@
     background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
     border: 2px solid transparent;
     white-space: nowrap;
-    .button-size(6px;22px;@font-size-base;@line-height-base;18px);
+    .button-size(6px;
+    22px;
+    @font-size-base;
+    @line-height-base;
+    18px);
     .user-select(none);
+    
 
     &.wide {
         padding: 6px 44px;
@@ -40,6 +45,17 @@
 
     &:focus {
         .tab-focus();
+    }
+
+    &.btn-toggle {
+              span.open {display:block;   }
+            span.closed {display:none; }
+        &.collapsed {
+            
+            span.open {display:none;   }
+            span.closed {display:block; }
+        }
+
     }
 
     i {
