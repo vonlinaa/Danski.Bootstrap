@@ -1,4 +1,68 @@
-﻿.container.gray-light {
+﻿.resume-box {
+    margin: 0;
+    position: relative;
+
+    &.resume-box-price {
+        padding: 0 0 28px 0;
+
+        .h3 {
+            margin-top: 32px;
+            margin-bottom: 6px;
+        }
+
+        .no-border {
+            border-top: none;
+            padding-top: 10px;
+        }
+    }
+
+
+
+    .col-left {
+        width: 160px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .col-right {
+        width: 100%;
+        padding-left: 185px;
+        padding-right: 16px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    dl {
+        margin: 0px;
+        padding: 8px 0;
+        border-top: #dedede 1px solid;
+
+        &:last-of-type {
+            border-bottom: #dedede 1px solid;
+        }
+
+        dt {
+            font-family: "Proxima Nova Bold", sans-serif;
+            font-weight: normal;
+            float: left;
+            width: 300px;
+            clear: left;
+            text-align: left;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        dd {
+            margin-left: 0;
+            text-align: right;
+        }
+    }
+}
+
+.container.gray-light {
 	background:#e5e5e5;
 }
 .container.bodytext h6 {
@@ -21,18 +85,8 @@
 	font-family: "Proxima Nova Bold", sans-serif;
 	padding-bottom:14px;
 }
-.resume-box dl {
-	margin: 0px;
-	padding:10px 0;
-	border-top:#dedede 1px solid;
-}
-.resume-box dl:last-of-type {
-	border-bottom: #dedede 1px solid;
-}
-.resume-box dt {
-	font-family: "Proxima Nova Bold", sans-serif;
-	font-weight:normal;
-}
+
+/*
 .resume-box .stars {
 	padding-left:10px;
 }
@@ -42,17 +96,8 @@
 .resume-box .stars i.filled {
 	color: #494949;
 }
-.resume-box-price {
-	padding:0px 28px 28px 11px;
-}
-.resume-box-price .h3 {
-	margin-top:32px;
-	margin-bottom:6px;
-}
-.resume-box-price .no-border {
-	border-top:none;
-	padding-top:10px;
-}
+    */
+
 .resume-box-price dl {
 	border-top:#d5d5d5 1px solid;
 	margin: 0px;
@@ -89,19 +134,7 @@
 .review .review-body .inner-input {
 	padding: 20px 20px 10px 25px;
 }
-.resume-box dd, .resume-box-price dd {
-	margin-left: 0;
-	text-align:right;
-}
-.resume-box .dl-horizontal dt, .resume-box-price .dl-horizontal dt {
-	float: left;
-	width: 300px;
-	clear: left;
-	text-align: left;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-}
+
 
 @media (max-width: 600px) {
  .resume-box dd, .resume-box-price dd {
