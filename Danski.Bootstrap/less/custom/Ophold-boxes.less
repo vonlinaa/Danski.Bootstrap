@@ -19,21 +19,20 @@
             .tab-content {
                 position: relative;
                 padding-bottom: 30px;
-                
                 height: 100%;
 
                 .tab-pane {
                     width: 100%;
                     height: 100%;
                     padding: 10px 12px;
-                    position:relative;
+                    position: relative;
 
                     h4 {
                         margin: 0;
                         padding: 0px;
                         color: #fff;
                         font-size: 14px;
-                        position:absolute;
+                        position: absolute;
 
                         span {
                             display: block;
@@ -65,10 +64,10 @@
                         line-height: 14px;
                         position: absolute;
                         bottom: auto;
-                        top:7px;
+                        top: 7px;
                         right: 7px;
                         width: 200px;
-                        text-align:right;
+                        text-align: right;
                     }
                 }
             }
@@ -151,12 +150,9 @@
         }
 
         &.large {
-            top:0;
-            right:0;
+            top: 0;
+            right: 0;
             width: 100%;
-
-            
-
         }
     }
 
@@ -167,39 +163,144 @@
         .image {
             width: 100%;
         }
+
+        .caption {
+            .tag {
+                margin: 0 !important;
+                color: #fff;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                height: 31px;
+                line-height: 31px;
+                
+                background: @red;
+                padding: 0 12px !important;
+                font-size: 14px;
+                text-transform: uppercase;
+                border-radius: 0;
+                border: none;
+
+                @media (min-width: @screen-md-min) {
+                background: @gray;
+                }
+
+                [class^="icon-"], [class*=" icon-"] {
+                    //margin: 4px 8px;
+                    font-size: 15px;
+                    margin-left: 4px;
+                }
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    display: block;
+                }
+
+                &:hover {
+                    background: @brand-primary;
+                }
+            }
+
+            .info {
+                margin: 0 !important;
+                position: absolute;
+                bottom: 0;
+                height: 31px;
+                line-height: 31px;
+                padding: 0 !important;
+                font-size: 11px;
+                border-radius: 0;
+                border: none;
+
+                [class^="icon-"], [class*=" icon-"] {
+                    font-size: 15px;
+                    margin-left: 4px;
+                }
+
+                a {
+                    color: @gray;
+                    text-decoration: none;
+                    display: block;
+                }
+
+                &:hover {
+                    a {
+                        color: @brand-primary;
+                    }
+                }
+            }
+        }
     }
 
     &.last-minute {
         &.list .inner .price-tab-content {
-            background: @yellow;
+            background: @price-soldout;
 
             .tab-content {
                 .tab-pane {
 
                     h4 {
                         .price-discount {
-                            font-size: 18px;
-                            color: #0d5d27;
-                            text-decoration: line-through;
+                            color: #fff;
                         }
                     }
                 }
             }
 
             .price-tab {
-                background: #a1a03b;
+                background: @price-soldout;
 
                 li {
                     a {
                         color: #4da86a;
                         color: rgba(255,255,255,0.2);
                     }
+
+                    &.active {
+                        &:before {
+                            border-top: 5px solid @price-soldout;
+                        }
+                    }
                 }
             }
         }
 
         .price-box {
-            background: @yellow;
+            background: @price-soldout;
+
+            &.tabs {
+
+                .tab-content {
+                    .tab-pane {
+
+                        h4 {
+                            color: #fff;
+
+                            .price-discount {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+
+                .price-tab {
+                    background: @price-soldout-darker;
+
+                    li {
+                        &.active {
+                            a {
+                                background: none;
+                                color: #fff;
+                            }
+
+                            &:before {
+                                border-top: 5px solid @price-soldout;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -212,11 +313,9 @@
     .price-box.grid {
         display: none;
     }
-    
+
 
     .inner {
-        position: relative;
-        background: @gray-lighter;
         float: left;
         width: 100%;
 
@@ -244,16 +343,12 @@
                 display: none;
             }
 
-            &.list {
-                display: block;
-                display: inline-block;
-                line-height: 0;
-                margin-bottom: 10px;
-                font-size: 16px;
-            }
+            display: block;
+            display: inline-block;
+            line-height: 0;
+            margin-bottom: 5px;
+            font-size: 16px;
         }
-
-
 
         .image {
             display: none;
@@ -284,6 +379,10 @@
                     height: 100%;
                     padding: 20px;
 
+                    &[data-toggle = 'modal'] {
+                        cursor: pointer;
+                    }
+
                     h4 {
                         margin: 0;
                         padding: 0px;
@@ -311,11 +410,23 @@
                             color: #0d5d27;
                             text-decoration: line-through;
                         }
+
+                        .perfect-match {
+                            position: absolute;
+                            top: 10px;
+                            right: 10px;
+                            width: 50px;
+                            text-align: center;
+                            font-size: 12px;
+
+                            i {
+                                font-size: 26px;
+                            }
+                        }
                     }
 
                     p {
-                        color: #fff;
-                        color: rgba(255,255,255,0.7);
+                        color: #fff;                     
                         font-size: 12px;
                         line-height: 16px;
                         position: absolute;
@@ -402,9 +513,6 @@
             }
         }
 
-     
-
-
         .infobox {
             position: absolute;
             top: 0;
@@ -422,24 +530,10 @@
                 padding: 0;
             }
 
-            .tag {
-                margin: 0;
-                color: #fff;
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                height: 31px;
-                line-height: 31px;
-                background: @gray;
-                padding: 0 12px;
-                font-size: 11px;
-                text-transform: uppercase;
-
-                [class^="icon-"], [class*=" icon-"] {
-                    margin-right: 8px;
-                    font-size: 13px;
-                }
+            .price-description {
+                display: none;
             }
+          
         }
 
         @media (min-width: @screen-sm-min) {
@@ -469,6 +563,10 @@
                 .tag {
                     top: 0;
                     bottom: auto;
+                }
+
+                .info {
+                    top:40px; right:0;
                 }
             }
         }
@@ -510,11 +608,42 @@
         }
     }
 
-       &.last-minute {
-            .price-tab-content {
-                background:@price-soldout;
+    &.last-minute {
+        .price-tab-content {
+            background: @price-soldout;
+
+            .tab-content {
+                    .tab-pane {
+                h4 {
+                    color: #fff;
+
+                    .price-discount {
+                        color: #fff;
+                    }
+                }
+            }
+
+            }
+
+        
+
+            .price-tab {
+                background: @price-soldout-darker;
+
+
+
+
+
+                li {
+                    &.active {
+                        &:before {
+                            border-top: 10px solid @price-soldout;
+                        }
+                    }
+                }
             }
         }
+    }
 }
 
 .ophold-view.grid .ophold {
@@ -548,6 +677,8 @@
         }
 
         .stars {
+            font-size: 12px;
+            margin-bottom: 8px;
 
             &.grid {
                 display: block;
@@ -582,29 +713,31 @@
                 color: @gray;
             }
 
+            h5 {
+                margin: 0 0 4px 0;
+            }
+
+            h6 {
+                > span {
+                    display: block;
+                    margin-top: 10px;
+                    position: absolute;
+                    top: 5px;
+                    right: 10px;
+
+                    .label {
+                        background:none;
+                        color:@gray;
+                    }
+                }
+            }
+
             .price-description {
                 font-size: 12px;
                 line-height: 14px;
-                
-            }
-
-            .tag {
-                margin: 0;
-                color: #fff;
                 position: absolute;
-                bottom: 0;
-                right: 0;
-                height: 31px;
-                line-height: 31px;
-                background: @gray;
-                padding: 0 12px;
-                font-size: 11px;
-                text-transform: uppercase;
-
-                [class^="icon-"], [class*=" icon-"] {
-                    margin-right: 8px;
-                    font-size: 13px;
-                }
+                bottom: 25px;
+                left: 22px;
             }
         }
     }

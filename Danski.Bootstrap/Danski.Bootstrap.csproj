@@ -113,6 +113,7 @@
     </Content>
     <Content Include="less\custom\Ophold-boxes.less" />
     <Content Include="less\custom\custom-labels.less" />
+    <Content Include="less\custom\jquery-ui.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -179,8 +180,10 @@
     <None Include="Scripts\libs\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\libs\jquery-1.9.1.js" />
     <Content Include="Scripts\libs\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\libs\jquery-ui-1.10.4.custom.min.js" />
     <Content Include="Scripts\libs\less-1.4.2.js" />
     <Content Include="Scripts\libs\less-1.4.2.min.js" />
+    <Content Include="Scripts\ui-sliders.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

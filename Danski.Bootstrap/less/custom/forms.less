@@ -371,8 +371,8 @@ input[type="checkbox"],
 
     .checkbox {
         input[type="checkbox"] {
-            margin-left:-16px;
-            margin-right:8px;
+            margin-left: -16px;
+            margin-right: 8px;
         }
 
         label {
@@ -383,6 +383,79 @@ input[type="checkbox"],
             small {
                 font-size: 12px;
                 color: #f8b1ad;
+            }
+        }
+    }
+
+    .slidearea {
+        margin-bottom: 11px;
+
+        &:not(.last) {
+            border-bottom: 1px solid #e86255;
+        }
+
+        h6 {
+            small {
+                font-size: 12px;
+                color: #f8b1ad;
+                font-weight: 400;
+                position: relative;
+                top: -2px;
+            }
+
+            .label {
+                top: -8px;
+                padding: 12px 22px 9px 22px;
+                min-width: 100px;
+            }
+
+            .stars {
+                font-size: 18px;
+                position:relative;
+                top:2px;
+            }
+        }
+
+
+
+        .slider {
+            margin: 14px 0 13px 0;
+        }
+
+        .intervals {
+            margin-bottom: 10px;
+
+
+
+            span {
+                color: #fff;
+                color: rgba(255, 255, 255, 0.5);
+                font-size: 16px;
+            }
+
+            &.stars-5 {
+                .clearfix();
+                margin-top:-3px;
+                span {
+                    width: 25%;
+                    float: left;
+                    padding-left: 4px;
+
+                    &.start {
+                        margin-left: -10px;
+                    }
+
+                    &.fourth {
+                        width: 15%;
+                    }
+
+                    &.end {
+                        margin-right: -5px;
+                        width: 10%;
+                        text-align: right;
+                        float: right;
+                    }
+                }
             }
         }
     }

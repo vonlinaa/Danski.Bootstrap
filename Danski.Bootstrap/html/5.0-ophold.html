@@ -436,11 +436,12 @@
 
     <section class="bg primary no-pad">
         <div class="container">
-            <div class="row">
+            <div class="row form-search-row">
                 <div class="col-md-12">
                     <h5>Find din skirejse</h5>
                     <form class="form-search" role="form">
-                        <div class="row">
+                        <div class="row table-layout">
+                           
                             <div class="col-md-3">
                                 <div class="form-group wider half">
                                     <label class="" for="">1. Hvor længe og hvornår vil du rejse?</label>
@@ -470,21 +471,16 @@
 
                             </div>
                             <div class="col-md-3">
-                                <div class="form-group half">
-                                    <label class="" for="">3. Hvor mange skal med?</label>
+                                <div class="form-group">
+                                    <label class="" for="">3. Hvor mange lejligheder/værelser?</label>
 
                                     <select class="form-control">
-                                        <option>2 voksne</option>
-                                        <option>3 voksne</option>
-                                        <option>4 voksne</option>
+                                        <option>1 lejlighed/værelse</option>
+                                        <option selected>2 lejligheder/værelser</option>
+                                        <option>3 lejligheder/værelser</option>
+                                        
 
                                     </select>
-                                    <select class="form-control">
-                                        <option>0 Børn</option>
-                                        <option>1 Barn</option>
-                                        <option>2 Børn</option>
-                                    </select>
-
                                 </div>
 
                             </div>
@@ -492,16 +488,7 @@
                             <div class="col-md-4 text-right">
                                 <button type="submit" class="btn btn-secondary btn-lg">Søg skirejse</button>
                             </div>
-                            <div class="clearfix visible-xs visible-sm visible-md visible-lg" ></div>
-                            <div class="col-md-2">
-                                <div class="form-group">
-                                    <div class="checkbox">
-                                        <label>
-                                            <input checked="checked" type="checkbox"> Fælles indkvartering
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
 
                     </form>
@@ -510,7 +497,7 @@
 
         </div>
     </section>
-
+    <!-- 
     <section class="bg sold-out">
         <div class="container">
             <div class="row">
@@ -532,153 +519,512 @@
 
         </div>
     </section>
-
-    <section class="bg red-dark no-pad">
+        -->
+    <section class="bg red-dark">
         <div class="container">
             <div class="row">
-                <div class="select-booking col-md-12">
+                <div class="search-confirm col-md-12">
 
 
                     <!--
-                         set
-                        price-available 
-                        price-unavailable 
+             set
+            price-available
+            price-unavailable
 
-                        price-cheapest = Billigst
-                        price-selected = Mit valg
-                    -->
-                    <table class="table table-condensed price-info-table price-available price-cheapest">
+            price-cheapest = Billigst
+            price-selected = Mit valg
+        -->
+                    <!--
+        <table class="table table-condensed price-info-table price-available price-cheapest">
+
+            <thead>
+                <tr>
+                    <td>Vælg værelsestyper</td>
+                    <td>
+                        <div class="checkbox">
+                            <label>
+                                <input checked type="checkbox"> Billigst
+                            </label>
+                        </div>
+                    </td>
+                    <td></td>
+                    <td>
+                        <div class="checkbox">
+                            <label>
+                                <input  type="checkbox"> Mit valg
+                            </label>
+                        </div>
+                    </td>
+                    <td></td>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="price-panel">
+                            <div class="panel-heading">
+                                <span class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                        2 sengsværelser (3 stk ledige)
+                                        <i><span class="icon-arrow-down6"></span><span class="icon-arrow-up5"></span>  </i>
+
+                                    </a>
+                                </span>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    3-værelses lejlighed til 4 personer med stue, soveværelse, TV, bad og WC, køkken eller køkkenniche med miniovn og opvaskemaskine samt danske dyner. Ca. 35 m2. Slutrengøring, sengelinned og håndklæder er inkluderet i prisen. Viskestykker og lignende skal medbringes.
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>1</td>
+                    <td></td>
+                    <td>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                1 <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+
+                            </ul>
+                        </div>
+
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2 sengsværelser (3 stk ledige)</td>
+                    <td>1</td>
+                    <td></td>
+                    <td>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                1 <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+
+                            </ul>
+                        </div>
+
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2 sengsværelser (3 stk ledige)</td>
+                    <td>1</td>
+                    <td></td>
+                    <td>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                1 <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+
+                            </ul>
+                        </div>
+                    </td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Samlet pris</td>
+                    <td>25.950,-</td>
+                    <td></td>
+                    <td>31.950,-</td>
+                    <td></td>
+
+
+                </tr>
+                <tr>
+                    <td>Klik på prisen for at se prisspecifikation</td>
+                    <td>
+                        <button class="btn btn-default">Book nu</button>
+                        <br />
+                        <button class="btn btn-default">Gem rejse</button>
+                    </td>
+                    <td></td>
+                    <td>
+                        <button class="btn btn-default">Book nu</button>
+                        <br />
+                        <button class="btn btn-default">Gem rejse</button>
+                    </td>
+                    <td></td>
+                </tr>
+
+
+            </tfoot>
+        </table>
+        -->
+
+                    <div class="row form-horizontal room-person-selection">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group dropdownlist">
+                                <label for="inputEmail3" class="col-sm-12 col-md-6 control-label"><h3>Lejlighed / værelse 1</h3></label>
+                                <div class="col-sm-6 col-md-3">
+                                    <select class="form-control">
+                                        <option>1 voksen</option>
+                                        <option selected>2 voksne</option>
+                                        <option>3 voksne</option>
+                                        <option>4 voksne</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6 col-md-3">
+                                    <select class="form-control">
+                                        <option>0 børn</option>
+                                        <option selected>1 barn</option>
+                                        <option>2 børn</option>
+                                        <option >3 børn</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group dropdownlist childage">
+                                <label for="inputEmail3" class="col-sm-12 col-md-3 control-label">Børnenes alder</label>
+                                <div class="col-sm-2 col-md-3">
+                                    <select class="form-control">
+                                        <option>1 år</option>
+                                        <option>2 år</option>
+                                        <option>3 år</option>
+                                        <option>4 år</option>
+                                    </select>
+                                </div>
+                               
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row ophold-select-row ">
+                        <div class="ophold-select">
+                            <dl>
+                                <dt data-toggle="collapse" data-target="#room-select-1" class="collapsed">
+                                    <h3>2 sengsværelser (3 stk ledige)</h3>
+                                </dt>
+                                <dd>
+                                    <div class="checkbox"><label>31.950,-<input type="checkbox"></label></div>
+                                </dd>
+                                <dd id="room-select-1" class="collapsebox collapse">
+                                    <p>
+                                        3-værelses lejlighed til 4 personer med stue, soveværelse, TV, bad og WC,
+                                        køkken eller køkkenniche med miniovn og opvaskemaskine samt danske dyner. Ca. 35 m2. Slutrengøring,
+                                        sengelinned og håndklæder er inkluderet i prisen. Viskestykker og lignende skal medbringes.
+                                    </p>
+
+                                    <dl>
+                                        <dt data-toggle="collapse" data-target="#room-select-1-1" class="collapsed">
+                                            <h3>2 sengsværelser med balkon (3 stk ledige)</h3>
+                                        </dt>
+
+                                        <dd>
+                                            <div class="checkbox"><label>31.950,-<input type="checkbox"></label></div>
+                                        </dd>
+                                        <dd id="room-select-1-1" class="collapsebox collapse">
+                                            <p>
+                                                Dejlig værelse med balkon
+                                            </p>
+                                        </dd>
+
+                                    </dl>
+                                    <dl>
+                                        <dt data-toggle="collapse" data-target="#room-select-1-2" class="collapsed">
+                                            <h3>2 sengsværelser med balkon (3 stk ledige)</h3>
+                                        </dt>
+
+                                        <dd>
+                                            <div class="checkbox"><label>31.950,-<input type="checkbox"></label></div>
+                                        </dd>
+                                        <dd id="room-select-1-2" class="collapsebox collapse">
+                                            <p>
+                                                Dejlig værelse med balkon
+                                            </p>
+                                        </dd>
+
+                                    </dl>
+                                </dd>
+                            </dl>
                        
-                        <thead>
-                            <tr>
-                                <td>Vælg værelsestyper</td>
-                                <td>
+                            <dl>
+                                <dt data-toggle="collapse" data-target="#room-select-2" class="collapsed">
+                                    <h3>Enkeltværelser (3 stk ledige)</h3>
+                                </dt>
+                                <dd>
+                                    <div class="checkbox"><label>31.950,-<input type="checkbox"></label></div>
+                                </dd>
+                                <dd id="room-select-2" class="collapsebox collapse">
+                                    <p>
+                                        3-værelses lejlighed til 4 personer med stue, soveværelse, TV, bad og WC,
+                                        køkken eller køkkenniche med miniovn og opvaskemaskine samt danske dyner. Ca. 35 m2. Slutrengøring,
+                                        sengelinned og håndklæder er inkluderet i prisen. Viskestykker og lignende skal medbringes.
+                                    </p>
+
+                                    <dl>
+                                        <dt data-toggle="collapse" data-target="#room-select-2-1" class="collapsed">
+                                            <h3>Enkeltværelse med balkon (3 stk ledige)</h3>
+                                        </dt>
+
+                                        <dd>
+                                            <div class="checkbox"><label>31.950,-<input type="checkbox"></label></div>
+                                        </dd>
+                                        <dd id="room-select-2-1" class="collapsebox collapse">
+                                            <p>
+                                                Dejlig værelse med balkon
+                                            </p>
+                                        </dd>
+
+                                    </dl>
+                                    <dl>
+                                        <dt data-toggle="collapse" data-target="#room-select-2-2" class="collapsed">
+                                            <h3>Enkeltværelse med balkon (3 stk ledige)</h3>
+                                        </dt>
+
+                                        <dd>
+                                            <div class="checkbox"><label>31.950,-<input type="checkbox"></label></div>
+                                        </dd>
+                                        <dd id="room-select-2-2" class="collapsebox collapse">
+                                            <p>
+                                                Dejlig værelse med balkon
+                                            </p>
+                                        </dd>
+
+                                    </dl>
+                                </dd>
+                            </dl>
+
+                            <dl>
+                                <dt data-toggle="collapse" data-target="#room-select-3" class="collapsed">
+                                    <h3>Enkeltværelser (Ingen underkategorier)</h3>
+                                </dt>
+                                <dd>
+                                    <div class="checkbox"><label>31.950,-<input type="checkbox"></label></div>
+                                </dd>
+                                <dd id="room-select-3" class="collapsebox collapse">
+                                    <p>
+                                        3-værelses lejlighed til 4 personer med stue, soveværelse, TV, bad og WC,
+                                        køkken eller køkkenniche med miniovn og opvaskemaskine samt danske dyner. Ca. 35 m2. Slutrengøring,
+                                        sengelinned og håndklæder er inkluderet i prisen. Viskestykker og lignende skal medbringes.
+                                    </p>
+
+                               
+                                </dd>
+                            </dl>
+
+                            <dl>
+                                <dt data-toggle="collapse" data-target="#room-select-4" class="collapsed">
+                                    <h3>4 senge (Ingen underkategorier)</h3>
+                                </dt>
+                                <dd>
+                                    <div class="checkbox"><label>31.950,-<input type="checkbox"></label></div>
+                                </dd>
+                                <dd id="room-select-4" class="collapsebox collapse">
+                                    <p>
+                                        3-værelses lejlighed til 4 personer med stue, soveværelse, TV, bad og WC,
+                                        køkken eller køkkenniche med miniovn og opvaskemaskine samt danske dyner. Ca. 35 m2. Slutrengøring,
+                                        sengelinned og håndklæder er inkluderet i prisen. Viskestykker og lignende skal medbringes.
+                                    </p>
+
+
+                                </dd>
+                            </dl>
+
+                            <dl>
+                                <dt data-toggle="collapse" data-target="#room-select-5" class="collapsed">
+                                    <h3>Suite (Ingen underkategorier)</h3>
+                                </dt>
+                                <dd>
+                                    <div class="checkbox"><label>31.950,-<input type="checkbox"></label></div>
+                                </dd>
+                                <dd id="room-select-5" class="collapsebox collapse">
+                                    <p>
+                                        3-værelses lejlighed til 4 personer med stue, soveværelse, TV, bad og WC,
+                                        køkken eller køkkenniche med miniovn og opvaskemaskine samt danske dyner. Ca. 35 m2. Slutrengøring,
+                                        sengelinned og håndklæder er inkluderet i prisen. Viskestykker og lignende skal medbringes.
+                                    </p>
+
+
+                                </dd>
+                            </dl>
+                       
+                     
+                        
+                        </div>
+                    </div>
+
+                    <div class="row form-horizontal room-person-selection">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group dropdownlist">
+                                <label for="inputEmail3" class="col-sm-12 col-md-6 control-label"><h3>Lejlighed / værelse 2</h3></label>
+                                <div class="col-sm-6 col-md-3">
+                                    <select class="form-control">
+                                        <option>1 voksen</option>
+                                        <option selected>2 voksne</option>
+                                        <option>3 voksne</option>
+                                        <option>4 voksne</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6 col-md-3">
+                                    <select class="form-control">
+                                        <option>0 børn</option>
+                                        <option>1 barn</option>
+                                        <option>2 børn</option>
+                                        <option selected>3 børn</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="form-group dropdownlist childage">
+                                <label for="inputEmail3" class="col-sm-12 col-md-3 control-label">Børnenes alder</label>
+                                <div class="col-sm-2 col-md-3">
+                                    <select class="form-control">
+                                        <option>1 år</option>
+                                        <option>2 år</option>
+                                        <option>3 år</option>
+                                        <option>4 år</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-2 col-md-3">
+                                    <select class="form-control">
+                                        <option>1 år</option>
+                                        <option>2 år</option>
+                                        <option>3 år</option>
+                                        <option>4 år</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-2 col-md-3">
+                                    <select class="form-control">
+                                        <option>1 år</option>
+                                        <option>2 år</option>
+                                        <option>3 år</option>
+                                        <option>4 år</option>
+                                    </select>
+                                </div>
+
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row ophold-select-row last">
+                        <div class="ophold-select">
+                            <dl>
+                                <dt data-toggle="collapse" data-target="#paragraph-2-1" class="collapsed">
+                                    <h3>2 sengsværelser (3 stk ledige)</h3>
+
+                                    <p id="paragraph-2-1" class="collapse">3-værelses lejlighed til 4 personer med stue, soveværelse, TV, bad og WC, køkken eller køkkenniche med miniovn og opvaskemaskine samt danske dyner. Ca. 35 m2. Slutrengøring, sengelinned og håndklæder er inkluderet i prisen. Viskestykker og lignende skal medbringes.</p>
+
+                                </dt>
+                                <dd>
                                     <div class="checkbox">
                                         <label>
-                                            <input checked type="checkbox"> Billigst
+                                            31.950,-
+                                            <input type="checkbox">
                                         </label>
                                     </div>
-                                </td>
-                                <td></td>
-                                <td>
+
+                                </dd>
+
+
+                            </dl>
+                            <dl>
+                                <dt data-toggle="collapse" data-target="#paragraph-2-2" class="collapsed">
+                                    <h3>Enkeltværelse (2 stk ledige)</h3>
+
+                                    <p id="paragraph-2-2" class="collapse">3-værelses lejlighed til 4 personer med stue, soveværelse, TV, bad og WC, køkken eller køkkenniche med miniovn og opvaskemaskine samt danske dyner. Ca. 35 m2. Slutrengøring, sengelinned og håndklæder er inkluderet i prisen. Viskestykker og lignende skal medbringes.</p>
+
+                                </dt>
+                                <dd>
                                     <div class="checkbox">
                                         <label>
-                                            <input  type="checkbox"> Mit valg
+                                            31.950,-
+                                            <input type="checkbox" checked>
                                         </label>
                                     </div>
-                                </td>
-                                <td></td>
-                            </tr>
 
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <div class="price-panel">
-                                        <div class="panel-heading">
-                                            <span class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                                    2 sengsværelser (3 stk ledige)
-                                                    <i><span class="icon-arrow-down6"></span><span class="icon-arrow-up5"></span>  </i>
-                                                    
-                                                </a>
-                                            </span>
+                                </dd>
+
+
+                            </dl>
+
+                            <dl>
+                                <dt data-toggle="collapse" data-target="#paragraph-2-3" class="collapsed">
+                                    <h3>3 sengsværelse (6 stk ledige)</h3>
+
+                                    <p id="paragraph-2-3" class="collapse">3-værelses lejlighed til 4 personer med stue, soveværelse, TV, bad og WC, køkken eller køkkenniche med miniovn og opvaskemaskine samt danske dyner. Ca. 35 m2. Slutrengøring, sengelinned og håndklæder er inkluderet i prisen. Viskestykker og lignende skal medbringes.</p>
+
+                                </dt>
+                                <dd>
+                                    <div class="checkbox">
+                                        <label>
+                                            31.950,-
+                                            <input type="checkbox">
+                                        </label>
+                                    </div>
+
+                                </dd>
+
+
+                            </dl>
+                        </div>
+                    </div>
+
+                    <div class="row ophold-summary-row">
+                        <div class="ophold-summary bg-secondary ">
+                            <dl>
+                                <dt>
+                                    <h3>Samlet pris</h3>
+                                </dt>
+                                <dd>
+                                    <h4>25.950,-</h4>
+                                </dd>
+
+
+                            </dl>
+
+                        </div>
+                    </div>
+
+                    <div class="row ophold-summary-row ">
+                        <div class="ophold-summary">
+                            <dl class="no-pad-right">
+                                <dt>
+                                    Klik på prisen for at se prisspecifikation
+                                </dt>
+                                <dd>
+                                    <div class="button-holder">
+                                        
+                                            <a class="btn btn-md btn-danger"><span class="icon-star"></span> Gem rejse</a>
+                                        
+                                        
+                                            <a class="btn btn-md btn-secondary">Book nu</a>
+                                        
                                         </div>
-                                        <div id="collapseOne" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                3-værelses lejlighed til 4 personer med stue, soveværelse, TV, bad og WC, køkken eller køkkenniche med miniovn og opvaskemaskine samt danske dyner. Ca. 35 m2. Slutrengøring, sengelinned og håndklæder er inkluderet i prisen. Viskestykker og lignende skal medbringes.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td>1</td>
-                                <td></td>
-                                <td>
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                            1 <span class="caret"></span>
-                                        </button>
-                                        <ul class="dropdown-menu" role="menu">
-                                            <li><a href="#">1</a></li>
-                                            <li><a href="#">2</a></li>
-                                            <li><a href="#">3</a></li>
-
-                                        </ul>
-                                    </div>  
-
-                                </td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>2 sengsværelser (3 stk ledige)</td>
-                                <td>1</td>
-                                <td></td>
-                                <td>
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                            1 <span class="caret"></span>
-                                        </button>
-                                        <ul class="dropdown-menu" role="menu">
-                                            <li><a href="#">1</a></li>
-                                            <li><a href="#">2</a></li>
-                                            <li><a href="#">3</a></li>
-                                      
-                                        </ul>
-                                    </div>
-
-                                </td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>2 sengsværelser (3 stk ledige)</td>
-                                <td>1</td>
-                                <td></td>
-                                <td>
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                            1 <span class="caret"></span>
-                                        </button>
-                                        <ul class="dropdown-menu" role="menu">
-                                            <li><a href="#">1</a></li>
-                                            <li><a href="#">2</a></li>
-                                            <li><a href="#">3</a></li>
-
-                                        </ul>
-                                    </div>
-                                </td>
-                                <td></td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td>Samlet pris</td>
-                                <td>25.950,-</td>
-                                <td></td>
-                                <td>31.950,-</td>
-                                <td></td>
+                                   
+                                </dd>
 
 
-                            </tr>
-                            <tr>
-                                <td>Klik på prisen for at se prisspecifikation</td>
-                                <td>
-                                    <button class="btn btn-default">Book nu</button>
-                                    <br />
-                                    <button class="btn btn-default">Gem rejse</button>
-                                </td>
-                                <td></td>
-                                <td>
-                                    <button class="btn btn-default">Book nu</button>
-                                    <br />
-                                    <button class="btn btn-default">Gem rejse</button>
-                                </td>
-                                <td></td>
-                            </tr>
+                            </dl>
 
-                            
-                        </tfoot>
-                    </table>
-
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

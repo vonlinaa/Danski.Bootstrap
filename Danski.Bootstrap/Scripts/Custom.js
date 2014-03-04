@@ -1,5 +1,13 @@
-﻿ $(document).ready(function () {
-     
+﻿$(document).ready(function () {
+    /*----------------------------------------------------*/
+    /*	Functions on resize
+    /*----------------------------------------------------*/
+    $(window).resize(function () {
+        
+        affix_ini();
+    });
+    affix_ini();
+
     /*----------------------------------------------------*/
     /*	Back To Top Button
     /*----------------------------------------------------*/
@@ -25,6 +33,22 @@
 
         return false;
     });
+
+    // room type collapse
+    $('.collapsebox').on('show.bs.collapse', function () {
+        var p = $(this).parent();
+        p.addClass('active')
+        
+    })
+    $('.collapsebox').on('hide.bs.collapse', function () {
+        var p = $(this).parent();
+        p.removeClass('active')
+
+    })
+
+
+   
+  
 
      //
      // extended search
@@ -144,7 +168,7 @@
 ///////////////////
  $(document).on('click', '.yamm .dropdown-menu', function (e) {
      e.stopPropagation();
- })
+ });
 
 ////////////////////
 // Windows 8 phone fix
@@ -155,6 +179,30 @@
          document.querySelector('head').appendChild(msViewportStyle);
  }
 
+
+
+ //
+ // Search affix
+ //
+ function affix_ini() {
+     
+     if ($('#search-affix').length > 0) {
+         var affixcontainer = $('#search-affix');
+         var affixDummy = $('#affix-dummy');
+
+         var affixHeight = affixcontainer.outerHeight(true);
+         var offset = affixDummy.offset().top - affixHeight;
+         var offsetBottom = $('#scroll-top-top').offset().top;
+         // set heigt to dummy
+         affixDummy.height(affixHeight);
+
+         $('#search-affix').affix({
+             offset: {
+                 top: offset
+             }
+         });
+     }
+ }
 
 
 /* --------------------------------------------------------------------------- */
