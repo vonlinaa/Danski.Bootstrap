@@ -156,7 +156,7 @@
         }
     }
 
-    .inner {
+    .inner{
         position: relative;
         background: @gray-lighter;
 
@@ -650,7 +650,6 @@
     max-width: 320px;
     max-height: 487px;
 
-
     .price-box.grid {
         display: block;
     }
@@ -711,6 +710,10 @@
                 margin: 0 0 8px 0;
                 padding: 0;
                 color: @gray;
+                cursor: pointer;
+                &.text-white{
+                    color: #fff;
+                }
             }
 
             h5 {
@@ -738,6 +741,28 @@
                 position: absolute;
                 bottom: 25px;
                 left: 22px;
+            }
+        }
+    }
+
+    .inner-red{
+        background-color: @red;
+
+        .content{
+
+            .caption{
+
+                h5, h6{
+                    color: #fff;
+
+                    &.tag{
+                        background-color: @red-darker;
+
+                        &:hover{
+                            background-color: @gray;
+                        }
+                    }
+                }
             }
         }
     }

@@ -12243,54 +12243,47 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   text-decoration: none;
   color: #333;
 }
-<<<<<<< HEAD
 /* line 1, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-.container.gray-light {
-  background: #e5e5e5;
-}
-/* line 4, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-=======
-/* line 1, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box {
   position: relative;
 }
-/* line 2, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 2, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box.row {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 10, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 10, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box.resume-box-price {
   padding: 0 0 28px 0;
 }
-/* line 13, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 13, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box.resume-box-price .h3 {
   margin-top: 32px;
   margin-bottom: 6px;
 }
-/* line 18, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 18, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box.resume-box-price .no-border {
   border-top: none;
   padding-top: 10px;
 }
-/* line 25, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 25, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box .heading h5 {
   margin: 0 0 8px 0;
   padding: 0;
 }
-/* line 30, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 30, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box .heading h6 {
   margin: 0 0 18px 0;
   padding: 0;
 }
-/* line 39, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 39, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box .col-left {
   width: 160px;
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 46, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 46, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box .col-right {
   width: 100%;
   padding-left: 185px;
@@ -12299,22 +12292,22 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   top: 0;
   left: 0;
 }
-/* line 55, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 55, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box dl {
   margin: 0px;
   padding: 5px 0;
   border-top: #dedede 1px solid;
 }
-/* line 60, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 60, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box dl:last-of-type {
   border-bottom: #dedede 1px solid;
 }
-/* line 64, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 64, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box dl dt,
 .resume-box dl dd {
   font-size: 14px;
 }
-/* line 68, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 68, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box dl dt {
   font-family: "Proxima Nova Bold", sans-serif;
   font-weight: normal;
@@ -12326,172 +12319,81 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 80, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 80, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box dl dd {
   margin-left: 0;
   text-align: right;
 }
-/* line 87, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 87, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .container.gray-light {
   background: #e5e5e5;
 }
-/* line 90, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
->>>>>>> Ophold-v2
+/* line 90, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .container.bodytext h6 {
   padding-top: 80px;
   padding-bottom: 36px;
 }
-<<<<<<< HEAD
-/* line 8, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-=======
-/* line 94, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
->>>>>>> Ophold-v2
+/* line 94, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .bodytext.resume-box {
   padding: 12px 28px 12px 11px;
   font-size: 15px;
 }
-<<<<<<< HEAD
-/* line 12, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-=======
-/* line 98, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
->>>>>>> Ophold-v2
+/* line 98, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .container.bodytext.resume-box h3 {
   padding: 12px 0 0 0;
   font-size: 30px;
 }
-<<<<<<< HEAD
-/* line 16, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-=======
-/* line 102, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
->>>>>>> Ophold-v2
+/* line 102, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .container.bodytext.resume-box h4 {
   padding: 0px;
   margin-bottom: 10px;
 }
-<<<<<<< HEAD
-/* line 20, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-.resume-box .heading {
-  font-family: "Proxima Nova Bold", sans-serif;
-  padding-bottom: 14px;
-}
-/* line 24, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-.resume-box dl {
-  margin: 0px;
-  padding: 10px 0;
-  border-top: #dedede 1px solid;
-}
-/* line 29, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-.resume-box dl:last-of-type {
-  border-bottom: #dedede 1px solid;
-}
-/* line 32, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-.resume-box dt {
-  font-family: "Proxima Nova Bold", sans-serif;
-  font-weight: normal;
-}
-/* line 36, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-=======
 /*
->>>>>>> Ophold-v2
 .resume-box .stars {
 	padding-left:10px;
 }
-<<<<<<< HEAD
-/* line 39, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-=======
->>>>>>> Ophold-v2
 .resume-box .stars i.icon-star {
 	margin-right:5px;
 }
-<<<<<<< HEAD
-/* line 42, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-=======
->>>>>>> Ophold-v2
 .resume-box .stars i.filled {
 	color: #494949;
 }
-<<<<<<< HEAD
-/* line 45, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-.resume-box-price {
-  padding: 0px 28px 28px 11px;
-}
-/* line 48, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-.resume-box-price .h3 {
-  margin-top: 32px;
-  margin-bottom: 6px;
-}
-/* line 52, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-.resume-box-price .no-border {
-  border-top: none;
-  padding-top: 10px;
-}
-/* line 56, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-=======
     */
-/* line 120, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
->>>>>>> Ophold-v2
+/* line 120, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box-price dl {
   border-top: #d5d5d5 1px solid;
   margin: 0px;
   padding: 6px 0;
 }
-<<<<<<< HEAD
-/* line 61, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-=======
-/* line 125, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
->>>>>>> Ophold-v2
+/* line 125, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box-price dt {
   font-family: "Proxima Nova Regular", sans-serif;
   font-weight: normal;
 }
-<<<<<<< HEAD
-/* line 65, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-=======
-/* line 129, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
->>>>>>> Ophold-v2
+/* line 129, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .total dt,
 .total dd {
   font-family: "Proxima Nova SemiBold", sans-serif;
   font-weight: normal;
 }
-<<<<<<< HEAD
-/* line 69, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 133, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box-price .button-group {
   padding-top: 6px;
 }
-/* line 72, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 136, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .button-group .pad {
   margin-right: 11px;
 }
-/* line 75, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-=======
-/* line 133, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-.resume-box-price .button-group {
-  padding-top: 6px;
-}
-/* line 136, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-.button-group .pad {
-  margin-right: 11px;
-}
-/* line 139, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
->>>>>>> Ophold-v2
+/* line 139, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .button-group-border {
   padding: 20px 0;
   border-top: #d5d5d5 1px solid;
 }
-<<<<<<< HEAD
-/* line 79, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 143, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .summary.sub-cols-6 .choose a {
   color: #9f9f9f;
 }
-/* line 82, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-=======
-/* line 143, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-.summary.sub-cols-6 .choose a {
-  color: #9f9f9f;
-}
-/* line 146, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
->>>>>>> Ophold-v2
+/* line 146, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .inner-input textarea {
   width: 100%;
   font-size: 17px;
@@ -12499,56 +12401,22 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   background-color: transparent;
   resize: none;
 }
-<<<<<<< HEAD
-/* line 89, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-.review .review-body .inner-input {
-  padding: 20px 20px 10px 25px;
-}
-/* line 92, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-.resume-box dd,
-.resume-box-price dd {
-  margin-left: 0;
-  text-align: right;
-}
-/* line 96, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-.resume-box .dl-horizontal dt,
-.resume-box-price .dl-horizontal dt {
-  float: left;
-  width: 300px;
-  clear: left;
-  text-align: left;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-@media (max-width: 600px) {
-  /* line 107, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-=======
-/* line 153, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 153, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .review .review-body .inner-input {
   padding: 20px 20px 10px 25px;
 }
 @media (max-width: 600px) {
-  /* line 159, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
->>>>>>> Ophold-v2
+  /* line 159, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
   .resume-box dd,
   .resume-box-price dd {
     text-align: inherit;
   }
-<<<<<<< HEAD
-  /* line 110, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-=======
-  /* line 162, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
->>>>>>> Ophold-v2
+  /* line 162, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
   .resume-box .dl-horizontal dt,
   .resume-box-price .dl-horizontal dt {
     width: 100%;
   }
-<<<<<<< HEAD
-  /* line 113, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-=======
-  /* line 165, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
->>>>>>> Ophold-v2
+  /* line 165, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
   .resume-box .dl-horizontal dd,
   .resume-box-price .dl-horizontal dd {
     width: 100%;
@@ -13144,55 +13012,55 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   max-width: 320px;
   max-height: 487px;
 }
-/* line 654, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+/* line 653, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
 .ophold-view.grid .ophold .price-box.grid {
   display: block;
 }
-/* line 658, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+/* line 657, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
 .ophold-view.grid .ophold .inner {
   position: relative;
   padding-bottom: 162%;
   background: #f5f5f5;
 }
-/* line 663, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+/* line 662, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
 .ophold-view.grid .ophold .inner .description,
 .ophold-view.grid .ophold .inner .facttable,
 .ophold-view.grid .ophold .inner .price-tab-content {
   display: none;
 }
-/* line 667, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+/* line 666, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
 .ophold-view.grid .ophold .inner .image {
   position: absolute;
   top: 0;
 }
-/* line 672, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+/* line 671, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
 .ophold-view.grid .ophold .inner .content {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 38%;
 }
-/* line 679, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+/* line 678, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
 .ophold-view.grid .ophold .inner .stars {
   font-size: 12px;
   margin-bottom: 8px;
 }
-/* line 683, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+/* line 682, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
 .ophold-view.grid .ophold .inner .stars.grid {
   display: block;
 }
-/* line 687, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+/* line 686, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
 .ophold-view.grid .ophold .inner .stars.list {
   display: none;
 }
-/* line 692, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+/* line 691, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
 .ophold-view.grid .ophold .inner .infobox {
   position: absolute;
   top: 0;
   width: 100%;
   padding: 0;
 }
-/* line 699, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+/* line 698, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
 .ophold-view.grid .ophold .inner .caption {
   position: absolute;
   top: 0;
@@ -13200,22 +13068,28 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   height: 100%;
   padding: 16px 2% 0 6%;
 }
-/* line 706, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+/* line 705, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
 .ophold-view.grid .ophold .inner .caption.info-squarebox {
   margin: 0;
 }
-/* line 710, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+/* line 709, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
 .ophold-view.grid .ophold .inner .caption h5,
 .ophold-view.grid .ophold .inner .caption h6 {
   margin: 0 0 8px 0;
   padding: 0;
   color: #4a4a4a;
+  cursor: pointer;
 }
-/* line 716, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+/* line 714, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+.ophold-view.grid .ophold .inner .caption h5.text-white,
+.ophold-view.grid .ophold .inner .caption h6.text-white {
+  color: #fff;
+}
+/* line 719, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
 .ophold-view.grid .ophold .inner .caption h5 {
   margin: 0 0 4px 0;
 }
-/* line 721, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+/* line 724, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
 .ophold-view.grid .ophold .inner .caption h6 > span {
   display: block;
   margin-top: 10px;
@@ -13223,18 +13097,37 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   top: 5px;
   right: 10px;
 }
-/* line 728, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+/* line 731, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
 .ophold-view.grid .ophold .inner .caption h6 > span .label {
   background: none;
   color: #4a4a4a;
 }
-/* line 735, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+/* line 738, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
 .ophold-view.grid .ophold .inner .caption .price-description {
   font-size: 12px;
   line-height: 14px;
   position: absolute;
   bottom: 25px;
   left: 22px;
+}
+/* line 748, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+.ophold-view.grid .ophold .inner-red {
+  background-color: #f04233;
+}
+/* line 755, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+.ophold-view.grid .ophold .inner-red .content .caption h5,
+.ophold-view.grid .ophold .inner-red .content .caption h6 {
+  color: #fff;
+}
+/* line 758, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+.ophold-view.grid .ophold .inner-red .content .caption h5.tag,
+.ophold-view.grid .ophold .inner-red .content .caption h6.tag {
+  background-color: #a42a20;
+}
+/* line 761, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/Ophold-boxes.less */
+.ophold-view.grid .ophold .inner-red .content .caption h5.tag:hover,
+.ophold-view.grid .ophold .inner-red .content .caption h6.tag:hover {
+  background-color: #4a4a4a;
 }
 /*! jQuery UI - v1.10.4 - 2014-02-18
 * http://jqueryui.com
@@ -14331,6 +14224,10 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   filter: alpha(opacity=20);
   border-radius: 5px;
 }
+/* line 3, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/rejsetyper.less */
+.rejsetyper-wrapper .btn-all-familiy-types {
+  margin-top: 25px;
+}
 @media (max-width: 767px) {
   /*** BOOKING PAGE **/
   /* line 9, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/media-queries.less */
@@ -14351,4 +14248,67 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
     max-width: 240px;
   }
   /*** BOOKING PAGE ENDs **/
+  /* line 34, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/media-queries.less */
+  .ophold-view.grid .ophold {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 42, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/media-queries.less */
+  .ophold-view.grid .ophold {
+    /* one item */
+    /* two items */
+  }
+  /* line 45, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/media-queries.less */
+  .ophold-view.grid .ophold:first-child:nth-last-child(1) {
+    float: none;
+    margin: 0 auto;
+  }
+  /* line 53, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/media-queries.less */
+  .ophold-view.grid .ophold:first-child:nth-last-child(2):nth-of-type(1),
+  .ophold-view.grid .ophold:first-child:nth-last-child(2) ~ .ophold:nth-of-type(1) {
+    margin-left: 16.667%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1279px) {
+  /* line 60, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/media-queries.less */
+  .ophold-view.grid .ophold {
+    /* one item */
+    /* two items */
+  }
+  /* line 63, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/media-queries.less */
+  .ophold-view.grid .ophold:first-child:nth-last-child(1) {
+    float: none;
+    margin: 0 auto;
+  }
+  /* line 71, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/media-queries.less */
+  .ophold-view.grid .ophold:first-child:nth-last-child(2):nth-of-type(1),
+  .ophold-view.grid .ophold:first-child:nth-last-child(2) ~ .ophold:nth-of-type(1) {
+    margin-left: 16.667%;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 78, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/media-queries.less */
+  .ophold-view.grid .ophold {
+    /* one item */
+    /* two items */
+    /* three items */
+  }
+  /* line 81, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/media-queries.less */
+  .ophold-view.grid .ophold:first-child:nth-last-child(1) {
+    float: none;
+    margin: 0 auto;
+  }
+  /* line 89, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/media-queries.less */
+  .ophold-view.grid .ophold:first-child:nth-last-child(2):nth-of-type(1),
+  .ophold-view.grid .ophold:first-child:nth-last-child(2) ~ .ophold:nth-of-type(1) {
+    margin-left: 25%;
+  }
+  /* line 97, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/media-queries.less */
+  .ophold-view.grid .ophold:first-child:nth-last-child(3):nth-of-type(1),
+  .ophold-view.grid .ophold:first-child:nth-last-child(3) ~ .ophold:nth-of-type(1) {
+    margin-left: 12.5%;
+  }
 }
