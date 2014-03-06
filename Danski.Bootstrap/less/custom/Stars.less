@@ -20,6 +20,20 @@
         .filled {
             color: @gray;
         }
+
+        .half-filled {
+            
+            width: 50%;
+            position:relative;
+
+            &:after {
+                top:4px;
+                left:0;
+                position:absolute;
+                content: "\e759";
+               color: @gray;
+            }
+        }
     }
 }
 // green container around stars
