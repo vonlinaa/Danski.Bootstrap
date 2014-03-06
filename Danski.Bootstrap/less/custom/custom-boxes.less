@@ -20,11 +20,56 @@
 
     .infobox.small {
         max-width: 240px;
-    }
 
-        .infobox.small img {
+        img {
             max-width: 220px;
         }
+        @media (max-width: @screen-md-min) {
+            &.tilbud {
+                &:nth-of-type(n+5) {
+                    display: none;
+                }
+
+
+                img {
+                    display: none;
+                }
+
+
+                .price-box {
+                    height: 175px;
+                    width: 100%;
+                    top: 0;
+                    right: 0;
+                    position: relative;
+                }
+
+                .caption {
+                    bottom: 75px;
+                    left: 22px;
+
+                    h5 {
+                        font-size: 19px;
+
+                        span {
+                            display: block;
+                            margin: 0;
+
+                            &.place {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+
+                    .stars, .tag {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+       
 
 @media (min-width: @screen-xs-min) {
     .infobox {
@@ -165,10 +210,12 @@
 
             h5 {
                 margin: 0;
+                padding:0;
             }
 
             h6 {
                 margin: 0;
+                padding:0;
             }
         }
     }
