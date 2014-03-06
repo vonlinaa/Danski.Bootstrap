@@ -14307,9 +14307,17 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   filter: alpha(opacity=20);
   border-radius: 5px;
 }
-/* line 7, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/rejsetyper.less */
+/* line 3, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/rejsetyper.less */
 .rejsetyper-wrapper .btn-all-familiy-types {
   margin-top: 25px;
+}
+/* line 4, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/land.less */
+.land-wrapper #js-video .container .row {
+  padding-top: 60px;
+}
+/* line 8, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/land.less */
+.land-wrapper .summary {
+  border-radius: 0px;
 }
 @media (max-width: 767px) {
   /*** BOOKING PAGE **/
