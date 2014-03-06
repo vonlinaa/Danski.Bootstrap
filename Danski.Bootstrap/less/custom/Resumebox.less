@@ -1,6 +1,11 @@
 ﻿.resume-box {
-    margin: 0;
+    &.row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     position: relative;
+
 
     &.resume-box-price {
         padding: 0 0 28px 0;
@@ -13,6 +18,19 @@
         .no-border {
             border-top: none;
             padding-top: 10px;
+        }
+    }
+
+    .heading {
+        h5 {
+            margin: 0 0 8px 0;
+            padding: 0;
+
+        }
+         h6 {
+            margin: 0 0 18px 0;
+            padding: 0;
+
         }
     }
 
@@ -36,11 +54,15 @@
 
     dl {
         margin: 0px;
-        padding: 8px 0;
+        padding: 5px 0;
         border-top: #dedede 1px solid;
 
         &:last-of-type {
             border-bottom: #dedede 1px solid;
+        }
+
+        dt, dd {
+            font-size: 14px;
         }
 
         dt {
@@ -81,10 +103,7 @@
 	padding:0px;
 	margin-bottom:10px;
 }
-.resume-box .heading {
-	font-family: "Proxima Nova Bold", sans-serif;
-	padding-bottom:14px;
-}
+
 
 /*
 .resume-box .stars {

@@ -12230,31 +12230,45 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
 }
 /* line 1, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box {
-  margin: 0;
   position: relative;
 }
-/* line 5, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 2, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+.resume-box.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 10, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box.resume-box-price {
   padding: 0 0 28px 0;
 }
-/* line 8, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 13, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box.resume-box-price .h3 {
   margin-top: 32px;
   margin-bottom: 6px;
 }
-/* line 13, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 18, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box.resume-box-price .no-border {
   border-top: none;
   padding-top: 10px;
 }
-/* line 21, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 25, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+.resume-box .heading h5 {
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+/* line 30, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+.resume-box .heading h6 {
+  margin: 0 0 18px 0;
+  padding: 0;
+}
+/* line 39, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box .col-left {
   width: 160px;
   position: absolute;
   top: 0;
   left: 0;
 }
-/* line 28, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 46, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box .col-right {
   width: 100%;
   padding-left: 185px;
@@ -12263,17 +12277,22 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   top: 0;
   left: 0;
 }
-/* line 37, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 55, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box dl {
   margin: 0px;
-  padding: 8px 0;
+  padding: 5px 0;
   border-top: #dedede 1px solid;
 }
-/* line 42, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 60, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box dl:last-of-type {
   border-bottom: #dedede 1px solid;
 }
-/* line 46, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 64, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+.resume-box dl dt,
+.resume-box dl dd {
+  font-size: 14px;
+}
+/* line 68, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box dl dt {
   font-family: "Proxima Nova Bold", sans-serif;
   font-weight: normal;
@@ -12285,39 +12304,34 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-/* line 58, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 80, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box dl dd {
   margin-left: 0;
   text-align: right;
 }
-/* line 65, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 87, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .container.gray-light {
   background: #e5e5e5;
 }
-/* line 68, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 90, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .container.bodytext h6 {
   padding-top: 80px;
   padding-bottom: 36px;
 }
-/* line 72, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 94, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .bodytext.resume-box {
   padding: 12px 28px 12px 11px;
   font-size: 15px;
 }
-/* line 76, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 98, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .container.bodytext.resume-box h3 {
   padding: 12px 0 0 0;
   font-size: 30px;
 }
-/* line 80, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 102, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .container.bodytext.resume-box h4 {
   padding: 0px;
   margin-bottom: 10px;
-}
-/* line 84, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
-.resume-box .heading {
-  font-family: "Proxima Nova Bold", sans-serif;
-  padding-bottom: 14px;
 }
 /*
 .resume-box .stars {
@@ -12330,41 +12344,41 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
 	color: #494949;
 }
     */
-/* line 101, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 120, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box-price dl {
   border-top: #d5d5d5 1px solid;
   margin: 0px;
   padding: 6px 0;
 }
-/* line 106, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 125, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box-price dt {
   font-family: "Proxima Nova Regular", sans-serif;
   font-weight: normal;
 }
-/* line 110, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 129, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .total dt,
 .total dd {
   font-family: "Proxima Nova SemiBold", sans-serif;
   font-weight: normal;
 }
-/* line 114, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 133, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .resume-box-price .button-group {
   padding-top: 6px;
 }
-/* line 117, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 136, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .button-group .pad {
   margin-right: 11px;
 }
-/* line 120, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 139, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .button-group-border {
   padding: 20px 0;
   border-top: #d5d5d5 1px solid;
 }
-/* line 124, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 143, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .summary.sub-cols-6 .choose a {
   color: #9f9f9f;
 }
-/* line 127, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 146, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .inner-input textarea {
   width: 100%;
   font-size: 17px;
@@ -12372,22 +12386,22 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
   background-color: transparent;
   resize: none;
 }
-/* line 134, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+/* line 153, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
 .review .review-body .inner-input {
   padding: 20px 20px 10px 25px;
 }
 @media (max-width: 600px) {
-  /* line 140, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+  /* line 159, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
   .resume-box dd,
   .resume-box-price dd {
     text-align: inherit;
   }
-  /* line 143, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+  /* line 162, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
   .resume-box .dl-horizontal dt,
   .resume-box-price .dl-horizontal dt {
     width: 100%;
   }
-  /* line 146, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
+  /* line 165, /Users/linaa/Dropbox/beOn/Visual studio projekter/Danski.Bootstrap/Danski.Bootstrap/less/custom/Resumebox.less */
   .resume-box .dl-horizontal dd,
   .resume-box-price .dl-horizontal dd {
     width: 100%;
