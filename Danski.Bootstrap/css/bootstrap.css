@@ -14319,6 +14319,15 @@ table.price-info-table tfoot tr:last-of-type td:nth-of-type(4) .btn {
 .land-wrapper .summary {
   border-radius: 0px;
 }
+/* line 2, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/destination.less */
+.destination-wrapper .btn-see-all {
+  margin-top: 25px;
+}
+/* line 5, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/destination.less */
+.destination-wrapper .meter-above-sea-img {
+  display: block;
+  margin: 0 auto;
+}
 @media (max-width: 767px) {
   /*** BOOKING PAGE **/
   /* line 9, /Applications/XAMPP/xamppfiles/htdocs/Websites/windows/GitHub/Danski.Bootstrap/Danski.Bootstrap/less/custom/media-queries.less */
