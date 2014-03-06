@@ -114,6 +114,7 @@
     <Content Include="less\custom\Ophold-boxes.less" />
     <Content Include="less\custom\custom-labels.less" />
     <Content Include="less\custom\jquery-ui.less" />
+    <Content Include="less\custom\Resumebox.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
