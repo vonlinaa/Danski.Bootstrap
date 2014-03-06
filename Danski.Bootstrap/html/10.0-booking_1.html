@@ -47,8 +47,10 @@
     <section class="">
         <div class="container">
             <div class="row">
-
                 <div class="col-sm-12 col-md-12">
+                     <!-- HERE COMES STICKEY CONTENT -->
+                    <div class="js-sticky-top">        
+                    </div>
                     <div class="booking-page-wrapper">
                         <div class="row text-center">
                             <!-- ASIDE CONTENT-->
@@ -95,14 +97,18 @@
                                                                 <p>Beskrivelse</p>
                                                                 <p>Overskrift</p>
                                                                 <p>Beskrivelse</p>
+                                                            </div>                                            
+                                                            <div id="price-affix">                                                               
+                                                                <div class="well well-secondary booking-aside-well-price">
+                                                                    <h4>Samlet pris</h4>
+                                                                    <h2 class="top-header">4.950.-</h2>
+                                                                    <p> <span class="price-note">*Heraf depositum <b>1500,-</b>, betales d.29-03-14 </span> </p>
+                                                                    <p> <span class="price-note">*Restbeløb <b>3095,-</b>, betales d.30-04-14</span> </p>
+                                                                    <p> <span class="price-note">*Prisen er excl. kortgebyr</span> </p>
+                                                                </div>
+                                                                        
                                                             </div>
-                                                            <div class="well well-secondary booking-aside-well-price hidden-xs">
-                                                                <h4>Samlet pris</h4>
-                                                                <h2 class="top-header">4.950.-</h2>
-                                                                <p> <span class="price-note">*Heraf depositum <b>1500,-</b>, betales d.29-03-14 </span> </p>
-                                                                <p> <span class="price-note">*Restbeløb <b>3095,-</b>, betales d.30-04-14</span> </p>
-                                                                <p> <span class="price-note">*Prisen er excl. kortgebyr</span> </p>
-                                                            </div>
+                                                            <div class="no-pad" id="affix-dummy"></div>                                            
                                                             <div class="booking-aside-icons hidden-xs">
                                                                 <div class="booking-aside-icons-row">
                                                                     <div class="row">
@@ -178,7 +184,8 @@
                                         </div>
                                     </div>
                                     <!-- MOBILE PRICE BOX -->
-                                    <div class="well well-secondary booking-aside-well-price visible-xs">
+                                    <!-- <div id="mobile-price-affix">
+                                        <div class="well well-secondary booking-aside-well-price visible-xs">
                                         <div class="row">  
                                             <div class="col-xs-6 text-left">
                                                 <h4>Samlet pris</h4>
@@ -191,6 +198,7 @@
                                             </div>                                           
                                         </div>                                                                              
                                     </div>
+                                    </div> -->
                                 </div>
                             </aside>
 
@@ -646,7 +654,7 @@
                                 </div>                                                                   
                                 </div>                               
                         </div>
-                            
+                        
                         <!-- ASIDE FOOTER-->
                         <div class="row">
                             <div class="col-xs-12">
@@ -698,7 +706,7 @@
     <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
     <script src="../Scripts/libs/infobox.js"></script>
     <script src="../Scripts/libs/bootstrap.min.js"></script>
-    <script src="../Scripts/custom.min.js"></script>
+    <script src="../Scripts/custom.js"></script>
     <script src="../Scripts/booking.js"></script>
 </body>
 </html>

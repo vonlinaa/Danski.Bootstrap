@@ -26,7 +26,7 @@
             $(':checkbox', this).trigger('click');
         }
     });
-
+    /*
     // fix aside panel mobile <=> bigger screen size change with closed collapse
     $(function () {
 
@@ -39,4 +39,54 @@
             
         })
     })
+    */
+    /*----------------------------------------------------*/
+    /*  Back To Top Button
+    /*----------------------------------------------------*/
+
+    $('.js-sticky-top').click(function () {
+        $('html, body').animate({ scrollTop: 0 }, 300);
+        return false;
+    });
+     //
+     // Search affix
+     //
+     function affix_ini() {
+         
+         if ($('#price-affix').length > 0) {
+             var affixcontainer = $('#price-affix');
+             var affixDummy = $('#affix-dummy');
+
+             var affixHeight = affixcontainer.outerHeight(true);
+             var offset = affixDummy.offset().top - affixHeight;
+             var offsetBottom = $('.js-sticky-top').offset().top;
+             // set heigt to dummy
+             affixDummy.height(affixHeight);
+
+             $('#price-affix').affix({
+                 offset: {
+                     top: offset
+                 }
+             });
+         }
+         if ($('#mobile-price-affix').length > 0) {
+             var affixcontainer = $('#mobile-price-affix');
+             var affixDummy = $('#affix-dummy');
+
+             var affixHeight = affixcontainer.outerHeight(true);
+             var offset = affixDummy.offset().top - affixHeight;
+             var offsetBottom = $('.js-sticky-top').offset().top;
+             // set heigt to dummy
+             affixDummy.height(affixHeight);
+
+             $('#mobile-price-affix').affix({
+                 offset: {
+                     top: offset
+                 }
+             });
+         }
+     }
+     affix_ini();
+
+     
 });
